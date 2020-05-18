@@ -1,0 +1,110 @@
+* {
+	font-family: "Comic Sans MS";
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+#background {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background:
+		url("img/island.png") no-repeat left 20px bottom,
+		linear-gradient(to bottom, #b2c9ab 66%, #a4f7d5);
+}
+
+@keyframes rotate {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+@keyframes throb {
+	from { transform: scale(1); }
+	to { transform: scale(1.05); }
+}
+
+#background #sun {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	animation: rotate 120s linear infinite;
+}
+#background #sun::after {
+	content: "";
+	display: block;
+	height: 300px;
+	width: 300px;
+	background: url("img/sun.png") no-repeat;
+	animation: throb 2.5s ease-in-out alternate infinite;
+}
+
+#logo {
+	display: block;
+	width: 400px;
+	max-width: 100vw;
+	margin: auto;
+}
+
+#songs {
+	margin: auto;
+	width: 400px;
+	max-width: 100vw;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#songs ol {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#songs li {
+	position: relative;
+	margin-top: 5px;
+	border-radius: 3px;
+	background-color: #e8ddb5;
+	box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.2);
+	transition: transform 0.2s ease-out;
+}
+
+#songs li label {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	color: #69585f;
+	cursor: pointer;
+}
+
+#songs li:hover {
+	background-color: #d9dbbc;
+	transform: scale(1.03);
+}
+
+#songs li input {
+	margin-right: 10px;
+}
+
+#songs li img {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 50%;
+	pointer-events: none;
+}
+
+#songs li[data-checked="true"] {
+	opacity: 0.5;
+}
+
+#songs li[data-checked="true"] label {
+	text-decoration: line-through;
+}

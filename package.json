@@ -1,0 +1,18 @@
+{
+  "name": "animal-crossing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "node ./bin/build-songs.js --out-dir dist && cp script.js dist && cp style.css dist && cp -r img dist",
+    "watch": "nodemon --exec \"npm run build\" --watch . --watch ./bin --watch ./img --ext js,css,html,png --ignore dist",
+    "start": "open ./dist/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Dinh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "~2.0.4",
+    "yargs": "~15.3.1"
+  }
+}
