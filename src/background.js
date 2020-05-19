@@ -4,7 +4,9 @@ const Sun = require('./svg/sun');
 module.exports = function Background() {
 	return (
 		<div id="background">
-			<div id="sky"/>
+			<div id="sky-night"/>
+			<div id="sky-sunset"/>
+			<div id="sky-day"/>
 			<div id="sun-transitioner">
 				<div id="sun">
 					<Sun/>

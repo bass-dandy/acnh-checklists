@@ -1,40 +1,25 @@
-$day-night-duration: 0.75s; // how long it takes a light source to fully set
-$day-night-delay: 0.75s * 0.4; // how long until a light source begins to set
+$day-night-duration: 0.66s; // how long it takes a light source to fully set
+$day-night-delay: $day-night-duration * 0.5; // how long until a light source begins to set
+$bounce-ease-in: cubic-bezier(0.36, 0, 0.66, -0.3);
+
+@function transition-with-sunset($rule) {
+	@return $rule $day-night-duration $day-night-delay ease-in-out;
+}
+
+@function transition-with-sunrise($rule) {
+	@return $rule $day-night-duration $day-night-duration ease-in-out;
+}
 
 // for sun
 @keyframes rotate {
 	from { transform: rotate(0deg); }
 	to { transform: rotate(360deg); }
 }
+// for sun and moon
 @keyframes throb {
 	from { transform: scale(1); }
 	to { transform: scale(1.05); }
 }
-
-// for day/night transitions
-@keyframes rise {
-	from { transform: translateY(100vh); }
-	to { transform: translateY(0); }
-}
-@keyframes set {
-	0% {
-		transform: translateY(0);
-		animation-timing-function: ease-in-out;
-	}
-	30% {
-		transform: translateY(-20px);
-		animation-timing-function: ease-in-out;
-	}
-	40% {
-		transform: translateY(-20px);
-		animation-timing-function: ease-in-out;
-	}
-	100% {
-		transform: translateY(100vh);
-		animation-timing-function: ease-in;
-	}
-}
-
 // for waves
 @keyframes wave {
 	from { left: 0; }
@@ -53,31 +38,28 @@ $day-night-delay: 0.75s * 0.4; // how long until a light source begins to set
 	bottom: 0;
 	z-index: -1;
 
-	#sky {
-		background: linear-gradient(to bottom, #1b1f38 66%, #123561); // night
-
-		&, &::before, &::after {
-			content: "";
-			display: block;
-			position: absolute;
-			left: 0;
-			right: 0;
-			top: 0;
-			bottom: 0;
-		}
-		&::before {
-			background: linear-gradient(to bottom, #8897ff 66%, #ff4a4a); // sunset
-			transition: opacity $day-night-duration $day-night-delay ease-out;
-		}
-		&::after {
-			background: linear-gradient(to bottom, #98e7ff 66%, #a4f7d5); // day
-			transition: opacity $day-night-duration $day-night-duration ease-out;
-		}
+	#sky-night, #sky-sunset, #sky-day {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+	#sky-night {
+		background: linear-gradient(to bottom, #1b1f38 66%, #123561);
+	}
+	#sky-sunset {
+		background: linear-gradient(to bottom, #8897ff 66%, #ff4a4a);
+		transition: transition-with-sunset(opacity);
+	}
+	#sky-day {
+		background: linear-gradient(to bottom, #98e7ff 66%, #a4f7d5);
+		transition: transition-with-sunrise(opacity);
 	}
 
 	#sun-transitioner {
-		transform: translateY(100vh);
-		animation: rise 0.75s ease-out 0.75s forwards;
+		transform: translateY(0);
+		transition: transition-with-sunrise(transform);
 	}
 	#sun {
 		position: absolute;
@@ -95,7 +77,8 @@ $day-night-delay: 0.75s * 0.4; // how long until a light source begins to set
 	}
 
 	#moon-transitioner {
-		animation: set 0.75s ease-in-out forwards;
+		transform: translateY(100vh);
+		transition: transform $day-night-duration $bounce-ease-in;
 	}
 	#moon {
 		position: absolute;
@@ -115,7 +98,7 @@ $day-night-delay: 0.75s * 0.4; // how long until a light source begins to set
 		left: 20px;
 		width: 400px;
 		pointer-events: none;
-		transition: filter $day-night-duration $day-night-duration ease-out;
+		transition: transition-with-sunrise(filter);
 	}
 
 	#wave_bg, #wave_fg {
@@ -138,24 +121,25 @@ $day-night-delay: 0.75s * 0.4; // how long until a light source begins to set
 
 .night-mode {
 	#background {
-		#sky::before {
+		#sky-sunset {
 			opacity: 0;
-			transition: opacity $day-night-duration $day-night-duration ease-out;
+			transition: transition-with-sunrise(opacity);
 		}
-		#sky::after {
+		#sky-day {
 			opacity: 0;
-			transition: opacity $day-night-duration $day-night-delay  ease-out;
+			transition: transition-with-sunset(opacity);
 		}
 		#sun-transitioner {
-			animation: set $day-night-duration ease-in-out forwards;
+			transform: translateY(100vh);
+			transition: transform $day-night-duration $bounce-ease-in;
 		}
 		#moon-transitioner {
-			transform: translateY(100vh);
-			animation: rise 0.75s ease-out $day-night-duration forwards;
+			transform: translateY(0);
+			transition: transition-with-sunrise(transform);
 		}
 		#island {
 			filter: brightness(0%);
-			transition: filter $day-night-duration $day-night-delay  ease-out;
+			transition: transition-with-sunset(filter);
 		}
 	}
 }

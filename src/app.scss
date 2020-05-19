@@ -27,11 +27,12 @@ h1 {
 	}
 }
 
+h1, #night-mode-toggle {
+	transition: background.transition-with-sunrise(color);
+}
+
 .night-mode {
-	h1 {
-		color: white;
-	}
-	#night-mode-toggle {
+	h1, #night-mode-toggle {
 		color: white;
 	}
 }
