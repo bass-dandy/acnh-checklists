@@ -1,3 +1,6 @@
+$day-night-duration: 0.75s; // how long it takes a light source to fully set
+$day-night-delay: 0.75s * 0.4; // how long until a light source begins to set
+
 // for sun
 @keyframes rotate {
 	from { transform: rotate(0deg); }
@@ -6,6 +9,30 @@
 @keyframes throb {
 	from { transform: scale(1); }
 	to { transform: scale(1.05); }
+}
+
+// for day/night transitions
+@keyframes rise {
+	from { transform: translateY(100vh); }
+	to { transform: translateY(0); }
+}
+@keyframes set {
+	0% {
+		transform: translateY(0);
+		animation-timing-function: ease-in-out;
+	}
+	30% {
+		transform: translateY(-20px);
+		animation-timing-function: ease-in-out;
+	}
+	40% {
+		transform: translateY(-20px);
+		animation-timing-function: ease-in-out;
+	}
+	100% {
+		transform: translateY(100vh);
+		animation-timing-function: ease-in;
+	}
 }
 
 // for waves
@@ -25,8 +52,33 @@
 	right: 0;
 	bottom: 0;
 	z-index: -1;
-	background: linear-gradient(to bottom, #98e7ff 66%, #a4f7d5);
 
+	#sky {
+		background: linear-gradient(to bottom, #1b1f38 66%, #123561); // night
+
+		&, &::before, &::after {
+			content: "";
+			display: block;
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+		}
+		&::before {
+			background: linear-gradient(to bottom, #8897ff 66%, #ff4a4a); // sunset
+			transition: opacity $day-night-duration $day-night-delay ease-out;
+		}
+		&::after {
+			background: linear-gradient(to bottom, #98e7ff 66%, #a4f7d5); // day
+			transition: opacity $day-night-duration $day-night-duration ease-out;
+		}
+	}
+
+	#sun-transitioner {
+		transform: translateY(100vh);
+		animation: rise 0.75s ease-out 0.75s forwards;
+	}
 	#sun {
 		position: absolute;
 		top: 20px;
@@ -42,18 +94,28 @@
 		}
 	}
 
+	#moon-transitioner {
+		animation: set 0.75s ease-in-out forwards;
+	}
+	#moon {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		height: 300px;
+		width: 300px;
+		animation: throb 2.5s ease-in-out alternate infinite;
+		background:
+			radial-gradient(white 0, transparent 66%), // glow
+			radial-gradient(white 0, white 50%, transparent 50%); // moon
+	}
+
 	#island {
 		position: absolute;
 		bottom: 25px;
 		left: 20px;
-
-		&::after {
-			content: "";
-			display: block;
-			height: 285px;
-			width: 400px;
-			background: url("img/island.png") no-repeat left bottom;
-		}
+		width: 400px;
+		pointer-events: none;
+		transition: filter $day-night-duration $day-night-duration ease-out;
 	}
 
 	#wave_bg, #wave_fg {
@@ -71,5 +133,29 @@
 	#wave_fg {
 		background: url("img/wave_fg.png") repeat-x bottom;
 		animation: wave 20s linear infinite, swell 2.5s ease-in-out alternate infinite;
+	}
+}
+
+.night-mode {
+	#background {
+		#sky::before {
+			opacity: 0;
+			transition: opacity $day-night-duration $day-night-duration ease-out;
+		}
+		#sky::after {
+			opacity: 0;
+			transition: opacity $day-night-duration $day-night-delay  ease-out;
+		}
+		#sun-transitioner {
+			animation: set $day-night-duration ease-in-out forwards;
+		}
+		#moon-transitioner {
+			transform: translateY(100vh);
+			animation: rise 0.75s ease-out $day-night-duration forwards;
+		}
+		#island {
+			filter: brightness(0%);
+			transition: filter $day-night-duration $day-night-delay  ease-out;
+		}
 	}
 }

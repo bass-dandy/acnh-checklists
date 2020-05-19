@@ -15,10 +15,12 @@ module.exports = function App() {
 			</head>
 			<body>
 				<Background/>
+				<label id="night-mode-toggle">
+					<input type="checkbox"/>
+					Night Mode
+				</label>
 				<h1>ACNH Songs Checklist</h1>
-				<div id="songs">
-					<Songs/>
-				</div>
+				<Songs/>
 			</body>
 		</html>
 	);

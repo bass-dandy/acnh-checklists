@@ -1,4 +1,4 @@
-const songs = document.querySelectorAll('#songs > ol > li');
+const songs = document.querySelectorAll('#songs > li');
 
 songs.forEach((song) => {
 	const defaultChecked = localStorage.getItem(song.id) === 'true';
@@ -12,3 +12,10 @@ songs.forEach((song) => {
 		localStorage.setItem(song.id, e.target.checked);
 	});
 });
+
+document.getElementById('night-mode-toggle')
+	.addEventListener('change', (e) => {
+		e.target.checked
+			? document.body.classList.add('night-mode')
+			: document.body.classList.remove('night-mode');
+	});
