@@ -1,0 +1,18 @@
+@use './background';
+@use './songs';
+/* #b2c9ab */
+
+* {
+	font-family: "Comic Sans MS";
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	margin: 0 auto;
+	text-align: center;
+	color: #69585f;
+}

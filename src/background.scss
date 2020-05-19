@@ -1,0 +1,75 @@
+// for sun
+@keyframes rotate {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+@keyframes throb {
+	from { transform: scale(1); }
+	to { transform: scale(1.05); }
+}
+
+// for waves
+@keyframes wave {
+	from { left: 0; }
+	to { left: -400px; }
+}
+@keyframes swell {
+	from { transform: translateY(0); }
+	to { transform: translateY(10px); }
+}
+
+#background {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background: linear-gradient(to bottom, #98e7ff 66%, #a4f7d5);
+
+	#sun {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		animation: rotate 120s linear infinite;
+
+		svg {
+			height: 300px;
+			width: 300px;
+			animation: throb 2.5s ease-in-out alternate infinite;
+			fill: #ffe187;
+			background: radial-gradient(#ffe187 0, transparent 66%);
+		}
+	}
+
+	#island {
+		position: absolute;
+		bottom: 25px;
+		left: 20px;
+
+		&::after {
+			content: "";
+			display: block;
+			height: 285px;
+			width: 400px;
+			background: url("img/island.png") no-repeat left bottom;
+		}
+	}
+
+	#wave_bg, #wave_fg {
+		position: absolute;
+		height: 82px;
+		width: calc(100vw + 400px);
+		left: 0;
+		bottom: 0;
+	}
+	#wave_bg {
+		background: url("img/wave_bg.png") repeat-x bottom;
+		animation: wave 40s linear infinite, swell 5s ease-in-out alternate infinite;
+		bottom: 5px;
+	}
+	#wave_fg {
+		background: url("img/wave_fg.png") repeat-x bottom;
+		animation: wave 20s linear infinite, swell 2.5s ease-in-out alternate infinite;
+	}
+}

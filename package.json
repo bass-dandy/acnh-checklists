@@ -4,15 +4,22 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "build": "node ./bin/build-songs.js --out-dir dist && cp script.js dist && cp style.css dist && cp -r img dist",
-    "watch": "nodemon --exec \"npm run build\" --watch . --watch ./bin --watch ./img --ext js,css,html,png --ignore dist",
+    "build": "mkdir -p dist && node build.js --out-dir dist && sass src/app.scss dist/style.css && cp -r static/* dist",
+    "watch": "nodemon --exec \"npm run build\" --ext js,scss,html,png --ignore dist --ignore node_modules",
     "start": "open ./dist/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris Dinh",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "~7.8.4",
+    "@babel/core": "~7.9.6",
+    "@babel/plugin-transform-react-jsx": "~7.9.4",
+    "@babel/register": "~7.9.0",
     "nodemon": "~2.0.4",
+    "react": "~16.13.1",
+    "react-dom": "~16.13.1",
+    "sass": "~1.26.5",
     "yargs": "~15.3.1"
   }
 }
