@@ -5,7 +5,7 @@
   "main": "script.js",
   "scripts": {
     "build": "mkdir -p dist && node build.js --out-dir dist && sass src/app.scss dist/style.css && cp -r static/* dist",
-    "watch": "nodemon --exec \"npm run build\" --ext js,scss,html,png --ignore dist --ignore node_modules",
+    "watch": "nodemon --exec \"npm run build\" --ext js,scss,html,png,jpg --ignore dist --ignore node_modules",
     "start": "open ./dist/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
