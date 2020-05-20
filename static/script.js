@@ -1,6 +1,6 @@
 const nightModeToggle = document.querySelector('#night-mode-toggle input');
 
-// true if system dark mode preference was detected by detect-night-mode.js
+// true if system dark mode preference was detected in earlier script
 nightModeToggle.checked = document.body.classList.contains('night-mode');
 
 nightModeToggle.addEventListener('change', (e) => {
