@@ -1,0 +1,265 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes throb {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+@keyframes wave {
+  from {
+    left: 0;
+  }
+  to {
+    left: -400px;
+  }
+}
+@keyframes swell {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+#sky, #foreground {
+  pointer-events: none;
+  z-index: -1;
+}
+#sky img, #sky svg, #foreground img, #foreground svg {
+  user-select: none;
+}
+
+#sky, #sky #night, #sky #sunset, #sky #day {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#sky #night {
+  background: linear-gradient(to bottom, transparent 66%, #123561), url("img/stars.jpg");
+}
+#sky #sunset {
+  background: linear-gradient(to bottom, #8897ff 66%, #ff4a4a);
+  transition: opacity 0.66s 0.33s ease-in-out;
+}
+#sky #day {
+  background: linear-gradient(to bottom, #98e7ff 66%, #a4f7d5);
+  transition: opacity 0.66s 0.66s ease-in-out;
+}
+#sky #sun-transitioner {
+  transform: translateY(0);
+  transition: transform 0.66s 0.66s ease-in-out;
+}
+#sky #sun {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  animation: rotate 120s linear infinite;
+}
+#sky #sun svg {
+  height: 300px;
+  width: 300px;
+  animation: throb 2.5s ease-in-out alternate infinite;
+  fill: #ffe187;
+  background: radial-gradient(#ffe187 0, transparent 66%);
+}
+#sky #moon-transitioner {
+  transform: translateY(100vh);
+  transition: transform 0.66s cubic-bezier(0.36, 0, 0.66, -0.3);
+}
+#sky #moon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 300px;
+  width: 300px;
+  animation: throb 2.5s ease-in-out alternate infinite;
+  background: radial-gradient(white 0, transparent 66%), radial-gradient(white 0, white 50%, transparent 50%);
+}
+
+#foreground {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+#foreground #island {
+  position: absolute;
+  bottom: 25px;
+  left: 20px;
+  width: 400px;
+  transition: filter 0.66s 0.66s ease-in-out;
+}
+#foreground #wave_bg, #foreground #wave_fg {
+  position: absolute;
+  height: 82px;
+  width: calc(100vw + 400px);
+  left: 0;
+  bottom: 0;
+}
+#foreground #wave_bg {
+  background: url("img/wave_bg.png") repeat-x bottom;
+  animation: wave 40s linear infinite, swell 5s ease-in-out alternate infinite;
+  bottom: 5px;
+}
+#foreground #wave_fg {
+  background: url("img/wave_fg.png") repeat-x bottom;
+  animation: wave 20s linear infinite, swell 2.5s ease-in-out alternate infinite;
+}
+#foreground #underwater {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -400px;
+  height: 400px;
+  background: linear-gradient(#225373, black 90%, black);
+}
+#foreground #underwater #fishy {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  animation: swell 5s ease-in-out alternate infinite;
+  opacity: 0;
+  transition: opacity 0.66s 0.33s ease-in-out;
+}
+#foreground #underwater #fishy img {
+  opacity: 0.5;
+}
+#foreground #underwater #fishy::after {
+  display: block;
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -19px;
+  left: 29px;
+  background: radial-gradient(yellow 0, yellow 2px, rgba(255, 255, 255, 0.3) 2px, transparent 10px);
+  animation: throb 1.5s ease-in-out alternate infinite;
+}
+
+.night-mode #sky #sunset {
+  opacity: 0;
+  transition: opacity 0.66s 0.66s ease-in-out;
+}
+.night-mode #sky #day {
+  opacity: 0;
+  transition: opacity 0.66s 0.33s ease-in-out;
+}
+.night-mode #sky #sun-transitioner {
+  transform: translateY(100vh);
+  transition: transform 0.66s cubic-bezier(0.36, 0, 0.66, -0.3);
+}
+.night-mode #sky #moon-transitioner {
+  transform: translateY(0);
+  transition: transform 0.66s 0.66s ease-in-out;
+}
+.night-mode #foreground #island {
+  filter: brightness(0%);
+  transition: filter 0.66s 0.33s ease-in-out;
+}
+.night-mode #foreground #underwater #fishy {
+  opacity: 1;
+  transition: opacity 0.66s 0.66s ease-in-out;
+}
+
+.list-wrapper {
+  margin: auto;
+  width: 400px;
+  max-width: 100vw;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.list-wrapper .list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.list-wrapper .list li {
+  position: relative;
+  margin-top: 5px;
+  border-radius: 3px;
+  background-color: #e8ddb5;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-out;
+}
+.list-wrapper .list li label {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #69585f;
+  cursor: pointer;
+}
+.list-wrapper .list li input[type=checkbox] {
+  margin-right: 10px;
+}
+.list-wrapper .list li:hover {
+  background-color: #d9dbbc;
+  transform: scale(1.03);
+}
+.list-wrapper .list li[data-checked=true] {
+  opacity: 0.5;
+}
+.list-wrapper .list li[data-checked=true] label {
+  text-decoration: line-through;
+}
+
+/* #b2c9ab */
+* {
+  font-family: "Comic Sans MS";
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.parallax-container {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax-container #foreground {
+  transform: translateZ(-10px) scale(11);
+}
+.parallax-container #sky {
+  transform: translateZ(-11px) scale(12);
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  color: #69585f;
+}
+
+#night-mode-toggle {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+#night-mode-toggle input[type=checkbox] {
+  margin-right: 10px;
+}
+
+h1, #night-mode-toggle {
+  transition: color 0.66s 0.66s ease-in-out;
+}
+
+.night-mode h1, .night-mode #night-mode-toggle {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
