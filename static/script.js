@@ -1,9 +1,13 @@
-document.getElementById('night-mode-toggle')
-	.addEventListener('change', (e) => {
-		e.target.checked
-			? document.body.classList.add('night-mode')
-			: document.body.classList.remove('night-mode');
-	});
+const nightModeToggle = document.querySelector('#night-mode-toggle input');
+
+// true if system dark mode preference was detected by detect-night-mode.js
+nightModeToggle.checked = document.body.classList.contains('night-mode');
+
+nightModeToggle.addEventListener('change', (e) => {
+	e.target.checked
+		? document.body.classList.add('night-mode')
+		: document.body.classList.remove('night-mode');
+});
 
 const songs = document.querySelectorAll('#songs > li');
 

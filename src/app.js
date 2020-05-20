@@ -15,6 +15,10 @@ module.exports = function App() {
 				<script type="text/javascript" src="script.js" defer/>
 			</head>
 			<body>
+				{/* this script must run at a very specific time: after <body> loads to
+					avoid crashing, before <Background> loads to avoid FOUCs */}
+				<script type="text/javascript" src="detect-night-mode.js"/>
+
 				<div className="parallax-container">
 					<Background/>
 					<h1>ACNH Songs Checklist</h1>
