@@ -3,21 +3,28 @@ const Sun = require('./svg/sun');
 
 module.exports = function Background() {
 	return (
-		<div id="background">
-			<div id="sky-night"/>
-			<div id="sky-sunset"/>
-			<div id="sky-day"/>
-			<div id="sun-transitioner">
-				<div id="sun">
-					<Sun/>
+		<>
+			<div id="sky">
+				<div id="night"/>
+				<div id="sunset"/>
+				<div id="day"/>
+				<div id="sun-transitioner">
+					<div id="sun"><Sun/></div>
+				</div>
+				<div id="moon-transitioner">
+					<div id="moon"/>
 				</div>
 			</div>
-			<div id="moon-transitioner">
-				<div id="moon"/>
+			<div id="foreground">
+				<img id="island" src="img/island.png" alt=""/>
+				<div id="wave_bg"/>
+				<div id="wave_fg"/>
+				<div id="underwater">
+					<div id="fishy">
+						<img src="img/fishy.png" alt=""/>
+					</div>
+				</div>
 			</div>
-			<img id="island" src="img/island.png" alt=""/>
-			<div id="wave_bg"></div>
-			<div id="wave_fg"></div>
-		</div>
+		</>
 	);
 };

@@ -11,6 +11,20 @@ body, html {
 	margin: 0;
 }
 
+.parallax-container {
+	perspective: 1px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+
+	#foreground {
+		transform: translateZ(-10px) scale(11);
+	}
+	#sky {
+		transform: translateZ(-11px) scale(12);
+	}
+}
+
 h1 {
 	margin: 0 auto;
 	text-align: center;

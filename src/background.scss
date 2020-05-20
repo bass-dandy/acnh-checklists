@@ -30,33 +30,34 @@ $bounce-ease-in: cubic-bezier(0.36, 0, 0.66, -0.3);
 	to { transform: translateY(10px); }
 }
 
-#background {
-	position: fixed;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
+#sky, #foreground {
+	pointer-events: none;
 	z-index: -1;
 
-	#sky-night, #sky-sunset, #sky-day {
+	img, svg {
+		user-select: none;
+	}
+}
+
+#sky {
+	&, #night, #sunset, #day {
 		position: absolute;
 		left: 0;
 		right: 0;
 		top: 0;
 		bottom: 0;
 	}
-	#sky-night {
-		background: linear-gradient(to bottom, #1b1f38 66%, #123561);
+	#night {
+		background: linear-gradient(to bottom, transparent 66%, #123561), url("img/stars.jpg");
 	}
-	#sky-sunset {
+	#sunset {
 		background: linear-gradient(to bottom, #8897ff 66%, #ff4a4a);
 		transition: transition-with-sunset(opacity);
 	}
-	#sky-day {
+	#day {
 		background: linear-gradient(to bottom, #98e7ff 66%, #a4f7d5);
 		transition: transition-with-sunrise(opacity);
 	}
-
 	#sun-transitioner {
 		transform: translateY(0);
 		transition: transition-with-sunrise(transform);
@@ -75,7 +76,6 @@ $bounce-ease-in: cubic-bezier(0.36, 0, 0.66, -0.3);
 			background: radial-gradient(#ffe187 0, transparent 66%);
 		}
 	}
-
 	#moon-transitioner {
 		transform: translateY(100vh);
 		transition: transform $day-night-duration $bounce-ease-in;
@@ -91,16 +91,22 @@ $bounce-ease-in: cubic-bezier(0.36, 0, 0.66, -0.3);
 			radial-gradient(white 0, transparent 66%), // glow
 			radial-gradient(white 0, white 50%, transparent 50%); // moon
 	}
+}
+
+#foreground {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
 
 	#island {
 		position: absolute;
 		bottom: 25px;
 		left: 20px;
 		width: 400px;
-		pointer-events: none;
 		transition: transition-with-sunrise(filter);
 	}
-
 	#wave_bg, #wave_fg {
 		position: absolute;
 		height: 82px;
@@ -117,15 +123,48 @@ $bounce-ease-in: cubic-bezier(0.36, 0, 0.66, -0.3);
 		background: url("img/wave_fg.png") repeat-x bottom;
 		animation: wave 20s linear infinite, swell 2.5s ease-in-out alternate infinite;
 	}
+	#underwater {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: -400px;
+		height: 400px;
+		background: linear-gradient(#225373, black 90%, black);
+
+		#fishy {
+			position: absolute;
+			right: 100px;
+			bottom: 100px;
+			animation: swell 5s ease-in-out alternate infinite;
+			opacity: 0;
+			transition: transition-with-sunset(opacity);
+
+			img {
+				opacity: 0.5;
+			}
+
+			&::after {
+				display: block;
+				content: "";
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				top: -19px;
+				left: 29px;
+				background: radial-gradient(yellow 0, yellow 2px, rgba(255, 255, 255, 0.3) 2px, transparent 10px);
+				animation: throb 1.5s ease-in-out alternate infinite;
+			}
+		}
+	}
 }
 
 .night-mode {
-	#background {
-		#sky-sunset {
+	#sky {
+		#sunset {
 			opacity: 0;
 			transition: transition-with-sunrise(opacity);
 		}
-		#sky-day {
+		#day {
 			opacity: 0;
 			transition: transition-with-sunset(opacity);
 		}
@@ -137,9 +176,17 @@ $bounce-ease-in: cubic-bezier(0.36, 0, 0.66, -0.3);
 			transform: translateY(0);
 			transition: transition-with-sunrise(transform);
 		}
+	}
+	#foreground {
 		#island {
 			filter: brightness(0%);
 			transition: transition-with-sunset(filter);
+		}
+		#underwater {
+			#fishy {
+				opacity: 1;
+				transition: transition-with-sunrise(opacity);
+			}
 		}
 	}
 }
