@@ -173,13 +173,6 @@
   transition: opacity 0.66s 0.66s ease-in-out;
 }
 
-.list-wrapper {
-  margin: auto;
-  width: 400px;
-  max-width: 100vw;
-  padding: 10px;
-  box-sizing: border-box;
-}
 .list-wrapper .list {
   display: flex;
   flex-direction: column;
@@ -193,6 +186,7 @@
   border-radius: 3px;
   background-color: #e8ddb5;
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2);
+  text-transform: capitalize;
   transition: transform 0.2s ease-out;
 }
 .list-wrapper .list li label {
@@ -216,14 +210,107 @@
   text-decoration: line-through;
 }
 
-/* #b2c9ab */
+#tab-panel {
+  width: 420px;
+  max-width: 100vw;
+  padding: 10px;
+  margin: auto;
+}
+#tab-panel .tabs {
+  display: flex;
+  border-radius: 3px;
+  background-color: #b2c9ab;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+#tab-panel .tabs .tab {
+  flex: 1;
+  border: 0;
+  padding: 10px 0 7px;
+  margin: 0;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #69585f;
+  border-bottom: 3px solid transparent;
+  transition: background-color 0.08s ease-out;
+}
+#tab-panel .tabs .tab:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+#tab-panel .tabs .tab svg {
+  display: none;
+  width: 20px;
+  height: auto;
+  margin: auto;
+  fill: #69585f;
+}
+#tab-panel .tab-panel-content {
+  display: none;
+}
+#tab-panel[data-selected-tab=fish] .tab[data-tab-id=fish] {
+  border-bottom-color: green;
+}
+#tab-panel[data-selected-tab=fish] .tab-panel-content[data-tab-id=fish] {
+  display: block;
+}
+#tab-panel[data-selected-tab=bugs] .tab[data-tab-id=bugs] {
+  border-bottom-color: green;
+}
+#tab-panel[data-selected-tab=bugs] .tab-panel-content[data-tab-id=bugs] {
+  display: block;
+}
+#tab-panel[data-selected-tab=fossils] .tab[data-tab-id=fossils] {
+  border-bottom-color: green;
+}
+#tab-panel[data-selected-tab=fossils] .tab-panel-content[data-tab-id=fossils] {
+  display: block;
+}
+#tab-panel[data-selected-tab=art] .tab[data-tab-id=art] {
+  border-bottom-color: green;
+}
+#tab-panel[data-selected-tab=art] .tab-panel-content[data-tab-id=art] {
+  display: block;
+}
+#tab-panel[data-selected-tab=songs] .tab[data-tab-id=songs] {
+  border-bottom-color: green;
+}
+#tab-panel[data-selected-tab=songs] .tab-panel-content[data-tab-id=songs] {
+  display: block;
+}
+#tab-panel[data-selected-tab=flowers] .tab[data-tab-id=flowers] {
+  border-bottom-color: green;
+}
+#tab-panel[data-selected-tab=flowers] .tab-panel-content[data-tab-id=flowers] {
+  display: block;
+}
+
 * {
+  font-size: 1.4rem;
   font-family: "Comic Sans MS";
 }
 
-body, html {
+html, body {
   padding: 0;
   margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body:not(.keyboard-accessible) *:focus {
+  outline: none;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px 0 0;
+  text-align: center;
+  color: #69585f;
+  font-size: 2.4rem;
+  transition: color 0.66s 0.66s ease-in-out;
 }
 
 .parallax-container {
@@ -239,23 +326,14 @@ body, html {
   transform: translateZ(-11px) scale(12);
 }
 
-h1 {
-  margin: 0 auto;
-  text-align: center;
-  color: #69585f;
-}
-
 #night-mode-toggle {
   position: fixed;
   top: 20px;
   left: 20px;
+  transition: color 0.66s 0.66s ease-in-out;
 }
 #night-mode-toggle input[type=checkbox] {
   margin-right: 10px;
-}
-
-h1, #night-mode-toggle {
-  transition: color 0.66s 0.66s ease-in-out;
 }
 
 .night-mode h1, .night-mode #night-mode-toggle {

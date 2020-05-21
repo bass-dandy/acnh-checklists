@@ -9,17 +9,40 @@ nightModeToggle.addEventListener('change', (e) => {
 		: document.body.classList.remove('night-mode');
 });
 
-const songs = document.querySelectorAll('#songs > li');
+document.addEventListener('keydown', (e) => {
+	if (e.key === 'Tab') {
+		document.body.classList.add('keyboard-accessible');
+	}
+});
+document.addEventListener('mousedown', () => {
+	document.body.classList.remove('keyboard-accessible');
+});
 
-songs.forEach((song) => {
-	const defaultChecked = localStorage.getItem(song.id) === 'true';
-	song.setAttribute('data-checked', defaultChecked);
+// init tab panel
+const tabPanel = document.getElementById('tab-panel');
+const tabs = tabPanel.querySelectorAll('.tabs .tab');
 
-	const checkbox = song.querySelector('input');
-	checkbox.checked = defaultChecked;
-
-	checkbox.addEventListener('change', (e) => {
-		song.setAttribute('data-checked', e.target.checked);
-		localStorage.setItem(song.id, e.target.checked);
+tabs.forEach((tab) => {
+	tab.addEventListener('click', (e) => {
+		tabPanel.setAttribute('data-selected-tab', e.target.getAttribute('data-tab-id'));
 	});
 });
+
+// init checklists
+tabs.forEach((tab) => {
+	const id = tab.getAttribute('data-tab-id');
+	const checklistItems = document.querySelectorAll(`#${id} > li`);
+
+	checklistItems.forEach((item) => {
+		const defaultChecked = localStorage.getItem(item.id) === 'true';
+		item.setAttribute('data-checked', defaultChecked);
+
+		const checkbox = item.querySelector('input');
+		checkbox.checked = defaultChecked;
+
+		checkbox.addEventListener('change', (e) => {
+			item.setAttribute('data-checked', e.target.checked);
+			localStorage.setItem(item.id, e.target.checked);
+		});
+	});
+})
