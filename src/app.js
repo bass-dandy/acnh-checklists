@@ -1,15 +1,43 @@
 const React = require('react');
 const ReactDOM = require('react-dom/server');
+
 const Background = require('./background');
+const TabPanel = require('./tab-panel');
+
+const Fish = require('./fish');
+const Bugs = require('./bugs');
+const Fossils = require('./fossils');
+const Art = require('./art');
 const Songs = require('./songs');
+const Flowers = require('./flowers');
+
+const TABS = [{
+	id: 'fish',
+	content: <Fish/>
+}, {
+	id: 'bugs',
+	content: <Bugs/>
+}, {
+	id: 'fossils',
+	content: <Fossils/>
+}, {
+	id: 'art',
+	content: <Art/>
+}, {
+	id: 'songs',
+	content: <Songs/>
+}, {
+	id: 'flowers',
+	content: <Flowers/>
+}];
 
 function App() {
 	return (
 		<>
 			<div className="parallax-container">
 				<Background/>
-				<h1>ACNH Songs Checklist</h1>
-				<Songs/>
+				<h1>New Horizons Checklists</h1>
+				<TabPanel tabs={TABS}/>
 			</div>
 			<label id="night-mode-toggle">
 				<input type="checkbox"/>

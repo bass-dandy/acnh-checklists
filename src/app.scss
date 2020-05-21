@@ -1,14 +1,32 @@
 @use './background';
 @use './list';
-/* #b2c9ab */
+@use './tab-panel';
 
 * {
+	font-size: 1.4rem;
 	font-family: "Comic Sans MS";
 }
 
-body, html {
+html, body {
 	padding: 0;
 	margin: 0;
+}
+
+html {
+	font-size: 10px;
+}
+
+body:not(.keyboard-accessible) *:focus {
+	outline: none;
+}
+
+h1 {
+	margin: 0;
+	padding: 10px 0 0;
+	text-align: center;
+	color: #69585f;
+	font-size: 2.4rem;
+	transition: background.transition-with-sunrise(color);
 }
 
 .parallax-container {
@@ -25,24 +43,15 @@ body, html {
 	}
 }
 
-h1 {
-	margin: 0 auto;
-	text-align: center;
-	color: #69585f;
-}
-
 #night-mode-toggle {
 	position: fixed;
 	top: 20px;
 	left: 20px;
+	transition: background.transition-with-sunrise(color);
 
 	input[type="checkbox"] {
 		margin-right: 10px;
 	}
-}
-
-h1, #night-mode-toggle {
-	transition: background.transition-with-sunrise(color);
 }
 
 .night-mode {
