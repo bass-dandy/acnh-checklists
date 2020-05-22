@@ -1,10 +1,16 @@
 @use './background';
 @use './list';
 @use './tab-panel';
+@use './colors';
+
+@font-face {
+  font-family: "humming";
+  src: url("humming.otf");
+}
 
 * {
-	font-size: 1.4rem;
-	font-family: "Comic Sans MS";
+	font-size: 1.2rem;
+	font-family: "humming";
 }
 
 html, body {
@@ -14,17 +20,18 @@ html, body {
 
 html {
 	font-size: 10px;
-}
+	background-color: black;
 
-body:not(.keyboard-accessible) *:focus {
-	outline: none;
+	&:not(.keyboard-accessible) *:focus {
+		outline: none;
+	}
 }
 
 h1 {
 	margin: 0;
 	padding: 10px 0 0;
 	text-align: center;
-	color: #69585f;
+	color: colors.$text-brown;
 	font-size: 2.4rem;
 	transition: background.transition-with-sunrise(color);
 }
@@ -47,6 +54,7 @@ h1 {
 	position: fixed;
 	top: 20px;
 	left: 20px;
+	color: colors.$text-brown;
 	transition: background.transition-with-sunrise(color);
 
 	input[type="checkbox"] {
@@ -56,6 +64,6 @@ h1 {
 
 .night-mode {
 	h1, #night-mode-toggle {
-		color: white;
+		color: colors.$white;
 	}
 }

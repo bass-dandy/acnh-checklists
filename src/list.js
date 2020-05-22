@@ -9,7 +9,7 @@ module.exports = function List(props) {
 				className="list"
 			>
 				{props.items.map((item) => (
-					<li id={item.id}>
+					<li data-item-id={item.id}>
 						<label>
 							<input type="checkbox"/>
 							{item.label}

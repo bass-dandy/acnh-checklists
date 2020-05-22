@@ -1,16 +1,20 @@
+@use './colors';
+
 #tab-panel {
-	width: 420px;
+	width: 500px;
 	max-width: 100vw;
 	padding: 10px;
 	margin: auto;
+	box-sizing: border-box;
 
 	.tabs {
 		display: flex;
-		border-radius: 3px;
-		background-color: #b2c9ab;
-		box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.2);
+		border-radius: 20px;
+		background-color: colors.$menu-submenu;
+		overflow: hidden;
 
 		.tab {
+			position: relative;
 			flex: 1;
 			border: 0;
 			padding: 10px 0 7px;
@@ -18,14 +22,34 @@
 			background-color: transparent;
 			cursor: pointer;
 			text-align: center;
-			text-transform: uppercase;
-			font-size: 1rem;
-			color: #69585f;
+			text-transform: capitalize;
+			color: colors.$text-brown;
 			border-bottom: 3px solid transparent;
-			transition: background-color 0.08s ease-out;
 
-			&:hover {
-				background-color: rgba(0, 0, 0, 0.05);
+			.highlight {
+				position: relative;
+				display: inline-block;
+				padding: 0 5px;
+				background-color: transparent;
+				pointer-events: none;
+				z-index: 1;
+
+				&::after {
+					display: block;
+					content: "";
+					position: absolute;
+					height: 1em;
+					width: 100%;
+					left: 0;
+					bottom: 0;
+					border-radius: 0.5em;
+					background-color: transparent;
+					z-index: -1;
+				}
+			}
+
+			&:hover .highlight::after {
+				background-color: colors.$menu-yellow;
 			}
 
 			svg {
@@ -33,21 +57,22 @@
 				width: 20px;
 				height: auto;
 				margin: auto;
-				fill: #69585f;
+				fill: colors.$text-brown;
 			}
 		}
 	}
 
 	.tab-panel-content {
 		display: none;
+		padding: 0 20px;
 	}
 
 	$tabs: "fish", "bugs", "fossils", "art", "songs", "flowers";
 
 	@each $tab in $tabs {
 		&[data-selected-tab=#{$tab}] {
-			.tab[data-tab-id=#{$tab}] {
-				border-bottom-color: green;
+			.tab[data-tab-id=#{$tab}] .highlight::after {
+				background-color: colors.$menu-yellow;
 			}
 			.tab-panel-content[data-tab-id=#{$tab}] {
 				display: block;

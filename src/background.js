@@ -17,8 +17,12 @@ module.exports = function Background() {
 			</div>
 			<div id="foreground">
 				<img id="island" src="img/island.png" alt=""/>
-				<div id="wave_bg"/>
-				<div id="wave_fg"/>
+				<div id="wave-bg">
+					<div/>
+				</div>
+				<div id="wave-fg">
+					<div/>
+				</div>
 				<div id="underwater">
 					<div id="fishy">
 						<img src="img/fishy.png" alt=""/>

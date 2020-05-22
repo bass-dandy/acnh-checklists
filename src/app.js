@@ -57,16 +57,15 @@ module.exports = `
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="icon" type="image/png" href="favicon.png">
 			<link rel="stylesheet" href="style.css">
+			<script>
+				// this script must run before <Background> loads to avoid FOUCs
+				if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+					document.documentElement.classList.add('night-mode');
+				}
+			</script>
 			<script type="text/javascript" src="script.js" defer></script>
 		</head>
 		<body>
-			<script>
-				// this script must run at a very specific time: after <body> loads to
-				// avoid crashing, before <Background> loads to avoid FOUCs
-				if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-					document.body.classList.add('night-mode');
-				}
-			</script>
 			${ReactDOM.renderToStaticMarkup(<App/>)}
 		</body>
 	</html>

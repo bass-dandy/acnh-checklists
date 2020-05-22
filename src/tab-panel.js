@@ -14,7 +14,9 @@ module.exports = function TabPanel(props) {
 						aria-label={tab.id}
 						data-tab-id={tab.id}
 					>
-						{tab.id}
+						<div className="highlight">
+							{tab.id}
+						</div>
 					</button>
 				))}
 			</div>
