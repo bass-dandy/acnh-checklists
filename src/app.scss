@@ -1,4 +1,5 @@
 @use './background';
+@use './night-mode-toggle';
 @use './list';
 @use './tab-panel';
 @use './colors';
@@ -50,20 +51,8 @@ h1 {
 	}
 }
 
-#night-mode-toggle {
-	position: fixed;
-	top: 20px;
-	left: 20px;
-	color: colors.$text-brown;
-	transition: background.transition-with-sunrise(color);
-
-	input[type="checkbox"] {
-		margin-right: 10px;
-	}
-}
-
 .night-mode {
-	h1, #night-mode-toggle {
+	h1 {
 		color: colors.$white;
 	}
 }

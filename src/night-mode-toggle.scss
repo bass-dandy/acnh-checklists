@@ -1,0 +1,64 @@
+@use './background';
+@use './colors';
+
+#night-mode-toggle {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	width: 50px;
+	padding: 3px;
+	border-radius: 13px;
+	cursor: pointer;
+	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+	background: #98e7ff;
+	z-index: 1000;
+
+	#night-mode-toggle-off-bg {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: url('img/stars.jpg');
+		background-size: 150px;
+		transition: background.transition-with-sunset(opacity);
+	}
+
+	#night-mode-toggle-switch {
+		position: relative;
+		height: 20px;
+		width: 20px;
+		border-radius: 50%;
+		background-color: colors.$white;
+		transition: transform 0.3s cubic-bezier(.92,.71,.27,1.24), background.transition-with-sunset(background-color);
+		z-index: 1;
+	}
+
+	svg {
+		position: absolute;
+		bottom: 0;
+		right: 10px;
+		width: 25px;
+		fill: colors.$white;
+		opacity: 0;
+		transform: translateX(100%);
+		transition: opacity 0.33s ease-out, transform 0s 0.33s ease-out;
+		z-index: 1;
+	}
+
+	&[aria-checked="true"] {
+		#night-mode-toggle-off-bg {
+			opacity: 0;
+		}
+		#night-mode-toggle-switch {
+			transform: translateX(30px);
+			background-color: #ffe187;
+		}
+		svg {
+			transform: translateX(0);
+			opacity: 1;
+			transition: background.transition-with-sunset(opacity), background.transition-with-sunset(transform);
+		}
+	}
+}

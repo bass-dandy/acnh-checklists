@@ -3,6 +3,7 @@ const ReactDOM = require('react-dom/server');
 
 const Background = require('./background');
 const TabPanel = require('./tab-panel');
+const NightModeToggle = require('./night-mode-toggle');
 
 const Fish = require('./fish');
 const Bugs = require('./bugs');
@@ -34,15 +35,24 @@ const TABS = [{
 function App() {
 	return (
 		<>
+			<NightModeToggle/>
+			<script
+				dangerouslySetInnerHTML={{
+					// this script must run after <NightModeToggle> loads to avoid
+					// crashing and before <Background> loads to avoid FOUCs
+					__html: `
+						if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+							document.documentElement.classList.add('night-mode');
+							document.getElementById('night-mode-toggle').setAttribute('aria-checked', 'true');
+						}
+					`
+				}}
+			/>
 			<div className="parallax-container">
 				<Background/>
 				<h1>New Horizons Checklists</h1>
 				<TabPanel tabs={TABS}/>
 			</div>
-			<label id="night-mode-toggle">
-				<input type="checkbox"/>
-				Night Mode
-			</label>
 		</>
 	);
 }
@@ -57,12 +67,6 @@ module.exports = `
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="icon" type="image/png" href="favicon.png">
 			<link rel="stylesheet" href="style.css">
-			<script>
-				// this script must run before <Background> loads to avoid FOUCs
-				if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-					document.documentElement.classList.add('night-mode');
-				}
-			</script>
 			<script type="text/javascript" src="script.js" defer></script>
 		</head>
 		<body>

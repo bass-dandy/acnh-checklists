@@ -1,13 +1,23 @@
-const nightModeToggle = document.querySelector('#night-mode-toggle input');
+// init night mode toggle
+const nightModeToggle = document.querySelector('#night-mode-toggle');
 
-// true if system dark mode preference was detected in earlier script
-nightModeToggle.checked = document.documentElement.classList.contains('night-mode');
+function toggleNightMode() {
+	if (nightModeToggle.getAttribute('aria-checked') === 'false') {
+		nightModeToggle.setAttribute('aria-checked', 'true');
+		document.documentElement.classList.add('night-mode')
+	} else {
+		nightModeToggle.setAttribute('aria-checked', 'false');
+		document.documentElement.classList.remove('night-mode');
+	}
+}
 
-nightModeToggle.addEventListener('change', (e) => {
-	e.target.checked
-		? document.documentElement.classList.add('night-mode')
-		: document.documentElement.classList.remove('night-mode');
+nightModeToggle.addEventListener('keydown', (e) => {
+	if (e.key === ' ' || e.key === 'Enter') {
+		toggleNightMode();
+	}
 });
+
+nightModeToggle.addEventListener('click', toggleNightMode);
 
 document.addEventListener('keydown', (e) => {
 	if (e.key === 'Tab') {
