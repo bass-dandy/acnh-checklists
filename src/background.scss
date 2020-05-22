@@ -69,8 +69,8 @@ $bounce-ease-in: cubic-bezier(0.36, 0, 0.66, -0.3);
 		animation: rotate 120s linear infinite;
 
 		svg {
-			height: 300px;
 			width: 300px;
+			height: auto;
 			animation: throb 2.5s ease-in-out alternate infinite;
 			fill: #ffe187;
 			background: radial-gradient(#ffe187 0, transparent 66%);
@@ -201,5 +201,20 @@ $bounce-ease-in: cubic-bezier(0.36, 0, 0.66, -0.3);
 				transition: transition-with-sunrise(opacity);
 			}
 		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#sky {
+		#sun svg {
+			width: 200px;
+		}
+		#moon {
+			width: 200px;
+			height: 200px;
+		}
+	}
+	#foreground #island {
+		width: 300px;
 	}
 }
