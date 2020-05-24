@@ -1,6 +1,11 @@
-.price-tag::before {
-	display: inline;
-	content: "$";
-	font-family: "bells";
-	margin-right: 3px;
+.price-tag {
+	font-size: 1rem;
+
+	&::before {
+		display: inline;
+		content: "$";
+		margin-right: 3px;
+		font-family: "bells";
+		font-size: 1.2rem;
+	}
 }
