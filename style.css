@@ -285,6 +285,13 @@
   cursor: pointer;
   z-index: 1;
 }
+.list-wrapper .list li .list-item-details {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+}
 .list-wrapper .list li:hover {
   transform: scale(1.03);
 }
@@ -405,9 +412,20 @@
   display: block;
 }
 
+.price-tag::before {
+  display: inline;
+  content: "$";
+  font-family: "bells";
+  margin-right: 3px;
+}
+
 @font-face {
   font-family: "humming";
-  src: url("humming.otf");
+  src: url("humming.otf") format("opentype");
+}
+@font-face {
+  font-family: "bells";
+  src: url("bells.woff") format("woff");
 }
 * {
   font-size: 1.2rem;
