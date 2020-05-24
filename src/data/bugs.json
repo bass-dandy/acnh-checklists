@@ -1,0 +1,1891 @@
+[
+	{
+		"name": "Agrias Butterfly",
+		"price": 3000,
+		"time": "8 AM - 5 PM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "apr - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "oct - mar"
+		}
+	},
+	{
+		"name": "Ant",
+		"price": 80,
+		"time": "All day",
+		"location": "On rotten fruit and turnips",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Atlas Moth",
+		"price": 3000,
+		"time": "7 PM - 4 AM",
+		"location": "Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "apr - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "oct - mar"
+		}
+	},
+	{
+		"name": "Bagworm",
+		"price": 600,
+		"time": "All day",
+		"location": "Shake tree",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Banded Dragonfly",
+		"price": 4500,
+		"time": "8 AM - 5 PM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "may - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "nov - apr"
+		}
+	},
+	{
+		"name": "Bell Cricket",
+		"price": 430,
+		"time": "5 PM - 8 AM",
+		"location": "Grass",
+		"nSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct"
+			],
+			"displayMonths": "sep - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr"
+			],
+			"displayMonths": "mar - apr"
+		}
+	},
+	{
+		"name": "Blue Weevil Beetle",
+		"price": 800,
+		"time": "All day",
+		"location": "Palm Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Brown Cicada",
+		"price": 250,
+		"time": "8 AM - 5 PM",
+		"location": "Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Centipede",
+		"price": 430,
+		"time": "5 PM - 11 PM",
+		"location": "Hit rocks",
+		"nSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may",
+				"jun"
+			],
+			"displayMonths": "sep - jun"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov",
+				"dec"
+			],
+			"displayMonths": "mar - dec"
+		}
+	},
+	{
+		"name": "Cicada Shell",
+		"price": 10,
+		"time": "All day",
+		"location": "Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Citrus Long-Horned Beetle",
+		"price": 350,
+		"time": "All day",
+		"location": "Tree stump",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Common Bluebottle",
+		"price": 300,
+		"time": "4 AM - 7 PM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug"
+			],
+			"displayMonths": "apr - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb"
+			],
+			"displayMonths": "oct - feb"
+		}
+	},
+	{
+		"name": "Common Butterfly",
+		"price": 160,
+		"time": "4 AM - 7 PM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may",
+				"jun"
+			],
+			"displayMonths": "sep - jun"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov",
+				"dec"
+			],
+			"displayMonths": "mar - dec"
+		}
+	},
+	{
+		"name": "Cricket",
+		"price": 130,
+		"time": "5 PM - 8 AM",
+		"location": "Ground",
+		"nSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "sep - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "mar - may"
+		}
+	},
+	{
+		"name": "Cyclommatus Stag",
+		"price": 8000,
+		"time": "5 PM - 8 AM",
+		"location": "Palm Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Damselfly",
+		"price": 500,
+		"time": "All day",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb"
+			],
+			"displayMonths": "nov - feb"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "may - nov"
+		}
+	},
+	{
+		"name": "Darner Dragonfly",
+		"price": 230,
+		"time": "8 AM - 5 PM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "apr - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "oct - apr"
+		}
+	},
+	{
+		"name": "Diving Beetle",
+		"price": 800,
+		"time": "8 AM - 7 PM",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "may - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "nov - mar"
+		}
+	},
+	{
+		"name": "Drone Beetle",
+		"price": 200,
+		"time": "All day",
+		"location": "Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jun - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb"
+			],
+			"displayMonths": "dec - feb"
+		}
+	},
+	{
+		"name": "Dung Beetle",
+		"price": 2500,
+		"time": "All day",
+		"location": "Snowballs",
+		"nSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb"
+			],
+			"displayMonths": "dec - feb"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jun - aug"
+		}
+	},
+	{
+		"name": "Earth-Boring Dung Beetle",
+		"price": 300,
+		"time": "All day",
+		"location": "Ground",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jul - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "jan - mar"
+		}
+	},
+	{
+		"name": "Emperor Butterfly",
+		"price": 4000,
+		"time": "5 PM - 8 AM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "dec - mar, jun - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "dec - mar, jun - sep"
+		}
+	},
+	{
+		"name": "Evening Cicada",
+		"price": 550,
+		"time": "8 AM - 5 PM",
+		"location": "Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Firefly",
+		"price": 300,
+		"time": "7 PM - 4 AM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun"
+			],
+			"displayMonths": "jun"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec"
+			],
+			"displayMonths": "dec"
+		}
+	},
+	{
+		"name": "Flea",
+		"price": 70,
+		"time": "All day",
+		"location": "On a flea-infested villager",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "apr - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "oct - may"
+		}
+	},
+	{
+		"name": "Fly",
+		"price": 60,
+		"time": "All day",
+		"location": "On rotten fruit or garbage",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Giant Cicada",
+		"price": 500,
+		"time": "8 AM - 5 PM",
+		"location": "Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Giant Stag",
+		"price": 10000,
+		"time": "11 PM - 8 AM",
+		"location": "Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Giant Water Bug",
+		"price": 2000,
+		"time": "7 PM - 8 AM",
+		"location": "Ponds",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "apr - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "oct - mar"
+		}
+	},
+	{
+		"name": "Giraffe Stag",
+		"price": 12000,
+		"time": "5 PM - 8 AM",
+		"location": "Palm Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Golden Stag",
+		"price": 12000,
+		"time": "5 PM - 8 AM",
+		"location": "Palm Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Goliath Beetle",
+		"price": 8000,
+		"time": "5 PM - 8 AM",
+		"location": "Palm Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		}
+	},
+	{
+		"name": "Grasshopper",
+		"price": 160,
+		"time": "8 AM - 5 PM",
+		"location": "Ground",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jul - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "jan - mar"
+		}
+	},
+	{
+		"name": "Great Purple Emperor",
+		"price": 3000,
+		"time": "4 AM - 7 PM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug"
+			],
+			"displayMonths": "may - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb"
+			],
+			"displayMonths": "nov - feb"
+		}
+	},
+	{
+		"name": "Hermit Crab",
+		"price": 1000,
+		"time": "7 PM - 8 AM",
+		"location": "Beach",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Honeybee",
+		"price": 200,
+		"time": "8 AM - 5 PM",
+		"location": "Near flowers",
+		"nSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"jul"
+			],
+			"displayMonths": "mar - jul"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"jan"
+			],
+			"displayMonths": "sep - jan"
+		}
+	},
+	{
+		"name": "Horned Atlas",
+		"price": 8000,
+		"time": "5 PM - 8 AM",
+		"location": "Palm Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Horned Dynastid",
+		"price": 1350,
+		"time": "5 PM - 8 AM",
+		"location": "Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Horned Elephant",
+		"price": 8000,
+		"time": "5 PM - 8 AM",
+		"location": "Palm Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Horned Hercules",
+		"price": 12000,
+		"time": "5 PM - 8 AM",
+		"location": "Palm Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Jewel Beetle",
+		"price": 2400,
+		"time": "All Day",
+		"location": "Tree stump",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug"
+			],
+			"displayMonths": "apr - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb"
+			],
+			"displayMonths": "oct - feb"
+		}
+	},
+	{
+		"name": "Ladybug",
+		"price": 200,
+		"time": "8 AM - 5 PM",
+		"location": "Flowers",
+		"nSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"oct"
+			],
+			"displayMonths": "mar - jun, oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"apr"
+			],
+			"displayMonths": "sep - dec, apr"
+		}
+	},
+	{
+		"name": "Long Locust",
+		"price": 200,
+		"time": "8 AM - 7 PM",
+		"location": "Ground",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "apr - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "oct - may"
+		}
+	},
+	{
+		"name": "Madagascan Sunset Moth",
+		"price": 2500,
+		"time": "8 AM - 4 PM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "apr - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "oct - mar"
+		}
+	},
+	{
+		"name": "Man-Faced Stink Bug",
+		"price": 1000,
+		"time": "7 PM - 8 AM",
+		"location": "Flowers",
+		"nSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "mar - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "sep - apr"
+		}
+	},
+	{
+		"name": "Mantis",
+		"price": 430,
+		"time": "8 AM - 5 PM",
+		"location": "Flowers",
+		"nSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "mar - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "sep - may"
+		}
+	},
+	{
+		"name": "Migratory Locust",
+		"price": 200,
+		"time": "8 AM - 7 PM",
+		"location": "Ground",
+		"nSeasonality": {
+			"activeMonths": [
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "aug - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"feb",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "feb - may"
+		}
+	},
+	{
+		"name": "Miyama Stag",
+		"price": 1000,
+		"time": "All day",
+		"location": "Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Mole Cricket",
+		"price": 500,
+		"time": "All day",
+		"location": "Underground",
+		"nSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "nov - may"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "may - nov"
+		}
+	},
+	{
+		"name": "Monarch Butterfly",
+		"price": 140,
+		"time": "4 AM - 5 PM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "sep - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "mar - may"
+		}
+	},
+	{
+		"name": "Mosquito",
+		"price": 130,
+		"time": "5 PM - 4 AM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		}
+	},
+	{
+		"name": "Moth",
+		"price": 130,
+		"time": "7 PM - 4 AM",
+		"location": "Lit windows",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Orchid Mantis",
+		"price": 2400,
+		"time": "8 AM - 5 PM",
+		"location": "Flowers",
+		"nSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "mar - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "sep - may"
+		}
+	},
+	{
+		"name": "Paper Kite Butterfly",
+		"price": 1000,
+		"time": "8 AM - 7 PM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Peacock Butterfly",
+		"price": 2500,
+		"time": "4 AM - 7 PM",
+		"location": "Near black, blue, or purple flowers",
+		"nSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun"
+			],
+			"displayMonths": "mar - jun"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec"
+			],
+			"displayMonths": "sep - dec"
+		}
+	},
+	{
+		"name": "Pill Bug",
+		"price": 250,
+		"time": "11 PM - 4 PM",
+		"location": "Hit rocks",
+		"nSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may",
+				"jun"
+			],
+			"displayMonths": "sep - jun"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov",
+				"dec"
+			],
+			"displayMonths": "mar - dec"
+		}
+	},
+	{
+		"name": "Pondskater",
+		"price": 130,
+		"time": "8 AM - 7 PM",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "may - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "nov - mar"
+		}
+	},
+	{
+		"name": "Queen Alexandra's Birdwing",
+		"price": 4000,
+		"time": "8 AM - 4 PM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "may - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "nov - mar"
+		}
+	},
+	{
+		"name": "Rainbow Stag",
+		"price": 6000,
+		"time": "7 PM - 8 AM",
+		"location": "Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		}
+	},
+	{
+		"name": "Rajah Brooke's Birdwing",
+		"price": 2500,
+		"time": "8 AM - 5 PM",
+		"location": "Near black, blue, or purple flowers",
+		"nSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "dec - feb, apr - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "jun - aug, oct - mar"
+		}
+	},
+	{
+		"name": "Red Dragonfly",
+		"price": 180,
+		"time": "8 AM - 7 PM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct"
+			],
+			"displayMonths": "sep - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr"
+			],
+			"displayMonths": "mar - apr"
+		}
+	},
+	{
+		"name": "Rice Grasshopper",
+		"price": 160,
+		"time": "8 AM - 7 PM",
+		"location": "Ground",
+		"nSeasonality": {
+			"activeMonths": [
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "aug - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"feb",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "feb - may"
+		}
+	},
+	{
+		"name": "Robust Cicada",
+		"price": 300,
+		"time": "8 AM - 5 PM",
+		"location": "Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Rosalia Batesi Beetle",
+		"price": 3000,
+		"time": "All day",
+		"location": "Tree stump",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun"
+			],
+			"displayMonths": "may - jun"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec"
+			],
+			"displayMonths": "nov - dec"
+		}
+	},
+	{
+		"name": "Saw Stag",
+		"price": 2000,
+		"time": "All day",
+		"location": "Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Scarab Beetle",
+		"price": 10000,
+		"time": "11 PM - 8 AM",
+		"location": "Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Scorpion",
+		"price": 8000,
+		"time": "7 PM - 4 AM",
+		"location": "Ground",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "may - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "nov - mar"
+		}
+	},
+	{
+		"name": "Snail",
+		"price": 250,
+		"time": "All day",
+		"location": "Rock (rain)",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Spider",
+		"price": 600,
+		"time": "7 PM - 8 AM",
+		"location": "Shake tree",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Stinkbug",
+		"price": 120,
+		"time": "All day",
+		"location": "Flowers",
+		"nSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "mar - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "sep - apr"
+		}
+	},
+	{
+		"name": "Tarantula",
+		"price": 8000,
+		"time": "7 PM - 4 AM",
+		"location": "Ground",
+		"nSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "nov - apr"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "may - oct"
+		}
+	},
+	{
+		"name": "Tiger Beetle",
+		"price": 1500,
+		"time": "All day",
+		"location": "Ground",
+		"nSeasonality": {
+			"activeMonths": [
+				"feb",
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "feb - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"aug",
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb"
+			],
+			"displayMonths": "aug - feb"
+		}
+	},
+	{
+		"name": "Tiger Butterfly",
+		"price": 240,
+		"time": "4 AM - 7 PM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "mar - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "sep - mar"
+		}
+	},
+	{
+		"name": "Violin Beetle",
+		"price": 450,
+		"time": "All day",
+		"location": "Tree stump",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "may - jun, sep - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"nov",
+				"dec"
+			],
+			"displayMonths": "mar - may, nov - dec"
+		}
+	},
+	{
+		"name": "Walker Cicada",
+		"price": 400,
+		"time": "8 AM - 4 PM",
+		"location": "Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"aug",
+				"sep"
+			],
+			"displayMonths": "aug - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"feb",
+				"mar"
+			],
+			"displayMonths": "feb - mar"
+		}
+	},
+	{
+		"name": "Walking Leaf",
+		"price": 600,
+		"time": "All day",
+		"location": "Ground",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jul - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "jan - mar"
+		}
+	},
+	{
+		"name": "Walking Stick",
+		"price": 600,
+		"time": "4 AM - 8 AM, 5 PM to 7 PM",
+		"location": "Tree",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "jul - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "jan - may"
+		}
+	},
+	{
+		"name": "Wasp",
+		"price": 2500,
+		"time": "All day",
+		"location": "Shake tree",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Wharf Roach",
+		"price": 200,
+		"time": "All day",
+		"location": "Beach (rocks)",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Yellow Butterfly",
+		"price": 160,
+		"time": "4 AM - 7 PM",
+		"location": "Flying",
+		"nSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "mar - jun, sep - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "sep - dec, mar - apr"
+		}
+	}
+]

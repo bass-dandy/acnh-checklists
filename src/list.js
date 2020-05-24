@@ -8,12 +8,17 @@ module.exports = function List(props) {
 				id={props.id}
 				className="list"
 			>
-				{props.items.map((item) => (
-					<li data-item-id={item.id}>
+				{Object.keys(props.items).map((id) => (
+					<li data-item-id={id}>
 						<label>
 							<input type="checkbox"/>
-							{item.label}
+							{props.items[id].name}
 						</label>
+						{props.renderDetails ? (
+							<div className="list-item-details">
+								{props.renderDetails(props.items[id])}
+							</div>
+						) : null}
 					</li>
 				))}
 			</ol>
@@ -23,10 +28,10 @@ module.exports = function List(props) {
 
 module.exports.propTypes = {
 	id: PropTypes.string,
-	items: PropTypes.arrayOf(
+	items: PropTypes.objectOf(
 		PropTypes.shape({
-			id: PropTypes.string.isRequired,
-			label: PropTypes.string.isRequired
+			name: PropTypes.string.isRequired
 		}).isRequired
-	)
+	),
+	renderDetails: PropTypes.func
 };

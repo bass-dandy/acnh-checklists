@@ -1,0 +1,174 @@
+[
+	{
+		"name": "Academic Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Amazing Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Ancient Statue",
+		"type": "statue"
+	},
+	{
+		"name": "Basic Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Beautiful Statue",
+		"type": "statue"
+	},
+	{
+		"name": "Calm Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Common Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Detailed Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Dynamic Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Familiar Statue",
+		"type": "statue"
+	},
+	{
+		"name": "Famous Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Flowery Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Gallant Statue",
+		"type": "statue"
+	},
+	{
+		"name": "Glowing Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Graceful Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Great Statue",
+		"type": "statue"
+	},
+	{
+		"name": "Informative Statue",
+		"type": "statue"
+	},
+	{
+		"name": "Jolly Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Moody Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Motherly Statue",
+		"type": "statue"
+	},
+	{
+		"name": "Moving Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Mysterious Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Mystic Statue",
+		"type": "statue"
+	},
+	{
+		"name": "Nice Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Perfect Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Proper Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Quaint Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Robust Statue",
+		"type": "statue"
+	},
+	{
+		"name": "Rock-head Statue",
+		"type": "statue"
+	},
+	{
+		"name": "Scary Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Scenic Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Serene Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Sinking Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Solemn Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Tremendous Statue",
+		"type": "statue"
+	},
+	{
+		"name": "Twinkling Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Valiant Statue",
+		"type": "statue"
+	},
+	{
+		"name": "Warm Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Warrior Statue",
+		"type": "statue"
+	},
+	{
+		"name": "Wild Painting Left Half",
+		"type": "painting"
+	},
+	{
+		"name": "Wild Painting Right Half",
+		"type": "painting"
+	},
+	{
+		"name": "Wistful Painting",
+		"type": "painting"
+	},
+	{
+		"name": "Worthy Painting",
+		"type": "painting"
+	}
+]

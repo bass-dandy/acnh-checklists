@@ -1,0 +1,194 @@
+[
+	{
+		"name": "Cosmos (Black)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Cosmos (Orange)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Cosmos (Pink)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Cosmos (Red)"
+	},
+	{
+		"name": "Cosmos (White)"
+	},
+	{
+		"name": "Cosmos (Yellow)"
+	},
+	{
+		"name": "Hyacinths (Blue)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Hyacinths (Orange)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Hyacinths (Pink)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Hyacinths (Purple)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Hyacinths (Red)"
+	},
+	{
+		"name": "Hyacinths (White)"
+	},
+	{
+		"name": "Hyacinths (Yellow)"
+	},
+	{
+		"name": "Lilies (Black)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Lilies (Orange)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Lilies (Pink)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Lilies (Red)"
+	},
+	{
+		"name": "Lilies (White)"
+	},
+	{
+		"name": "Lilies (Yellow)"
+	},
+	{
+		"name": "Lily-of-the-valley",
+		"conditions": "★★★★★ Island Eval"
+	},
+	{
+		"name": "Mums (Green)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Mums (Pink)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Mums (Purple)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Mums (Red)"
+	},
+	{
+		"name": "Mums (White)"
+	},
+	{
+		"name": "Mums (Yellow)"
+	},
+	{
+		"name": "Pansies (Blue)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Pansies (Orange)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Pansies (Purple)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Pansies (Red)"
+	},
+	{
+		"name": "Pansies (White)"
+	},
+	{
+		"name": "Pansies (Yellow)"
+	},
+	{
+		"name": "Roses (Black)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Roses (Blue)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Roses (Gold)",
+		"conditions": "Golden Watering Can"
+	},
+	{
+		"name": "Roses (Orange)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Roses (Pink)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Roses (Purple)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Roses (Red)"
+	},
+	{
+		"name": "Roses (White)"
+	},
+	{
+		"name": "Roses (Yellow)"
+	},
+	{
+		"name": "Tulips (Black)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Tulips (Orange)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Tulips (Pink)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Tulips (Purple)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Tulips (Red)"
+	},
+	{
+		"name": "Tulips (White)"
+	},
+	{
+		"name": "Tulips (Yellow)"
+	},
+	{
+		"name": "Windflowers (Blue)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Windflowers (Orange)"
+	},
+	{
+		"name": "Windflowers (Pink)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Windflowers (Purple)",
+		"conditions": "Hybrid"
+	},
+	{
+		"name": "Windflowers (Red)"
+	},
+	{
+		"name": "Windflowers (White)"
+	}
+]

@@ -1,0 +1,1947 @@
+[
+	{
+		"name": "Anchovy",
+		"price": 200,
+		"time": "4 AM - 9 PM",
+		"size": "Small",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Angelfish",
+		"price": 3000,
+		"time": "4 PM - 9 AM",
+		"size": "Small",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "may - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "nov - apr"
+		}
+	},
+	{
+		"name": "Arapaima",
+		"price": 10000,
+		"time": "4 PM - 9 AM.",
+		"size": "Largest",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		}
+	},
+	{
+		"name": "Arowana",
+		"price": 10000,
+		"time": "4 PM - 9 AM",
+		"size": "Large",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		}
+	},
+	{
+		"name": "Barred Knifejaw",
+		"price": 5000,
+		"time": "All day",
+		"size": "Medium",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "mar - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "sep - may"
+		}
+	},
+	{
+		"name": "Barreleye",
+		"price": 15000,
+		"time": "9 PM - 4 AM",
+		"size": "Small",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Betta",
+		"price": 2500,
+		"time": "9 AM - 4 PM",
+		"size": "Small",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "may - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "nov - apr"
+		}
+	},
+	{
+		"name": "Bitterling",
+		"price": 900,
+		"time": "All day",
+		"size": "Smallest",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "nov - mar"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "may - sep"
+		}
+	},
+	{
+		"name": "Black Bass",
+		"price": 400,
+		"time": "All day",
+		"size": "Large",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Blowfish",
+		"price": 5000,
+		"time": "9 PM - 4 AM",
+		"size": "Medium",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb"
+			],
+			"displayMonths": "nov - feb"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "may - nov"
+		}
+	},
+	{
+		"name": "Blue Marlin",
+		"price": 10000,
+		"time": "All day",
+		"size": "Extra Large",
+		"location": "Pier",
+		"nSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "nov - apr, jul - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "may - oct, jan - mar"
+		}
+	},
+	{
+		"name": "Bluegill",
+		"price": 180,
+		"time": "9 AM - 4 PM",
+		"size": "Small",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Butterfly Fish",
+		"price": 1000,
+		"time": "All day",
+		"size": "Small",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "apr - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "oct - mar"
+		}
+	},
+	{
+		"name": "Carp",
+		"price": 300,
+		"time": "All day",
+		"size": "Large",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Catfish",
+		"price": 800,
+		"time": "4 PM - 9 AM",
+		"size": "Large",
+		"location": "Pond",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "may - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "nov - apr"
+		}
+	},
+	{
+		"name": "Char",
+		"price": 3800,
+		"time": "4 PM - 9 AM",
+		"size": "Medium",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "mar - jun, sep - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "sep - dec, mar - may"
+		}
+	},
+	{
+		"name": "Cherry Salmon",
+		"price": 1000,
+		"time": "All day",
+		"size": "Medium",
+		"location": "River (Clifftop)",
+		"nSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "mar - jun, sep - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "sep - dec, mar - may"
+		}
+	},
+	{
+		"name": "Clown Fish",
+		"price": 650,
+		"time": "All day",
+		"size": "Smallest",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "apr - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "oct - mar"
+		}
+	},
+	{
+		"name": "Coelacanth",
+		"price": 15000,
+		"time": "All day",
+		"size": "Largest",
+		"location": "Ocean (Rain)",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Crawfish",
+		"price": 200,
+		"time": "All day",
+		"size": "Small",
+		"location": "Pond",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "apr - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "oct - mar"
+		}
+	},
+	{
+		"name": "Crucian Carp",
+		"price": 160,
+		"time": "All day",
+		"size": "Small",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Dab",
+		"price": 300,
+		"time": "All day",
+		"size": "Medium",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "oct - apr"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "apr - oct"
+		}
+	},
+	{
+		"name": "Dace",
+		"price": 240,
+		"time": "4 PM - 9 AM",
+		"size": "Medium",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Dorado",
+		"price": 15000,
+		"time": "4 AM - 9 PM",
+		"size": "Extra Large",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		}
+	},
+	{
+		"name": "Football Fish",
+		"price": 2500,
+		"time": "4 PM - 9 AM",
+		"size": "Large",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "nov - mar"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "may - sep"
+		}
+	},
+	{
+		"name": "Freshwater Goby",
+		"price": 400,
+		"time": "4 PM - 9 AM",
+		"size": "Small",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Frog",
+		"price": 120,
+		"time": "All day",
+		"size": "Small",
+		"location": "Pond",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug"
+			],
+			"displayMonths": "may - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb"
+			],
+			"displayMonths": "nov - feb"
+		}
+	},
+	{
+		"name": "Gar",
+		"price": 6000,
+		"time": "4 PM - 9 AM",
+		"size": "Largest",
+		"location": "Pond",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		}
+	},
+	{
+		"name": "Giant Snakehead",
+		"price": 5500,
+		"time": "9 AM - 4 PM",
+		"size": "Extra Large",
+		"location": "Pond",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jun - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb"
+			],
+			"displayMonths": "dec - feb"
+		}
+	},
+	{
+		"name": "Giant Trevally",
+		"price": 4500,
+		"time": "All day",
+		"size": "Large",
+		"location": "Pier",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "may - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "nov - apr"
+		}
+	},
+	{
+		"name": "Golden Trout",
+		"price": 15000,
+		"time": "4 PM - 9 AM",
+		"size": "Medium",
+		"location": "River (Clifftop)",
+		"nSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "mar - may, sep - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "mar - may, sep - nov"
+		}
+	},
+	{
+		"name": "Goldfish",
+		"price": 1300,
+		"time": "All day",
+		"size": "Smallest",
+		"location": "Pond",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Great White Shark",
+		"price": 15000,
+		"time": "4 PM - 9 AM",
+		"size": "Largest (Fin)",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		}
+	},
+	{
+		"name": "Guppy",
+		"price": 1300,
+		"time": "9 AM - 4 PM",
+		"size": "Smallest",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "apr - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "oct - may"
+		}
+	},
+	{
+		"name": "Hammerhead Shark",
+		"price": 8000,
+		"time": "4 PM - 9 AM",
+		"size": "Largest (Fin)",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		}
+	},
+	{
+		"name": "Horse Mackerel",
+		"price": 150,
+		"time": "All day",
+		"size": "Small",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Killifish",
+		"price": 300,
+		"time": "All day",
+		"size": "Smallest",
+		"location": "Pond",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug"
+			],
+			"displayMonths": "apr - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb"
+			],
+			"displayMonths": "dec - feb"
+		}
+	},
+	{
+		"name": "King Salmon",
+		"price": 1800,
+		"time": "All day",
+		"size": "Smallest",
+		"location": "River (Mouth)",
+		"nSeasonality": {
+			"activeMonths": [
+				"sep"
+			],
+			"displayMonths": "sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"mar"
+			],
+			"displayMonths": "mar"
+		}
+	},
+	{
+		"name": "Koi",
+		"price": 4000,
+		"time": "4 PM - 9 AM",
+		"size": "Large",
+		"location": "Pond",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Loach",
+		"price": 400,
+		"time": "All day",
+		"size": "Small",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "mar - may"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "sep - nov"
+		}
+	},
+	{
+		"name": "Mahi-mahi",
+		"price": 2000,
+		"time": "All day",
+		"size": "Large",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "may - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "nov - apr"
+		}
+	},
+	{
+		"name": "Mitten Crab",
+		"price": 2000,
+		"time": "4 PM - 9 AM",
+		"size": "Small",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "sep - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "mar - may"
+		}
+	},
+	{
+		"name": "Moray Eel",
+		"price": 2000,
+		"time": "All day",
+		"size": "Extra Large",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "aug - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "feb - apr"
+		}
+	},
+	{
+		"name": "Napoleonfish",
+		"price": 2000,
+		"time": "All day",
+		"size": "Largest",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jul - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jan - feb"
+		}
+	},
+	{
+		"name": "Neon Tetra",
+		"price": 500,
+		"time": "4 AM - 4 PM",
+		"size": "Smallest",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "apr - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "oct - may"
+		}
+	},
+	{
+		"name": "Nibble Fish",
+		"price": 1500,
+		"time": "9 AM - 4 PM",
+		"size": "Small",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "may - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "nov - mar"
+		}
+	},
+	{
+		"name": "Oarfish",
+		"price": 9000,
+		"time": "All day",
+		"size": "Largest",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "dec - may"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "jun - nov"
+		}
+	},
+	{
+		"name": "Ocean Sunfish",
+		"price": 4000,
+		"time": "4 AM - 9 PM",
+		"size": "Largest (Fin)",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jul - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "jan - mar"
+		}
+	},
+	{
+		"name": "Olive Flounder",
+		"price": 800,
+		"time": "All day",
+		"size": "Large",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Pale Chub",
+		"price": 200,
+		"time": "9 AM - 4 PM",
+		"size": "Smallest",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Pike",
+		"price": 1800,
+		"time": "All day",
+		"size": "Extra Large",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec"
+			],
+			"displayMonths": "sep - dec"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun"
+			],
+			"displayMonths": "mar - jun"
+		}
+	},
+	{
+		"name": "Piranha",
+		"price": 2500,
+		"time": "9 AM - 4 PM\n4 AM - 9 PM",
+		"size": "Small",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		}
+	},
+	{
+		"name": "Pond Smelt",
+		"price": 320,
+		"time": "All day",
+		"size": "Small",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb"
+			],
+			"displayMonths": "dec - feb"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug"
+			],
+			"displayMonths": "jun - aug"
+		}
+	},
+	{
+		"name": "Pop-eyed Goldfish",
+		"price": 1300,
+		"time": "9 AM - 4 PM",
+		"size": "Smallest",
+		"location": "Pond",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Puffer Fish",
+		"price": 250,
+		"time": "All day",
+		"size": "Medium",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jul - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "jan - mar"
+		}
+	},
+	{
+		"name": "Rainbowfish",
+		"price": 800,
+		"time": "9 AM - 4 PM",
+		"size": "Small",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "may - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "nov - apr"
+		}
+	},
+	{
+		"name": "Ranchu Goldfish",
+		"price": 4500,
+		"time": "9 AM - 4 PM",
+		"size": "Small",
+		"location": "Pond",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Ray",
+		"price": 3000,
+		"time": "4 AM - 9 PM",
+		"size": "Extra Large",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "aug - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"feb",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "feb - may"
+		}
+	},
+	{
+		"name": "Red Snapper",
+		"price": 3000,
+		"time": "All day",
+		"size": "Large",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Ribbon Eel",
+		"price": 600,
+		"time": "All day",
+		"size": "Narrow",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "jul - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "jan - apr"
+		}
+	},
+	{
+		"name": "Saddled Bichir",
+		"price": 4000,
+		"time": "9 PM - 4 AM",
+		"size": "Large",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		}
+	},
+	{
+		"name": "Salmon",
+		"price": 700,
+		"time": "All day",
+		"size": "Small",
+		"location": "River (Mouth)",
+		"nSeasonality": {
+			"activeMonths": [
+				"sep"
+			],
+			"displayMonths": "sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"mar"
+			],
+			"displayMonths": "mar"
+		}
+	},
+	{
+		"name": "Saw Shark",
+		"price": 3750,
+		"time": "4 PM - 9 AM",
+		"size": "Largest (Fin)",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		}
+	},
+	{
+		"name": "Sea Bass",
+		"price": 400,
+		"time": "All day",
+		"size": "Extra Large",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		},
+		"sSeasonality": {
+			"activeMonths": null,
+			"displayMonths": "all year"
+		}
+	},
+	{
+		"name": "Sea Butterfly",
+		"price": 1000,
+		"time": "All day",
+		"size": "Smallest",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		}
+	},
+	{
+		"name": "Sea Horse",
+		"price": 1100,
+		"time": "All day",
+		"size": "Smallest",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "apr - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "oct - may"
+		}
+	},
+	{
+		"name": "Snapping Turtle",
+		"price": 5000,
+		"time": "9 AM - 4 PM",
+		"size": "Extra Large",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "apr - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "oct - apr"
+		}
+	},
+	{
+		"name": "Soft-shelled Turtle",
+		"price": 12000,
+		"time": "4 PM - 9 AM",
+		"size": "Large",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"aug",
+				"sep"
+			],
+			"displayMonths": "aug - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"feb",
+				"mar"
+			],
+			"displayMonths": "feb - mar"
+		}
+	},
+	{
+		"name": "Squid",
+		"price": 500,
+		"time": "All day",
+		"size": "Medium",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug"
+			],
+			"displayMonths": "dec - aug"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb"
+			],
+			"displayMonths": "jun - feb"
+		}
+	},
+	{
+		"name": "Stringfish",
+		"price": 15000,
+		"time": "4 PM - 9 AM",
+		"size": "Largest",
+		"location": "River (Clifftop)",
+		"nSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		}
+	},
+	{
+		"name": "Sturgeon",
+		"price": 10000,
+		"time": "All day",
+		"size": "Largest",
+		"location": "River (Mouth)",
+		"nSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "sep - mar"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "mar - sep"
+		}
+	},
+	{
+		"name": "Suckerfish",
+		"price": 1500,
+		"time": "All day",
+		"size": "(Fin)",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		}
+	},
+	{
+		"name": "Surgeonfish",
+		"price": 1000,
+		"time": "All Day",
+		"size": "Small",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "apr - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "oct - mar"
+		}
+	},
+	{
+		"name": "Sweetfish",
+		"price": 900,
+		"time": "All day",
+		"size": "Medium",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jul - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "jan - mar"
+		}
+	},
+	{
+		"name": "Tadpole",
+		"price": 100,
+		"time": "All day",
+		"size": "Smallest",
+		"location": "Pond",
+		"nSeasonality": {
+			"activeMonths": [
+				"mar",
+				"apr",
+				"may",
+				"jun",
+				"jul"
+			],
+			"displayMonths": "mar - jul"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"sep",
+				"oct",
+				"nov",
+				"dec",
+				"jan"
+			],
+			"displayMonths": "sep - jan"
+		}
+	},
+	{
+		"name": "Tilapia",
+		"price": 800,
+		"time": "All day",
+		"size": "Medium",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "jun - oct"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "dec - apr"
+		}
+	},
+	{
+		"name": "Tuna",
+		"price": 7000,
+		"time": "All day",
+		"size": "Extra Large",
+		"location": "Pier",
+		"nSeasonality": {
+			"activeMonths": [
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr"
+			],
+			"displayMonths": "nov - apr"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct"
+			],
+			"displayMonths": "may - oct"
+		}
+	},
+	{
+		"name": "Whale Shark",
+		"price": 13000,
+		"time": "All day",
+		"size": "Largest (Fin)",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "jun - sep"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "dec - mar"
+		}
+	},
+	{
+		"name": "Yellow Perch",
+		"price": 300,
+		"time": "All day",
+		"size": "Medium",
+		"location": "River",
+		"nSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar"
+			],
+			"displayMonths": "oct - mar"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep"
+			],
+			"displayMonths": "apr - sep"
+		}
+	},
+	{
+		"name": "Zebra Turkeyfish",
+		"price": 500,
+		"time": "All day",
+		"size": "Medium",
+		"location": "Ocean",
+		"nSeasonality": {
+			"activeMonths": [
+				"apr",
+				"may",
+				"jun",
+				"jul",
+				"aug",
+				"sep",
+				"oct",
+				"nov"
+			],
+			"displayMonths": "apr - nov"
+		},
+		"sSeasonality": {
+			"activeMonths": [
+				"oct",
+				"nov",
+				"dec",
+				"jan",
+				"feb",
+				"mar",
+				"apr",
+				"may"
+			],
+			"displayMonths": "oct - may"
+		}
+	}
+]

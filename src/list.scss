@@ -28,6 +28,14 @@
 				z-index: 1;
 			}
 
+			.list-item-details {
+				position: absolute;
+				right: 10px;
+				top: 50%;
+				transform: translateY(-50%);
+				font-size: 1rem;
+			}
+
 			&:hover {
 				transform: scale(1.03);
 			}

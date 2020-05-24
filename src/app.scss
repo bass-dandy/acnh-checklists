@@ -2,11 +2,17 @@
 @use './night-mode-toggle';
 @use './list';
 @use './tab-panel';
+@use './tabs';
 @use './colors';
 
 @font-face {
   font-family: "humming";
-  src: url("humming.otf");
+  src: url("humming.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "bells";
+  src: url("bells.woff") format("woff");
 }
 
 * {

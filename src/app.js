@@ -4,13 +4,7 @@ const ReactDOM = require('react-dom/server');
 const Background = require('./background');
 const TabPanel = require('./tab-panel');
 const NightModeToggle = require('./night-mode-toggle');
-
-const Fish = require('./fish');
-const Bugs = require('./bugs');
-const Fossils = require('./fossils');
-const Art = require('./art');
-const Songs = require('./songs');
-const Flowers = require('./flowers');
+const {Fish, Bugs, Fossils, Art, Songs, Flowers} = require('./tabs');
 
 const TABS = [{
 	id: 'fish',
