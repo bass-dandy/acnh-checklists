@@ -61,7 +61,8 @@ module.exports = `
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="icon" type="image/png" href="favicon.png">
 			<link rel="stylesheet" href="style.css">
-			<script type="text/javascript" src="script.js" defer></script>
+			<script type="module" src="data.js"></script>
+			<script type="module" src="script.js" defer></script>
 		</head>
 		<body>
 			${ReactDOM.renderToStaticMarkup(<App/>)}

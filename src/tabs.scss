@@ -1,3 +1,5 @@
+@use './colors';
+
 .price-tag {
 	font-size: 1rem;
 
@@ -8,4 +10,28 @@
 		font-family: "bells";
 		font-size: 1.2rem;
 	}
+}
+
+.filter-group {
+	display: flex;
+	align-items: center;
+
+	*:not(last-child) {
+		margin-right: 5px;
+	}
+	select {
+		font-family: "Comic Sans MS";
+		text-transform: capitalize;
+	}
+	option {
+		text-transform: capitalize;
+	}
+}
+
+.new-this-month {
+	color: colors.$text-green;
+}
+
+.leaving-this-month {
+	color: colors.$text-orange;
 }

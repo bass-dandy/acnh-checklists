@@ -1,3 +1,5 @@
+import * as data from './data.js';
+
 (() => {
 	// init night mode toggle
 	const nightModeToggle = document.querySelector('#night-mode-toggle');
@@ -56,6 +58,75 @@
 				item.setAttribute('data-checked', e.target.checked);
 				localStorage.setItem(itemId, e.target.checked);
 			});
+		});
+	});
+
+	// init filtering
+	const fishData = JSON.parse(data.fish);
+	const fishItems = document.querySelectorAll('.tab-panel-content[data-tab-id="fish"] ul li');
+	const fishFilterState = {};
+
+	const filterFish = () => {
+		fishItems.forEach((item) => {
+			item.classList.remove('filtered', 'new-this-month', 'leaving-this-month');
+
+			if (!fishFilterState.month) {
+				// show all fish
+				return;
+			} else {
+				const itemData = fishData[item.dataset.itemId];
+
+				const {activeMonths, displayMonths} = fishFilterState.hemisphere === 'n'
+					? itemData.nSeasonality
+					: itemData.sSeasonality;
+
+				if (!activeMonths || activeMonths.includes(fishFilterState.month)) {
+					// available this month
+					const newThisMonth = displayMonths.split(',').some((range) => {
+						return range.trim().startsWith(fishFilterState.month);
+					});
+					const leavingThisMonth = displayMonths.split(',').some((range) => {
+						return range.trim().endsWith(fishFilterState.month);
+					});
+
+					// leaving takes precedence over new
+					if (leavingThisMonth) {
+						item.classList.add('leaving-this-month');
+					} else if (newThisMonth) {
+						item.classList.add('new-this-month');
+					}
+
+					if (fishFilterState.isNew && fishFilterState.isLeaving) {
+						if (!newThisMonth && !leavingThisMonth) {
+							item.classList.add('filtered');
+						}
+					} else if (fishFilterState.isNew && !newThisMonth) {
+						item.classList.add('filtered');
+					} else if (fishFilterState.isLeaving && !leavingThisMonth) {
+						item.classList.add('filtered');
+					}
+				} else {
+					// not available this month
+					item.classList.add('filtered');
+				}
+			}
+		});
+	};
+
+	const controls =
+		document.querySelectorAll('.tab-panel-content[data-tab-id="fish"] *[data-filter-id]');
+
+	controls.forEach((control) => {
+		fishFilterState[control.dataset.filterId] = control.type === 'checkbox'
+			? control.checked
+			: control.value;
+
+		control.addEventListener('change', (e) => {
+			fishFilterState[control.dataset.filterId] = e.target.type === 'checkbox'
+				? e.target.checked
+				: e.target.value;
+
+			filterFish();
 		});
 	});
 })();

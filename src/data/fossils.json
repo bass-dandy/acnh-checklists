@@ -1,294 +1,294 @@
-[
-	{
+{
+	"acanthostega": {
 		"name": "Acanthostega",
 		"price": 2000
 	},
-	{
+	"amber": {
 		"name": "Amber",
 		"price": 1200
 	},
-	{
+	"ammonite": {
 		"name": "Ammonite",
 		"price": 1100
 	},
-	{
+	"ankylo_skull": {
 		"name": "Ankylo Skull",
 		"price": 3500
 	},
-	{
+	"ankylo_tail": {
 		"name": "Ankylo Tail",
 		"price": 2500
 	},
-	{
+	"ankylo_torso": {
 		"name": "Ankylo Torso",
 		"price": 3000
 	},
-	{
+	"anomalocaris": {
 		"name": "Anomalocaris",
 		"price": 2000
 	},
-	{
+	"archaeopteryx": {
 		"name": "Archaeopteryx",
 		"price": 1300
 	},
-	{
+	"archelon_skull": {
 		"name": "Archelon Skull",
 		"price": 4000
 	},
-	{
+	"archelon_tail": {
 		"name": "Archelon Tail",
 		"price": 3500
 	},
-	{
+	"australopith": {
 		"name": "Australopith",
 		"price": 1100
 	},
-	{
+	"brachio_chest": {
 		"name": "Brachio Chest",
 		"price": 5500
 	},
-	{
+	"brachio_pelvis": {
 		"name": "Brachio Pelvis",
 		"price": 5000
 	},
-	{
+	"brachio_skull": {
 		"name": "Brachio Skull",
 		"price": 6000
 	},
-	{
+	"brachio_tail": {
 		"name": "Brachio Tail",
 		"price": 5500
 	},
-	{
+	"coprolite": {
 		"name": "Coprolite",
 		"price": 1100
 	},
-	{
+	"deinony_tail": {
 		"name": "Deinony Tail",
 		"price": 2500
 	},
-	{
+	"deinony_torso": {
 		"name": "Deinony Torso",
 		"price": 3000
 	},
-	{
+	"dimetrodon_skull": {
 		"name": "Dimetrodon Skull",
 		"price": 5500
 	},
-	{
+	"dimetrodon_torso": {
 		"name": "Dimetrodon Torso",
 		"price": 5000
 	},
-	{
+	"dinosaur_track": {
 		"name": "Dinosaur Track",
 		"price": 1000
 	},
-	{
+	"diplo_chest": {
 		"name": "Diplo Chest",
 		"price": 4000
 	},
-	{
+	"diplo_neck": {
 		"name": "Diplo Neck",
 		"price": 4500
 	},
-	{
+	"diplo_pelvis": {
 		"name": "Diplo Pelvis",
 		"price": 4500
 	},
-	{
+	"diplo_skull": {
 		"name": "Diplo Skull",
 		"price": 5000
 	},
-	{
+	"diplo_tail": {
 		"name": "Diplo Tail",
 		"price": 4500
 	},
-	{
+	"diplo_tail_tip": {
 		"name": "Diplo Tail Tip",
 		"price": 4000
 	},
-	{
+	"dunkleosteus": {
 		"name": "Dunkleosteus",
 		"price": 3500
 	},
-	{
+	"eusthenopteron": {
 		"name": "Eusthenopteron",
 		"price": 2000
 	},
-	{
+	"iguanodon_skull": {
 		"name": "Iguanodon Skull",
 		"price": 4000
 	},
-	{
+	"iguanodon_tail": {
 		"name": "Iguanodon Tail",
 		"price": 3000
 	},
-	{
+	"iguanodon_torso": {
 		"name": "Iguanodon Torso",
 		"price": 3500
 	},
-	{
+	"juramaia": {
 		"name": "Juramaia",
 		"price": 1500
 	},
-	{
+	"left_megalo_side": {
 		"name": "Left Megalo Side",
 		"price": 4000
 	},
-	{
+	"left_ptera_wing": {
 		"name": "Left Ptera Wing",
 		"price": 4500
 	},
-	{
+	"left_quetzal_wing": {
 		"name": "Left Quetzal Wing",
 		"price": 5000
 	},
-	{
+	"mammoth_skull": {
 		"name": "Mammoth Skull",
 		"price": 3000
 	},
-	{
+	"mammoth_torso": {
 		"name": "Mammoth Torso",
 		"price": 2500
 	},
-	{
+	"megacero_skull": {
 		"name": "Megacero Skull",
 		"price": 4500
 	},
-	{
+	"megacero_tail": {
 		"name": "Megacero Tail",
 		"price": 3000
 	},
-	{
+	"megacero_torso": {
 		"name": "Megacero Torso",
 		"price": 3500
 	},
-	{
+	"myllokunmingia": {
 		"name": "Myllokunmingia",
 		"price": 1500
 	},
-	{
+	"ophthalmo_skull": {
 		"name": "Ophthalmo Skull",
 		"price": 2500
 	},
-	{
+	"ophthalmo_torso": {
 		"name": "Ophthalmo Torso",
 		"price": 2000
 	},
-	{
+	"pachy_skull": {
 		"name": "Pachy Skull",
 		"price": 4000
 	},
-	{
+	"pachy_tail": {
 		"name": "Pachy Tail",
 		"price": 3000
 	},
-	{
+	"parasaur_skull": {
 		"name": "Parasaur Skull",
 		"price": 3500
 	},
-	{
+	"parasaur_tail": {
 		"name": "Parasaur Tail",
 		"price": 2500
 	},
-	{
+	"parasaur_torso": {
 		"name": "Parasaur Torso",
 		"price": 3000
 	},
-	{
+	"plesio_body": {
 		"name": "Plesio Body",
 		"price": 4500
 	},
-	{
+	"plesio_skull": {
 		"name": "Plesio Skull",
 		"price": 4000
 	},
-	{
+	"plesio_tail": {
 		"name": "Plesio Tail",
 		"price": 4500
 	},
-	{
+	"ptera_body": {
 		"name": "Ptera Body",
 		"price": 4000
 	},
-	{
+	"quetzal_torso": {
 		"name": "Quetzal Torso",
 		"price": 4500
 	},
-	{
+	"right_megalo_side": {
 		"name": "Right Megalo Side",
 		"price": 5500
 	},
-	{
+	"right_ptera_wing": {
 		"name": "Right Ptera Wing",
 		"price": 4500
 	},
-	{
+	"right_quetzal_wing": {
 		"name": "Right Quetzal Wing",
 		"price": 5000
 	},
-	{
+	"sabertooth_skull": {
 		"name": "Sabertooth Skull",
 		"price": 2500
 	},
-	{
+	"sabertooth_tail": {
 		"name": "Sabertooth Tail",
 		"price": 2000
 	},
-	{
+	"shark_tooth_pattern": {
 		"name": "Shark-Tooth Pattern",
 		"price": 1000
 	},
-	{
+	"spino_skull": {
 		"name": "Spino Skull",
 		"price": 4000
 	},
-	{
+	"spino_tail": {
 		"name": "Spino Tail",
 		"price": 2500
 	},
-	{
+	"spino_torso": {
 		"name": "Spino Torso",
 		"price": 3000
 	},
-	{
+	"stego_skull": {
 		"name": "Stego Skull",
 		"price": 5000
 	},
-	{
+	"stego_tail": {
 		"name": "Stego Tail",
 		"price": 4000
 	},
-	{
+	"stego_torso": {
 		"name": "Stego Torso",
 		"price": 4500
 	},
-	{
+	"t_rex_skull": {
 		"name": "T. Rex Skull",
 		"price": 6000
 	},
-	{
+	"t_rex_tail": {
 		"name": "T. Rex Tail",
 		"price": 5000
 	},
-	{
+	"t_rex_torso": {
 		"name": "T. Rex Torso",
 		"price": 5500
 	},
-	{
+	"tricera_skull": {
 		"name": "Tricera Skull",
 		"price": 5500
 	},
-	{
+	"tricera_tail": {
 		"name": "Tricera Tail",
 		"price": 4500
 	},
-	{
+	"tricera_torso": {
 		"name": "Tricera Torso",
 		"price": 5000
 	},
-	{
+	"trilobite": {
 		"name": "Trilobite",
 		"price": 1300
 	}
-]
+}

@@ -1,5 +1,5 @@
-[
-	{
+{
+	"agrias_butterfly": {
 		"name": "Agrias Butterfly",
 		"price": 3000,
 		"time": "8 AM - 5 PM",
@@ -27,7 +27,7 @@
 			"displayMonths": "oct - mar"
 		}
 	},
-	{
+	"ant": {
 		"name": "Ant",
 		"price": 80,
 		"time": "All day",
@@ -41,7 +41,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"atlas_moth": {
 		"name": "Atlas Moth",
 		"price": 3000,
 		"time": "7 PM - 4 AM",
@@ -69,7 +69,7 @@
 			"displayMonths": "oct - mar"
 		}
 	},
-	{
+	"bagworm": {
 		"name": "Bagworm",
 		"price": 600,
 		"time": "All day",
@@ -83,7 +83,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"banded_dragonfly": {
 		"name": "Banded Dragonfly",
 		"price": 4500,
 		"time": "8 AM - 5 PM",
@@ -111,7 +111,7 @@
 			"displayMonths": "nov - apr"
 		}
 	},
-	{
+	"bell_cricket": {
 		"name": "Bell Cricket",
 		"price": 430,
 		"time": "5 PM - 8 AM",
@@ -131,7 +131,7 @@
 			"displayMonths": "mar - apr"
 		}
 	},
-	{
+	"blue_weevil_beetle": {
 		"name": "Blue Weevil Beetle",
 		"price": 800,
 		"time": "All day",
@@ -151,7 +151,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"brown_cicada": {
 		"name": "Brown Cicada",
 		"price": 250,
 		"time": "8 AM - 5 PM",
@@ -171,7 +171,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"centipede": {
 		"name": "Centipede",
 		"price": 430,
 		"time": "5 PM - 11 PM",
@@ -207,7 +207,7 @@
 			"displayMonths": "mar - dec"
 		}
 	},
-	{
+	"cicada_shell": {
 		"name": "Cicada Shell",
 		"price": 10,
 		"time": "All day",
@@ -227,7 +227,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"citrus_long_horned_beetle": {
 		"name": "Citrus Long-Horned Beetle",
 		"price": 350,
 		"time": "All day",
@@ -241,7 +241,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"common_bluebottle": {
 		"name": "Common Bluebottle",
 		"price": 300,
 		"time": "4 AM - 7 PM",
@@ -267,7 +267,7 @@
 			"displayMonths": "oct - feb"
 		}
 	},
-	{
+	"common_butterfly": {
 		"name": "Common Butterfly",
 		"price": 160,
 		"time": "4 AM - 7 PM",
@@ -303,7 +303,7 @@
 			"displayMonths": "mar - dec"
 		}
 	},
-	{
+	"cricket": {
 		"name": "Cricket",
 		"price": 130,
 		"time": "5 PM - 8 AM",
@@ -325,7 +325,7 @@
 			"displayMonths": "mar - may"
 		}
 	},
-	{
+	"cyclommatus_stag": {
 		"name": "Cyclommatus Stag",
 		"price": 8000,
 		"time": "5 PM - 8 AM",
@@ -345,7 +345,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"damselfly": {
 		"name": "Damselfly",
 		"price": 500,
 		"time": "All day",
@@ -372,7 +372,7 @@
 			"displayMonths": "may - nov"
 		}
 	},
-	{
+	"darner_dragonfly": {
 		"name": "Darner Dragonfly",
 		"price": 230,
 		"time": "8 AM - 5 PM",
@@ -402,7 +402,7 @@
 			"displayMonths": "oct - apr"
 		}
 	},
-	{
+	"diving_beetle": {
 		"name": "Diving Beetle",
 		"price": 800,
 		"time": "8 AM - 7 PM",
@@ -428,7 +428,7 @@
 			"displayMonths": "nov - mar"
 		}
 	},
-	{
+	"drone_beetle": {
 		"name": "Drone Beetle",
 		"price": 200,
 		"time": "All day",
@@ -450,7 +450,7 @@
 			"displayMonths": "dec - feb"
 		}
 	},
-	{
+	"dung_beetle": {
 		"name": "Dung Beetle",
 		"price": 2500,
 		"time": "All day",
@@ -472,7 +472,7 @@
 			"displayMonths": "jun - aug"
 		}
 	},
-	{
+	"earth_boring_dung_beetle": {
 		"name": "Earth-Boring Dung Beetle",
 		"price": 300,
 		"time": "All day",
@@ -494,7 +494,7 @@
 			"displayMonths": "jan - mar"
 		}
 	},
-	{
+	"emperor_butterfly": {
 		"name": "Emperor Butterfly",
 		"price": 4000,
 		"time": "5 PM - 8 AM",
@@ -526,7 +526,7 @@
 			"displayMonths": "dec - mar, jun - sep"
 		}
 	},
-	{
+	"evening_cicada": {
 		"name": "Evening Cicada",
 		"price": 550,
 		"time": "8 AM - 5 PM",
@@ -546,7 +546,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"firefly": {
 		"name": "Firefly",
 		"price": 300,
 		"time": "7 PM - 4 AM",
@@ -564,7 +564,7 @@
 			"displayMonths": "dec"
 		}
 	},
-	{
+	"flea": {
 		"name": "Flea",
 		"price": 70,
 		"time": "All day",
@@ -596,7 +596,7 @@
 			"displayMonths": "oct - may"
 		}
 	},
-	{
+	"fly": {
 		"name": "Fly",
 		"price": 60,
 		"time": "All day",
@@ -610,7 +610,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"giant_cicada": {
 		"name": "Giant Cicada",
 		"price": 500,
 		"time": "8 AM - 5 PM",
@@ -630,7 +630,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"giant_stag": {
 		"name": "Giant Stag",
 		"price": 10000,
 		"time": "11 PM - 8 AM",
@@ -650,7 +650,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"giant_water_bug": {
 		"name": "Giant Water Bug",
 		"price": 2000,
 		"time": "7 PM - 8 AM",
@@ -678,7 +678,7 @@
 			"displayMonths": "oct - mar"
 		}
 	},
-	{
+	"giraffe_stag": {
 		"name": "Giraffe Stag",
 		"price": 12000,
 		"time": "5 PM - 8 AM",
@@ -698,7 +698,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"golden_stag": {
 		"name": "Golden Stag",
 		"price": 12000,
 		"time": "5 PM - 8 AM",
@@ -718,7 +718,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"goliath_beetle": {
 		"name": "Goliath Beetle",
 		"price": 8000,
 		"time": "5 PM - 8 AM",
@@ -742,7 +742,7 @@
 			"displayMonths": "dec - mar"
 		}
 	},
-	{
+	"grasshopper": {
 		"name": "Grasshopper",
 		"price": 160,
 		"time": "8 AM - 5 PM",
@@ -764,7 +764,7 @@
 			"displayMonths": "jan - mar"
 		}
 	},
-	{
+	"great_purple_emperor": {
 		"name": "Great Purple Emperor",
 		"price": 3000,
 		"time": "4 AM - 7 PM",
@@ -788,7 +788,7 @@
 			"displayMonths": "nov - feb"
 		}
 	},
-	{
+	"hermit_crab": {
 		"name": "Hermit Crab",
 		"price": 1000,
 		"time": "7 PM - 8 AM",
@@ -802,7 +802,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"honeybee": {
 		"name": "Honeybee",
 		"price": 200,
 		"time": "8 AM - 5 PM",
@@ -828,7 +828,7 @@
 			"displayMonths": "sep - jan"
 		}
 	},
-	{
+	"horned_atlas": {
 		"name": "Horned Atlas",
 		"price": 8000,
 		"time": "5 PM - 8 AM",
@@ -848,7 +848,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"horned_dynastid": {
 		"name": "Horned Dynastid",
 		"price": 1350,
 		"time": "5 PM - 8 AM",
@@ -868,7 +868,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"horned_elephant": {
 		"name": "Horned Elephant",
 		"price": 8000,
 		"time": "5 PM - 8 AM",
@@ -888,7 +888,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"horned_hercules": {
 		"name": "Horned Hercules",
 		"price": 12000,
 		"time": "5 PM - 8 AM",
@@ -908,7 +908,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"jewel_beetle": {
 		"name": "Jewel Beetle",
 		"price": 2400,
 		"time": "All Day",
@@ -934,7 +934,7 @@
 			"displayMonths": "oct - feb"
 		}
 	},
-	{
+	"ladybug": {
 		"name": "Ladybug",
 		"price": 200,
 		"time": "8 AM - 5 PM",
@@ -960,7 +960,7 @@
 			"displayMonths": "sep - dec, apr"
 		}
 	},
-	{
+	"long_locust": {
 		"name": "Long Locust",
 		"price": 200,
 		"time": "8 AM - 7 PM",
@@ -992,7 +992,7 @@
 			"displayMonths": "oct - may"
 		}
 	},
-	{
+	"madagascan_sunset_moth": {
 		"name": "Madagascan Sunset Moth",
 		"price": 2500,
 		"time": "8 AM - 4 PM",
@@ -1020,7 +1020,7 @@
 			"displayMonths": "oct - mar"
 		}
 	},
-	{
+	"man_faced_stink_bug": {
 		"name": "Man-Faced Stink Bug",
 		"price": 1000,
 		"time": "7 PM - 8 AM",
@@ -1052,7 +1052,7 @@
 			"displayMonths": "sep - apr"
 		}
 	},
-	{
+	"mantis": {
 		"name": "Mantis",
 		"price": 430,
 		"time": "8 AM - 5 PM",
@@ -1086,7 +1086,7 @@
 			"displayMonths": "sep - may"
 		}
 	},
-	{
+	"migratory_locust": {
 		"name": "Migratory Locust",
 		"price": 200,
 		"time": "8 AM - 7 PM",
@@ -1110,7 +1110,7 @@
 			"displayMonths": "feb - may"
 		}
 	},
-	{
+	"miyama_stag": {
 		"name": "Miyama Stag",
 		"price": 1000,
 		"time": "All day",
@@ -1130,7 +1130,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"mole_cricket": {
 		"name": "Mole Cricket",
 		"price": 500,
 		"time": "All day",
@@ -1160,7 +1160,7 @@
 			"displayMonths": "may - nov"
 		}
 	},
-	{
+	"monarch_butterfly": {
 		"name": "Monarch Butterfly",
 		"price": 140,
 		"time": "4 AM - 5 PM",
@@ -1182,7 +1182,7 @@
 			"displayMonths": "mar - may"
 		}
 	},
-	{
+	"mosquito": {
 		"name": "Mosquito",
 		"price": 130,
 		"time": "5 PM - 4 AM",
@@ -1206,7 +1206,7 @@
 			"displayMonths": "dec - mar"
 		}
 	},
-	{
+	"moth": {
 		"name": "Moth",
 		"price": 130,
 		"time": "7 PM - 4 AM",
@@ -1220,7 +1220,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"orchid_mantis": {
 		"name": "Orchid Mantis",
 		"price": 2400,
 		"time": "8 AM - 5 PM",
@@ -1254,7 +1254,7 @@
 			"displayMonths": "sep - may"
 		}
 	},
-	{
+	"paper_kite_butterfly": {
 		"name": "Paper Kite Butterfly",
 		"price": 1000,
 		"time": "8 AM - 7 PM",
@@ -1268,7 +1268,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"peacock_butterfly": {
 		"name": "Peacock Butterfly",
 		"price": 2500,
 		"time": "4 AM - 7 PM",
@@ -1292,7 +1292,7 @@
 			"displayMonths": "sep - dec"
 		}
 	},
-	{
+	"pill_bug": {
 		"name": "Pill Bug",
 		"price": 250,
 		"time": "11 PM - 4 PM",
@@ -1328,7 +1328,7 @@
 			"displayMonths": "mar - dec"
 		}
 	},
-	{
+	"pondskater": {
 		"name": "Pondskater",
 		"price": 130,
 		"time": "8 AM - 7 PM",
@@ -1354,7 +1354,7 @@
 			"displayMonths": "nov - mar"
 		}
 	},
-	{
+	"queen_alexandras_birdwing": {
 		"name": "Queen Alexandra's Birdwing",
 		"price": 4000,
 		"time": "8 AM - 4 PM",
@@ -1380,7 +1380,7 @@
 			"displayMonths": "nov - mar"
 		}
 	},
-	{
+	"rainbow_stag": {
 		"name": "Rainbow Stag",
 		"price": 6000,
 		"time": "7 PM - 8 AM",
@@ -1404,7 +1404,7 @@
 			"displayMonths": "dec - mar"
 		}
 	},
-	{
+	"rajah_brookes_birdwing": {
 		"name": "Rajah Brooke's Birdwing",
 		"price": 2500,
 		"time": "8 AM - 5 PM",
@@ -1438,7 +1438,7 @@
 			"displayMonths": "jun - aug, oct - mar"
 		}
 	},
-	{
+	"red_dragonfly": {
 		"name": "Red Dragonfly",
 		"price": 180,
 		"time": "8 AM - 7 PM",
@@ -1458,7 +1458,7 @@
 			"displayMonths": "mar - apr"
 		}
 	},
-	{
+	"rice_grasshopper": {
 		"name": "Rice Grasshopper",
 		"price": 160,
 		"time": "8 AM - 7 PM",
@@ -1482,7 +1482,7 @@
 			"displayMonths": "feb - may"
 		}
 	},
-	{
+	"robust_cicada": {
 		"name": "Robust Cicada",
 		"price": 300,
 		"time": "8 AM - 5 PM",
@@ -1502,7 +1502,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"rosalia_batesi_beetle": {
 		"name": "Rosalia Batesi Beetle",
 		"price": 3000,
 		"time": "All day",
@@ -1522,7 +1522,7 @@
 			"displayMonths": "nov - dec"
 		}
 	},
-	{
+	"saw_stag": {
 		"name": "Saw Stag",
 		"price": 2000,
 		"time": "All day",
@@ -1542,7 +1542,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"scarab_beetle": {
 		"name": "Scarab Beetle",
 		"price": 10000,
 		"time": "11 PM - 8 AM",
@@ -1562,7 +1562,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"scorpion": {
 		"name": "Scorpion",
 		"price": 8000,
 		"time": "7 PM - 4 AM",
@@ -1588,7 +1588,7 @@
 			"displayMonths": "nov - mar"
 		}
 	},
-	{
+	"snail": {
 		"name": "Snail",
 		"price": 250,
 		"time": "All day",
@@ -1602,7 +1602,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"spider": {
 		"name": "Spider",
 		"price": 600,
 		"time": "7 PM - 8 AM",
@@ -1616,7 +1616,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"stinkbug": {
 		"name": "Stinkbug",
 		"price": 120,
 		"time": "All day",
@@ -1648,7 +1648,7 @@
 			"displayMonths": "sep - apr"
 		}
 	},
-	{
+	"tarantula": {
 		"name": "Tarantula",
 		"price": 8000,
 		"time": "7 PM - 4 AM",
@@ -1676,7 +1676,7 @@
 			"displayMonths": "may - oct"
 		}
 	},
-	{
+	"tiger_beetle": {
 		"name": "Tiger Beetle",
 		"price": 1500,
 		"time": "All day",
@@ -1708,7 +1708,7 @@
 			"displayMonths": "aug - feb"
 		}
 	},
-	{
+	"tiger_butterfly": {
 		"name": "Tiger Butterfly",
 		"price": 240,
 		"time": "4 AM - 7 PM",
@@ -1738,7 +1738,7 @@
 			"displayMonths": "sep - mar"
 		}
 	},
-	{
+	"violin_beetle": {
 		"name": "Violin Beetle",
 		"price": 450,
 		"time": "All day",
@@ -1764,7 +1764,7 @@
 			"displayMonths": "mar - may, nov - dec"
 		}
 	},
-	{
+	"walker_cicada": {
 		"name": "Walker Cicada",
 		"price": 400,
 		"time": "8 AM - 4 PM",
@@ -1784,7 +1784,7 @@
 			"displayMonths": "feb - mar"
 		}
 	},
-	{
+	"walking_leaf": {
 		"name": "Walking Leaf",
 		"price": 600,
 		"time": "All day",
@@ -1806,7 +1806,7 @@
 			"displayMonths": "jan - mar"
 		}
 	},
-	{
+	"walking_stick": {
 		"name": "Walking Stick",
 		"price": 600,
 		"time": "4 AM - 8 AM, 5 PM to 7 PM",
@@ -1832,7 +1832,7 @@
 			"displayMonths": "jan - may"
 		}
 	},
-	{
+	"wasp": {
 		"name": "Wasp",
 		"price": 2500,
 		"time": "All day",
@@ -1846,7 +1846,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"wharf_roach": {
 		"name": "Wharf Roach",
 		"price": 200,
 		"time": "All day",
@@ -1860,7 +1860,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"yellow_butterfly": {
 		"name": "Yellow Butterfly",
 		"price": 160,
 		"time": "4 AM - 7 PM",
@@ -1888,4 +1888,4 @@
 			"displayMonths": "sep - dec, mar - apr"
 		}
 	}
-]
+}

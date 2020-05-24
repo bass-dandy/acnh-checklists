@@ -4,7 +4,12 @@ const PropTypes = require('prop-types');
 module.exports = function List(props) {
 	return (
 		<div className="list-wrapper">
-			<ol
+			{props.renderFilters ? (
+				<div className="list-filters">
+					{props.renderFilters()}
+				</div>
+			) : null}
+			<ul
 				id={props.id}
 				className="list"
 			>
@@ -21,7 +26,7 @@ module.exports = function List(props) {
 						) : null}
 					</li>
 				))}
-			</ol>
+			</ul>
 		</div>
 	);
 };

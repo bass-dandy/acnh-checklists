@@ -1,292 +1,292 @@
-[
-	{
+{
+	"agent_kk": {
 		"name": "Agent K.K."
 	},
-	{
+	"aloha_kk": {
 		"name": "Aloha K.K."
 	},
-	{
+	"animal_city": {
 		"name": "Animal City",
 		"conditions": "By request only"
 	},
-	{
+	"bubblegum_kk": {
 		"name": "Bubblegum K.K."
 	},
-	{
+	"cafe_kk": {
 		"name": "Café K.K."
 	},
-	{
+	"comrade_kk": {
 		"name": "Comrade K.K."
 	},
-	{
+	"dj_kk": {
 		"name": "DJ K.K."
 	},
-	{
+	"drivin": {
 		"name": "Drivin'",
 		"conditions": "By request only"
 	},
-	{
+	"farewell": {
 		"name": "Farewell",
 		"conditions": "By request only"
 	},
-	{
+	"forest_life": {
 		"name": "Forest Life"
 	},
-	{
+	"go_kk_rider": {
 		"name": "Go K.K. Rider"
 	},
-	{
+	"hypno_kk": {
 		"name": "Hypno K.K."
 	},
-	{
+	"i_love_you": {
 		"name": "I Love You"
 	},
-	{
+	"imperial_kk": {
 		"name": "Imperial K.K."
 	},
-	{
+	"king_kk": {
 		"name": "King K.K."
 	},
-	{
+	"kk_adventure": {
 		"name": "K.K. Adventure"
 	},
-	{
+	"kk_aria": {
 		"name": "K.K. Aria"
 	},
-	{
+	"kk_ballad": {
 		"name": "K.K. Ballad"
 	},
-	{
+	"kk_bazaar": {
 		"name": "K.K. Bazaar"
 	},
-	{
+	"kk_birthday": {
 		"name": "K.K. Birthday",
 		"conditions": "Received on your birthday"
 	},
-	{
+	"kk_blues": {
 		"name": "K.K. Blues"
 	},
-	{
+	"kk_bossa": {
 		"name": "K.K. Bossa"
 	},
-	{
+	"kk_calypso": {
 		"name": "K.K. Calypso"
 	},
-	{
+	"kk_casbah": {
 		"name": "K.K. Casbah"
 	},
-	{
+	"kk_chorale": {
 		"name": "K.K. Chorale"
 	},
-	{
+	"kk_condor": {
 		"name": "K.K. Condor"
 	},
-	{
+	"kk_country": {
 		"name": "K.K. Country"
 	},
-	{
+	"kk_cruisin": {
 		"name": "K.K. Cruisin'"
 	},
-	{
+	"kk_dnb": {
 		"name": "K.K. D&B"
 	},
-	{
+	"kk_dirge": {
 		"name": "K.K. Dirge"
 	},
-	{
+	"kk_disco": {
 		"name": "K.K. Disco"
 	},
-	{
+	"kk_dixie": {
 		"name": "K.K. Dixie"
 	},
-	{
+	"kk_etude": {
 		"name": "K.K. Étude"
 	},
-	{
+	"kk_faire": {
 		"name": "K.K. Faire"
 	},
-	{
+	"kk_flamenco": {
 		"name": "K.K. Flamenco"
 	},
-	{
+	"kk_folk": {
 		"name": "K.K. Folk"
 	},
-	{
+	"kk_fusion": {
 		"name": "K.K. Fusion"
 	},
-	{
+	"kk_groove": {
 		"name": "K.K. Groove"
 	},
-	{
+	"kk_gumbo": {
 		"name": "K.K. Gumbo"
 	},
-	{
+	"kk_house": {
 		"name": "K.K. House"
 	},
-	{
+	"kk_island": {
 		"name": "K.K. Island"
 	},
-	{
+	"kk_jazz": {
 		"name": "K.K. Jazz"
 	},
-	{
+	"kk_jongara": {
 		"name": "K.K. Jongara"
 	},
-	{
+	"kk_lament": {
 		"name": "K.K. Lament"
 	},
-	{
+	"kk_love_song": {
 		"name": "K.K. Love Song"
 	},
-	{
+	"kk_lullaby": {
 		"name": "K.K. Lullaby"
 	},
-	{
+	"kk_mambo": {
 		"name": "K.K. Mambo"
 	},
-	{
+	"kk_marathon": {
 		"name": "K.K. Marathon"
 	},
-	{
+	"kk_march": {
 		"name": "K.K. March"
 	},
-	{
+	"kk_mariachi": {
 		"name": "K.K. Mariachi"
 	},
-	{
+	"kk_metal": {
 		"name": "K.K. Metal"
 	},
-	{
+	"kk_milonga": {
 		"name": "K.K. Milonga"
 	},
-	{
+	"kk_moody": {
 		"name": "K.K. Moody"
 	},
-	{
+	"kk_oasis": {
 		"name": "K.K. Oasis"
 	},
-	{
+	"kk_parade": {
 		"name": "K.K. Parade"
 	},
-	{
+	"kk_ragtime": {
 		"name": "K.K. Ragtime"
 	},
-	{
+	"kk_rally": {
 		"name": "K.K. Rally"
 	},
-	{
+	"kk_reggae": {
 		"name": "K.K. Reggae"
 	},
-	{
+	"kk_rock": {
 		"name": "K.K. Rock"
 	},
-	{
+	"kk_rockabilly": {
 		"name": "K.K. Rockabilly"
 	},
-	{
+	"kk_safari": {
 		"name": "K.K. Safari"
 	},
-	{
+	"kk_salsa": {
 		"name": "K.K. Salsa"
 	},
-	{
+	"kk_samba": {
 		"name": "K.K. Samba"
 	},
-	{
+	"kk_ska": {
 		"name": "K.K. Ska"
 	},
-	{
+	"kk_sonata": {
 		"name": "K.K. Sonata"
 	},
-	{
+	"kk_song": {
 		"name": "K.K. Song"
 	},
-	{
+	"kk_soul": {
 		"name": "K.K. Soul"
 	},
-	{
+	"kk_steppe": {
 		"name": "K.K. Steppe"
 	},
-	{
+	"kk_stroll": {
 		"name": "K.K. Stroll"
 	},
-	{
+	"kk_swing": {
 		"name": "K.K. Swing"
 	},
-	{
+	"kk_synth": {
 		"name": "K.K. Synth"
 	},
-	{
+	"kk_tango": {
 		"name": "K.K. Tango"
 	},
-	{
+	"kk_technopop": {
 		"name": "K.K. Technopop"
 	},
-	{
+	"kk_waltz": {
 		"name": "K.K. Waltz"
 	},
-	{
+	"kk_western": {
 		"name": "K.K. Western"
 	},
-	{
+	"lucky_kk": {
 		"name": "Lucky K.K."
 	},
-	{
+	"marine_song_2001": {
 		"name": "Marine Song 2001"
 	},
-	{
+	"mountain_song": {
 		"name": "Mountain Song"
 	},
-	{
+	"mr_kk": {
 		"name": "Mr. K.K."
 	},
-	{
+	"my_place": {
 		"name": "My Place"
 	},
-	{
+	"neapolitan": {
 		"name": "Neapolitan"
 	},
-	{
+	"only_me": {
 		"name": "Only Me"
 	},
-	{
+	"pondering": {
 		"name": "Pondering"
 	},
-	{
+	"rockin_kk": {
 		"name": "Rockin' K.K."
 	},
-	{
+	"soulful_kk": {
 		"name": "Soulful K.K."
 	},
-	{
+	"space_kk": {
 		"name": "Space K.K."
 	},
-	{
+	"spring_blossoms": {
 		"name": "Spring Blossoms"
 	},
-	{
+	"stale_cupcakes": {
 		"name": "Stale Cupcakes"
 	},
-	{
+	"steep_hill": {
 		"name": "Steep Hill"
 	},
-	{
+	"surfin_kk": {
 		"name": "Surfin' K.K."
 	},
-	{
+	"the_k_funk": {
 		"name": "The K. Funk"
 	},
-	{
+	"to_the_edge": {
 		"name": "To the Edge"
 	},
-	{
+	"two_days_ago": {
 		"name": "Two Days Ago"
 	},
-	{
+	"wandering": {
 		"name": "Wandering"
 	},
-	{
+	"welcome_horizons": {
 		"name": "Welcome Horizons",
 		"conditions": "Received after first performance"
 	}
-]
+}

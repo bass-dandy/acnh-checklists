@@ -1,5 +1,5 @@
-[
-	{
+{
+	"anchovy": {
 		"name": "Anchovy",
 		"price": 200,
 		"time": "4 AM - 9 PM",
@@ -14,7 +14,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"angelfish": {
 		"name": "Angelfish",
 		"price": 3000,
 		"time": "4 PM - 9 AM",
@@ -43,10 +43,10 @@
 			"displayMonths": "nov - apr"
 		}
 	},
-	{
+	"arapaima": {
 		"name": "Arapaima",
 		"price": 10000,
-		"time": "4 PM - 9 AM.",
+		"time": "4 PM - 9 AM",
 		"size": "Largest",
 		"location": "River",
 		"nSeasonality": {
@@ -68,7 +68,7 @@
 			"displayMonths": "dec - mar"
 		}
 	},
-	{
+	"arowana": {
 		"name": "Arowana",
 		"price": 10000,
 		"time": "4 PM - 9 AM",
@@ -93,7 +93,7 @@
 			"displayMonths": "dec - mar"
 		}
 	},
-	{
+	"barred_knifejaw": {
 		"name": "Barred Knifejaw",
 		"price": 5000,
 		"time": "All day",
@@ -128,7 +128,7 @@
 			"displayMonths": "sep - may"
 		}
 	},
-	{
+	"barreleye": {
 		"name": "Barreleye",
 		"price": 15000,
 		"time": "9 PM - 4 AM",
@@ -143,7 +143,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"betta": {
 		"name": "Betta",
 		"price": 2500,
 		"time": "9 AM - 4 PM",
@@ -172,7 +172,7 @@
 			"displayMonths": "nov - apr"
 		}
 	},
-	{
+	"bitterling": {
 		"name": "Bitterling",
 		"price": 900,
 		"time": "All day",
@@ -199,7 +199,7 @@
 			"displayMonths": "may - sep"
 		}
 	},
-	{
+	"black_bass": {
 		"name": "Black Bass",
 		"price": 400,
 		"time": "All day",
@@ -214,7 +214,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"blowfish": {
 		"name": "Blowfish",
 		"price": 5000,
 		"time": "9 PM - 4 AM",
@@ -242,7 +242,7 @@
 			"displayMonths": "may - nov"
 		}
 	},
-	{
+	"blue_marlin": {
 		"name": "Blue Marlin",
 		"price": 10000,
 		"time": "All day",
@@ -277,7 +277,7 @@
 			"displayMonths": "may - oct, jan - mar"
 		}
 	},
-	{
+	"bluegill": {
 		"name": "Bluegill",
 		"price": 180,
 		"time": "9 AM - 4 PM",
@@ -292,7 +292,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"butterfly_fish": {
 		"name": "Butterfly Fish",
 		"price": 1000,
 		"time": "All day",
@@ -321,7 +321,7 @@
 			"displayMonths": "oct - mar"
 		}
 	},
-	{
+	"carp": {
 		"name": "Carp",
 		"price": 300,
 		"time": "All day",
@@ -336,7 +336,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"catfish": {
 		"name": "Catfish",
 		"price": 800,
 		"time": "4 PM - 9 AM",
@@ -365,7 +365,7 @@
 			"displayMonths": "nov - apr"
 		}
 	},
-	{
+	"char": {
 		"name": "Char",
 		"price": 3800,
 		"time": "4 PM - 9 AM",
@@ -396,7 +396,7 @@
 			"displayMonths": "sep - dec, mar - may"
 		}
 	},
-	{
+	"cherry_salmon": {
 		"name": "Cherry Salmon",
 		"price": 1000,
 		"time": "All day",
@@ -427,7 +427,7 @@
 			"displayMonths": "sep - dec, mar - may"
 		}
 	},
-	{
+	"clown_fish": {
 		"name": "Clown Fish",
 		"price": 650,
 		"time": "All day",
@@ -456,7 +456,7 @@
 			"displayMonths": "oct - mar"
 		}
 	},
-	{
+	"coelacanth": {
 		"name": "Coelacanth",
 		"price": 15000,
 		"time": "All day",
@@ -471,7 +471,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"crawfish": {
 		"name": "Crawfish",
 		"price": 200,
 		"time": "All day",
@@ -500,7 +500,7 @@
 			"displayMonths": "oct - mar"
 		}
 	},
-	{
+	"crucian_carp": {
 		"name": "Crucian Carp",
 		"price": 160,
 		"time": "All day",
@@ -515,7 +515,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"dab": {
 		"name": "Dab",
 		"price": 300,
 		"time": "All day",
@@ -546,7 +546,7 @@
 			"displayMonths": "apr - oct"
 		}
 	},
-	{
+	"dace": {
 		"name": "Dace",
 		"price": 240,
 		"time": "4 PM - 9 AM",
@@ -561,7 +561,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"dorado": {
 		"name": "Dorado",
 		"price": 15000,
 		"time": "4 AM - 9 PM",
@@ -586,7 +586,7 @@
 			"displayMonths": "dec - mar"
 		}
 	},
-	{
+	"football_fish": {
 		"name": "Football Fish",
 		"price": 2500,
 		"time": "4 PM - 9 AM",
@@ -613,7 +613,7 @@
 			"displayMonths": "may - sep"
 		}
 	},
-	{
+	"freshwater_goby": {
 		"name": "Freshwater Goby",
 		"price": 400,
 		"time": "4 PM - 9 AM",
@@ -628,7 +628,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"frog": {
 		"name": "Frog",
 		"price": 120,
 		"time": "All day",
@@ -653,7 +653,7 @@
 			"displayMonths": "nov - feb"
 		}
 	},
-	{
+	"gar": {
 		"name": "Gar",
 		"price": 6000,
 		"time": "4 PM - 9 AM",
@@ -678,7 +678,7 @@
 			"displayMonths": "dec - mar"
 		}
 	},
-	{
+	"giant_snakehead": {
 		"name": "Giant Snakehead",
 		"price": 5500,
 		"time": "9 AM - 4 PM",
@@ -701,7 +701,7 @@
 			"displayMonths": "dec - feb"
 		}
 	},
-	{
+	"giant_trevally": {
 		"name": "Giant Trevally",
 		"price": 4500,
 		"time": "All day",
@@ -730,7 +730,7 @@
 			"displayMonths": "nov - apr"
 		}
 	},
-	{
+	"golden_trout": {
 		"name": "Golden Trout",
 		"price": 15000,
 		"time": "4 PM - 9 AM",
@@ -759,7 +759,7 @@
 			"displayMonths": "mar - may, sep - nov"
 		}
 	},
-	{
+	"goldfish": {
 		"name": "Goldfish",
 		"price": 1300,
 		"time": "All day",
@@ -774,7 +774,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"great_white_shark": {
 		"name": "Great White Shark",
 		"price": 15000,
 		"time": "4 PM - 9 AM",
@@ -799,7 +799,7 @@
 			"displayMonths": "dec - mar"
 		}
 	},
-	{
+	"guppy": {
 		"name": "Guppy",
 		"price": 1300,
 		"time": "9 AM - 4 PM",
@@ -832,7 +832,7 @@
 			"displayMonths": "oct - may"
 		}
 	},
-	{
+	"hammerhead_shark": {
 		"name": "Hammerhead Shark",
 		"price": 8000,
 		"time": "4 PM - 9 AM",
@@ -857,7 +857,7 @@
 			"displayMonths": "dec - mar"
 		}
 	},
-	{
+	"horse_mackerel": {
 		"name": "Horse Mackerel",
 		"price": 150,
 		"time": "All day",
@@ -872,7 +872,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"killifish": {
 		"name": "Killifish",
 		"price": 300,
 		"time": "All day",
@@ -897,7 +897,7 @@
 			"displayMonths": "dec - feb"
 		}
 	},
-	{
+	"king_salmon": {
 		"name": "King Salmon",
 		"price": 1800,
 		"time": "All day",
@@ -916,7 +916,7 @@
 			"displayMonths": "mar"
 		}
 	},
-	{
+	"koi": {
 		"name": "Koi",
 		"price": 4000,
 		"time": "4 PM - 9 AM",
@@ -931,7 +931,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"loach": {
 		"name": "Loach",
 		"price": 400,
 		"time": "All day",
@@ -954,7 +954,7 @@
 			"displayMonths": "sep - nov"
 		}
 	},
-	{
+	"mahi_mahi": {
 		"name": "Mahi-mahi",
 		"price": 2000,
 		"time": "All day",
@@ -983,7 +983,7 @@
 			"displayMonths": "nov - apr"
 		}
 	},
-	{
+	"mitten_crab": {
 		"name": "Mitten Crab",
 		"price": 2000,
 		"time": "4 PM - 9 AM",
@@ -1006,7 +1006,7 @@
 			"displayMonths": "mar - may"
 		}
 	},
-	{
+	"moray_eel": {
 		"name": "Moray Eel",
 		"price": 2000,
 		"time": "All day",
@@ -1029,7 +1029,7 @@
 			"displayMonths": "feb - apr"
 		}
 	},
-	{
+	"napoleonfish": {
 		"name": "Napoleonfish",
 		"price": 2000,
 		"time": "All day",
@@ -1050,7 +1050,7 @@
 			"displayMonths": "jan - feb"
 		}
 	},
-	{
+	"neon_tetra": {
 		"name": "Neon Tetra",
 		"price": 500,
 		"time": "4 AM - 4 PM",
@@ -1083,7 +1083,7 @@
 			"displayMonths": "oct - may"
 		}
 	},
-	{
+	"nibble_fish": {
 		"name": "Nibble Fish",
 		"price": 1500,
 		"time": "9 AM - 4 PM",
@@ -1110,7 +1110,7 @@
 			"displayMonths": "nov - mar"
 		}
 	},
-	{
+	"oarfish": {
 		"name": "Oarfish",
 		"price": 9000,
 		"time": "All day",
@@ -1139,7 +1139,7 @@
 			"displayMonths": "jun - nov"
 		}
 	},
-	{
+	"ocean_sunfish": {
 		"name": "Ocean Sunfish",
 		"price": 4000,
 		"time": "4 AM - 9 PM",
@@ -1162,7 +1162,7 @@
 			"displayMonths": "jan - mar"
 		}
 	},
-	{
+	"olive_flounder": {
 		"name": "Olive Flounder",
 		"price": 800,
 		"time": "All day",
@@ -1177,7 +1177,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"pale_chub": {
 		"name": "Pale Chub",
 		"price": 200,
 		"time": "9 AM - 4 PM",
@@ -1192,7 +1192,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"pike": {
 		"name": "Pike",
 		"price": 1800,
 		"time": "All day",
@@ -1217,10 +1217,10 @@
 			"displayMonths": "mar - jun"
 		}
 	},
-	{
+	"piranha": {
 		"name": "Piranha",
 		"price": 2500,
-		"time": "9 AM - 4 PM\n4 AM - 9 PM",
+		"time": "9 AM - 4 PM, 9 PM - 4 AM",
 		"size": "Small",
 		"location": "River",
 		"nSeasonality": {
@@ -1242,7 +1242,7 @@
 			"displayMonths": "dec - mar"
 		}
 	},
-	{
+	"pond_smelt": {
 		"name": "Pond Smelt",
 		"price": 320,
 		"time": "All day",
@@ -1265,7 +1265,7 @@
 			"displayMonths": "jun - aug"
 		}
 	},
-	{
+	"pop_eyed_goldfish": {
 		"name": "Pop-eyed Goldfish",
 		"price": 1300,
 		"time": "9 AM - 4 PM",
@@ -1280,7 +1280,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"puffer_fish": {
 		"name": "Puffer Fish",
 		"price": 250,
 		"time": "All day",
@@ -1303,7 +1303,7 @@
 			"displayMonths": "jan - mar"
 		}
 	},
-	{
+	"rainbowfish": {
 		"name": "Rainbowfish",
 		"price": 800,
 		"time": "9 AM - 4 PM",
@@ -1332,7 +1332,7 @@
 			"displayMonths": "nov - apr"
 		}
 	},
-	{
+	"ranchu_goldfish": {
 		"name": "Ranchu Goldfish",
 		"price": 4500,
 		"time": "9 AM - 4 PM",
@@ -1347,7 +1347,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"ray": {
 		"name": "Ray",
 		"price": 3000,
 		"time": "4 AM - 9 PM",
@@ -1372,7 +1372,7 @@
 			"displayMonths": "feb - may"
 		}
 	},
-	{
+	"red_snapper": {
 		"name": "Red Snapper",
 		"price": 3000,
 		"time": "All day",
@@ -1387,7 +1387,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"ribbon_eel": {
 		"name": "Ribbon Eel",
 		"price": 600,
 		"time": "All day",
@@ -1412,7 +1412,7 @@
 			"displayMonths": "jan - apr"
 		}
 	},
-	{
+	"saddled_bichir": {
 		"name": "Saddled Bichir",
 		"price": 4000,
 		"time": "9 PM - 4 AM",
@@ -1437,7 +1437,7 @@
 			"displayMonths": "dec - mar"
 		}
 	},
-	{
+	"salmon": {
 		"name": "Salmon",
 		"price": 700,
 		"time": "All day",
@@ -1456,7 +1456,7 @@
 			"displayMonths": "mar"
 		}
 	},
-	{
+	"saw_shark": {
 		"name": "Saw Shark",
 		"price": 3750,
 		"time": "4 PM - 9 AM",
@@ -1481,7 +1481,7 @@
 			"displayMonths": "dec - mar"
 		}
 	},
-	{
+	"sea_bass": {
 		"name": "Sea Bass",
 		"price": 400,
 		"time": "All day",
@@ -1496,7 +1496,7 @@
 			"displayMonths": "all year"
 		}
 	},
-	{
+	"sea_butterfly": {
 		"name": "Sea Butterfly",
 		"price": 1000,
 		"time": "All day",
@@ -1521,7 +1521,7 @@
 			"displayMonths": "jun - sep"
 		}
 	},
-	{
+	"sea_horse": {
 		"name": "Sea Horse",
 		"price": 1100,
 		"time": "All day",
@@ -1554,7 +1554,7 @@
 			"displayMonths": "oct - may"
 		}
 	},
-	{
+	"snapping_turtle": {
 		"name": "Snapping Turtle",
 		"price": 5000,
 		"time": "9 AM - 4 PM",
@@ -1585,7 +1585,7 @@
 			"displayMonths": "oct - apr"
 		}
 	},
-	{
+	"soft_shelled_turtle": {
 		"name": "Soft-shelled Turtle",
 		"price": 12000,
 		"time": "4 PM - 9 AM",
@@ -1606,7 +1606,7 @@
 			"displayMonths": "feb - mar"
 		}
 	},
-	{
+	"squid": {
 		"name": "Squid",
 		"price": 500,
 		"time": "All day",
@@ -1641,7 +1641,7 @@
 			"displayMonths": "jun - feb"
 		}
 	},
-	{
+	"stringfish": {
 		"name": "Stringfish",
 		"price": 15000,
 		"time": "4 PM - 9 AM",
@@ -1666,7 +1666,7 @@
 			"displayMonths": "jun - sep"
 		}
 	},
-	{
+	"sturgeon": {
 		"name": "Sturgeon",
 		"price": 10000,
 		"time": "All day",
@@ -1697,7 +1697,7 @@
 			"displayMonths": "mar - sep"
 		}
 	},
-	{
+	"suckerfish": {
 		"name": "Suckerfish",
 		"price": 1500,
 		"time": "All day",
@@ -1722,7 +1722,7 @@
 			"displayMonths": "dec - mar"
 		}
 	},
-	{
+	"surgeonfish": {
 		"name": "Surgeonfish",
 		"price": 1000,
 		"time": "All Day",
@@ -1751,7 +1751,7 @@
 			"displayMonths": "oct - mar"
 		}
 	},
-	{
+	"sweetfish": {
 		"name": "Sweetfish",
 		"price": 900,
 		"time": "All day",
@@ -1774,7 +1774,7 @@
 			"displayMonths": "jan - mar"
 		}
 	},
-	{
+	"tadpole": {
 		"name": "Tadpole",
 		"price": 100,
 		"time": "All day",
@@ -1801,7 +1801,7 @@
 			"displayMonths": "sep - jan"
 		}
 	},
-	{
+	"tilapia": {
 		"name": "Tilapia",
 		"price": 800,
 		"time": "All day",
@@ -1828,7 +1828,7 @@
 			"displayMonths": "dec - apr"
 		}
 	},
-	{
+	"tuna": {
 		"name": "Tuna",
 		"price": 7000,
 		"time": "All day",
@@ -1857,7 +1857,7 @@
 			"displayMonths": "may - oct"
 		}
 	},
-	{
+	"whale_shark": {
 		"name": "Whale Shark",
 		"price": 13000,
 		"time": "All day",
@@ -1882,7 +1882,7 @@
 			"displayMonths": "dec - mar"
 		}
 	},
-	{
+	"yellow_perch": {
 		"name": "Yellow Perch",
 		"price": 300,
 		"time": "All day",
@@ -1911,7 +1911,7 @@
 			"displayMonths": "apr - sep"
 		}
 	},
-	{
+	"zebra_turkeyfish": {
 		"name": "Zebra Turkeyfish",
 		"price": 500,
 		"time": "All day",
@@ -1944,4 +1944,4 @@
 			"displayMonths": "oct - may"
 		}
 	}
-]
+}

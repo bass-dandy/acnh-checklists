@@ -1,174 +1,174 @@
-[
-	{
+{
+	"academic_painting": {
 		"name": "Academic Painting",
 		"type": "painting"
 	},
-	{
+	"amazing_painting": {
 		"name": "Amazing Painting",
 		"type": "painting"
 	},
-	{
+	"ancient_statue": {
 		"name": "Ancient Statue",
 		"type": "statue"
 	},
-	{
+	"basic_painting": {
 		"name": "Basic Painting",
 		"type": "painting"
 	},
-	{
+	"beautiful_statue": {
 		"name": "Beautiful Statue",
 		"type": "statue"
 	},
-	{
+	"calm_painting": {
 		"name": "Calm Painting",
 		"type": "painting"
 	},
-	{
+	"common_painting": {
 		"name": "Common Painting",
 		"type": "painting"
 	},
-	{
+	"detailed_painting": {
 		"name": "Detailed Painting",
 		"type": "painting"
 	},
-	{
+	"dynamic_painting": {
 		"name": "Dynamic Painting",
 		"type": "painting"
 	},
-	{
+	"familiar_statue": {
 		"name": "Familiar Statue",
 		"type": "statue"
 	},
-	{
+	"famous_painting": {
 		"name": "Famous Painting",
 		"type": "painting"
 	},
-	{
+	"flowery_painting": {
 		"name": "Flowery Painting",
 		"type": "painting"
 	},
-	{
+	"gallant_statue": {
 		"name": "Gallant Statue",
 		"type": "statue"
 	},
-	{
+	"glowing_painting": {
 		"name": "Glowing Painting",
 		"type": "painting"
 	},
-	{
+	"graceful_painting": {
 		"name": "Graceful Painting",
 		"type": "painting"
 	},
-	{
+	"great_statue": {
 		"name": "Great Statue",
 		"type": "statue"
 	},
-	{
+	"informative_statue": {
 		"name": "Informative Statue",
 		"type": "statue"
 	},
-	{
+	"jolly_painting": {
 		"name": "Jolly Painting",
 		"type": "painting"
 	},
-	{
+	"moody_painting": {
 		"name": "Moody Painting",
 		"type": "painting"
 	},
-	{
+	"motherly_statue": {
 		"name": "Motherly Statue",
 		"type": "statue"
 	},
-	{
+	"moving_painting": {
 		"name": "Moving Painting",
 		"type": "painting"
 	},
-	{
+	"mysterious_painting": {
 		"name": "Mysterious Painting",
 		"type": "painting"
 	},
-	{
+	"mystic_statue": {
 		"name": "Mystic Statue",
 		"type": "statue"
 	},
-	{
+	"nice_painting": {
 		"name": "Nice Painting",
 		"type": "painting"
 	},
-	{
+	"perfect_painting": {
 		"name": "Perfect Painting",
 		"type": "painting"
 	},
-	{
+	"proper_painting": {
 		"name": "Proper Painting",
 		"type": "painting"
 	},
-	{
+	"quaint_painting": {
 		"name": "Quaint Painting",
 		"type": "painting"
 	},
-	{
+	"robust_statue": {
 		"name": "Robust Statue",
 		"type": "statue"
 	},
-	{
+	"rock_head_statue": {
 		"name": "Rock-head Statue",
 		"type": "statue"
 	},
-	{
+	"scary_painting": {
 		"name": "Scary Painting",
 		"type": "painting"
 	},
-	{
+	"scenic_painting": {
 		"name": "Scenic Painting",
 		"type": "painting"
 	},
-	{
+	"serene_painting": {
 		"name": "Serene Painting",
 		"type": "painting"
 	},
-	{
+	"sinking_painting": {
 		"name": "Sinking Painting",
 		"type": "painting"
 	},
-	{
+	"solemn_painting": {
 		"name": "Solemn Painting",
 		"type": "painting"
 	},
-	{
+	"tremendous_statue": {
 		"name": "Tremendous Statue",
 		"type": "statue"
 	},
-	{
+	"twinkling_painting": {
 		"name": "Twinkling Painting",
 		"type": "painting"
 	},
-	{
+	"valiant_statue": {
 		"name": "Valiant Statue",
 		"type": "statue"
 	},
-	{
+	"warm_painting": {
 		"name": "Warm Painting",
 		"type": "painting"
 	},
-	{
+	"warrior_statue": {
 		"name": "Warrior Statue",
 		"type": "statue"
 	},
-	{
+	"wild_painting_left_half": {
 		"name": "Wild Painting Left Half",
 		"type": "painting"
 	},
-	{
+	"wild_painting_right_half": {
 		"name": "Wild Painting Right Half",
 		"type": "painting"
 	},
-	{
+	"wistful_painting": {
 		"name": "Wistful Painting",
 		"type": "painting"
 	},
-	{
+	"worthy_painting": {
 		"name": "Worthy Painting",
 		"type": "painting"
 	}
-]
+}

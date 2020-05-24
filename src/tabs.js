@@ -2,37 +2,7 @@ const React = require('react');
 const List = require('./list');
 const data = require('./data');
 
-function nameToId(name) {
-	return name
-		.toLowerCase()
-		.replace(/ /g, '_')
-		.replace(/-/g, '_')
-		.replace(/é/g, 'e')
-		.replace(/&/g, 'n')
-		.replace(/\./g, '')
-		.replace(/\(/g, '')
-		.replace(/\)/g, '')
-		.replace(/'/g, '');
-};
-
-function getListData(jsonData, ...additionalKeys) {
-	const listData = {};
-
-	jsonData.forEach((item) => {
-		if (!item.name) {
-			throw new Error('JSON data missing [name] field');
-		}
-		listData[nameToId(item.name)] = {
-			name: item.name,
-			...additionalKeys.reduce((acc, key) => {
-				acc[key] = item[key];
-				return acc;
-			}, {})
-		};
-	});
-
-	return listData;
-}
+const MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
 
 function PriceTag({price}) {
 	return (
@@ -46,7 +16,47 @@ exports.Fish = function Fish(props) {
 	return (
 		<List
 			id="fish"
-			items={getListData(data.fish, 'price')}
+			items={data.fish}
+			renderFilters={() => (
+				<>
+					<div className="filter-group">
+						<select
+							value="n"
+							data-filter-id="hemisphere"
+						>
+							<option value="n">N. Hemisphere</option>
+							<option value="s">S. Hemisphere</option>
+						</select>
+						<select
+							value=""
+							data-filter-id="month"
+						>
+							<option value="">Month</option>
+							{MONTHS.map((month) => (
+								<option value={month}>
+									{month}
+								</option>
+							))}
+						</select>
+					</div>
+					<div className="filter-group">
+						<label className="new-this-month">
+							<input
+								type="checkbox"
+								data-filter-id="isNew"
+							/>
+							New
+						</label>
+						<label className="leaving-this-month">
+							<input
+								type="checkbox"
+								data-filter-id="isLeaving"
+							/>
+							Leaving
+						</label>
+					</div>
+				</>
+			)}
 			renderDetails={(item) => <PriceTag price={item.price}/>}
 		/>
 	);
@@ -56,7 +66,7 @@ exports.Bugs = function Bugs(props) {
 	return (
 		<List
 			id="bugs"
-			items={getListData(data.bugs, 'price')}
+			items={data.bugs}
 			renderDetails={(item) => <PriceTag price={item.price}/>}
 		/>
 	);
@@ -66,7 +76,7 @@ exports.Fossils = function Fossils(props) {
 	return (
 		<List
 			id="fossils"
-			items={getListData(data.fossils, 'price')}
+			items={data.fossils}
 			renderDetails={(item) => <PriceTag price={item.price}/>}
 		/>
 	);
@@ -76,7 +86,7 @@ exports.Art = function Art(props) {
 	return (
 		<List
 			id="art"
-			items={getListData(data.art)}
+			items={data.art}
 		/>
 	);
 };
@@ -85,7 +95,7 @@ exports.Songs = function Songs(props) {
 	return (
 		<List
 			id="songs"
-			items={getListData(data.songs, 'conditions')}
+			items={data.songs}
 			renderDetails={(item) => item.conditions}
 		/>
 	);
@@ -95,7 +105,7 @@ exports.Flowers = function Flowers(props) {
 	return (
 		<List
 			id="flowers"
-			items={getListData(data.flowers, 'conditions')}
+			items={data.flowers}
 			renderDetails={(item) => item.conditions}
 		/>
 	);
