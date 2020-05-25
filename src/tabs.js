@@ -12,51 +12,55 @@ function PriceTag({price}) {
 	);
 }
 
+function CreatureFilter() {
+	return (
+		<>
+			<div className="filter-group">
+				<select
+					value="n"
+					data-filter-id="hemisphere"
+				>
+					<option value="n">N. Hemisphere</option>
+					<option value="s">S. Hemisphere</option>
+				</select>
+				<select
+					value=""
+					data-filter-id="month"
+				>
+					<option value="">Month</option>
+					{MONTHS.map((month) => (
+						<option value={month}>
+							{month}
+						</option>
+					))}
+				</select>
+			</div>
+			<div className="filter-group">
+				<label className="new-this-month">
+					<input
+						type="checkbox"
+						data-filter-id="isNew"
+					/>
+					New
+				</label>
+				<label className="leaving-this-month">
+					<input
+						type="checkbox"
+						data-filter-id="isLeaving"
+					/>
+					Leaving
+				</label>
+			</div>
+		</>
+	);
+}
+
 exports.Fish = function Fish(props) {
 	return (
 		<List
 			id="fish"
 			items={data.fish}
-			renderFilters={() => (
-				<>
-					<div className="filter-group">
-						<select
-							value="n"
-							data-filter-id="hemisphere"
-						>
-							<option value="n">N. Hemisphere</option>
-							<option value="s">S. Hemisphere</option>
-						</select>
-						<select
-							value=""
-							data-filter-id="month"
-						>
-							<option value="">Month</option>
-							{MONTHS.map((month) => (
-								<option value={month}>
-									{month}
-								</option>
-							))}
-						</select>
-					</div>
-					<div className="filter-group">
-						<label className="new-this-month">
-							<input
-								type="checkbox"
-								data-filter-id="isNew"
-							/>
-							New
-						</label>
-						<label className="leaving-this-month">
-							<input
-								type="checkbox"
-								data-filter-id="isLeaving"
-							/>
-							Leaving
-						</label>
-					</div>
-				</>
-			)}
+			renderFilters={CreatureFilter}
 			renderDetails={(item) => <PriceTag price={item.price}/>}
 		/>
 	);
@@ -67,6 +71,7 @@ exports.Bugs = function Bugs(props) {
 		<List
 			id="bugs"
 			items={data.bugs}
+			renderFilters={CreatureFilter}
 			renderDetails={(item) => <PriceTag price={item.price}/>}
 		/>
 	);

@@ -53,16 +53,11 @@
 			&:hover {
 				transform: scale(1.03);
 			}
-			&.filtered {
-				display: none;
-			}
-			&.new-this-month {
+			&.new-this-month label {
 				color: colors.$text-green;
-				transition: none;
 			}
-			&.leaving-this-month {
+			&.leaving-this-month label {
 				color: colors.$text-orange;
-				transition: none;
 			}
 			&[data-checked="true"] {
 				opacity: 0.5;

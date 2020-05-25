@@ -1,10 +1,12 @@
 import * as data from './data.js';
 
+// ==============================
+// init night mode toggle =======
+// ==============================
 (() => {
-	// init night mode toggle
 	const nightModeToggle = document.querySelector('#night-mode-toggle');
 
-	const toggleNightMode = () => {
+	function toggleNightMode() {
 		if (nightModeToggle.getAttribute('aria-checked') === 'false') {
 			nightModeToggle.setAttribute('aria-checked', 'true');
 			document.documentElement.classList.add('night-mode');
@@ -21,8 +23,12 @@ import * as data from './data.js';
 	});
 
 	nightModeToggle.addEventListener('click', toggleNightMode);
+})();
 
-	// init reasonable focus outlines
+// ==============================
+// init reasonable focus outlines
+// ==============================
+(() => {
 	document.addEventListener('keydown', (e) => {
 		if (e.key === 'Tab') {
 			document.documentElement.classList.add('keyboard-accessible');
@@ -31,8 +37,12 @@ import * as data from './data.js';
 	document.addEventListener('mousedown', () => {
 		document.documentElement.classList.remove('keyboard-accessible');
 	});
+})();
 
-	// init tab panel
+// ==============================
+// init tab panel ===============
+// ==============================
+(() => {
 	const tabPanel = document.getElementById('tab-panel');
 	const tabs = tabPanel.querySelectorAll('.tabs .tab');
 
@@ -41,9 +51,13 @@ import * as data from './data.js';
 			tabPanel.setAttribute('data-selected-tab', e.target.dataset.tabId);
 		});
 	});
+})();
 
-	// init checklists
-	tabs.forEach((tab) => {
+// ==============================
+// init checklists ==============
+// ==============================
+(() => {
+	document.querySelectorAll('#tab-panel .tabs .tab').forEach((tab) => {
 		const checklistItems = document.querySelectorAll(`#${tab.dataset.tabId} > li`);
 
 		checklistItems.forEach((item) => {
@@ -60,73 +74,89 @@ import * as data from './data.js';
 			});
 		});
 	});
+})();
 
-	// init filtering
-	const fishData = JSON.parse(data.fish);
-	const fishItems = document.querySelectorAll('.tab-panel-content[data-tab-id="fish"] ul li');
-	const fishFilterState = {};
+// ==============================
+// init filtering ===============
+// ==============================
+(() => {
+	// tabId: [data-tab-id] of the target filter panel container
+	// filterFn(filterState, item): function that returns true if item passes filter test and false otherwise
+	function attachFilters(tabId, filterFn) {
+		const state = {};
+		const tab = document.querySelector(`.tab-panel-content[data-tab-id="${tabId}"]`);
+		const controls = tab.querySelectorAll('*[data-filter-id]');
+		const items = tab.querySelectorAll('ul li');
 
-	const filterFish = () => {
-		fishItems.forEach((item) => {
-			item.classList.remove('filtered', 'new-this-month', 'leaving-this-month');
+		controls.forEach((control) => {
+			state[control.dataset.filterId] = control.type === 'checkbox'
+				? control.checked
+				: control.value;
 
-			if (!fishFilterState.month) {
-				// show all fish
-				return;
-			} else {
-				const itemData = fishData[item.dataset.itemId];
+			control.addEventListener('change', (e) => {
+				state[control.dataset.filterId] = e.target.type === 'checkbox'
+					? e.target.checked
+					: e.target.value;
 
-				const {activeMonths, displayMonths} = fishFilterState.hemisphere === 'n'
-					? itemData.nSeasonality
-					: itemData.sSeasonality;
-
-				if (!activeMonths || activeMonths.includes(fishFilterState.month)) {
-					// available this month
-					const newThisMonth = displayMonths.split(',').some((range) => {
-						return range.trim().startsWith(fishFilterState.month);
-					});
-					const leavingThisMonth = displayMonths.split(',').some((range) => {
-						return range.trim().endsWith(fishFilterState.month);
-					});
-
-					// leaving takes precedence over new
-					if (leavingThisMonth) {
-						item.classList.add('leaving-this-month');
-					} else if (newThisMonth) {
-						item.classList.add('new-this-month');
-					}
-
-					if (fishFilterState.isNew && fishFilterState.isLeaving) {
-						if (!newThisMonth && !leavingThisMonth) {
-							item.classList.add('filtered');
-						}
-					} else if (fishFilterState.isNew && !newThisMonth) {
-						item.classList.add('filtered');
-					} else if (fishFilterState.isLeaving && !leavingThisMonth) {
-						item.classList.add('filtered');
-					}
-				} else {
-					// not available this month
-					item.classList.add('filtered');
-				}
-			}
+				items.forEach((item) => {
+					item.style.display = filterFn(state, item) ? null : 'none';
+				});
+			});
 		});
+	}
+
+	const getCreatureFilter = (creatureData) => (state, item) => {
+		item.classList.remove('new-this-month', 'leaving-this-month');
+
+		if (!state.month) {
+			// show all fish
+			return true;
+		} else {
+			const itemData = creatureData[item.dataset.itemId];
+
+			const {activeMonths, displayMonths} = state.hemisphere === 'n'
+				? itemData.nSeasonality
+				: itemData.sSeasonality;
+
+			if (!activeMonths || activeMonths.includes(state.month)) {
+				// available this month
+				const newThisMonth = displayMonths.split(',').some((range) => {
+					return range.trim().startsWith(state.month);
+				});
+				const leavingThisMonth = displayMonths.split(',').some((range) => {
+					return range.trim().endsWith(state.month);
+				});
+
+				if (leavingThisMonth) {
+					// leaving takes precedence over new for single-month fish
+					item.classList.add('leaving-this-month');
+				} else if (newThisMonth) {
+					item.classList.add('new-this-month');
+				}
+
+				if (state.isNew && state.isLeaving){
+					if (!newThisMonth && !leavingThisMonth) {
+						return false;
+					}
+				} else if (state.isNew && !newThisMonth) {
+					return false;
+				} else if (state.isLeaving && !leavingThisMonth) {
+					return false;
+				}
+				return true;
+			} else {
+				// not available this month
+				return false;
+			}
+		}
 	};
 
-	const controls =
-		document.querySelectorAll('.tab-panel-content[data-tab-id="fish"] *[data-filter-id]');
-
-	controls.forEach((control) => {
-		fishFilterState[control.dataset.filterId] = control.type === 'checkbox'
-			? control.checked
-			: control.value;
-
-		control.addEventListener('change', (e) => {
-			fishFilterState[control.dataset.filterId] = e.target.type === 'checkbox'
-				? e.target.checked
-				: e.target.value;
-
-			filterFish();
-		});
-	});
+	attachFilters(
+		'fish',
+		getCreatureFilter(JSON.parse(data.fish))
+	);
+	attachFilters(
+		'bugs',
+		getCreatureFilter(JSON.parse(data.bugs))
+	);
 })();
