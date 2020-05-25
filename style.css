@@ -260,6 +260,15 @@
     bottom: 10px;
   }
 }
+.list-wrapper .list-filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border-radius: 3px;
+  background-color: #FAF0A6;
+}
 .list-wrapper .list {
   display: flex;
   flex-direction: column;
@@ -285,6 +294,9 @@
   cursor: pointer;
   z-index: 1;
 }
+.list-wrapper .list li input[type=checkbox] {
+  margin-right: 10px;
+}
 .list-wrapper .list li .list-item-details {
   position: absolute;
   right: 10px;
@@ -295,8 +307,11 @@
 .list-wrapper .list li:hover {
   transform: scale(1.03);
 }
-.list-wrapper .list li input[type=checkbox] {
-  margin-right: 10px;
+.list-wrapper .list li.new-this-month label {
+  color: #29B929;
+}
+.list-wrapper .list li.leaving-this-month label {
+  color: #E4943D;
 }
 .list-wrapper .list li[data-checked=true] {
   opacity: 0.5;
@@ -421,6 +436,29 @@
   margin-right: 3px;
   font-family: "bells";
   font-size: 1.2rem;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+}
+.filter-group *:not(last-child) {
+  margin-right: 5px;
+}
+.filter-group select {
+  font-family: "Comic Sans MS";
+  text-transform: capitalize;
+}
+.filter-group option {
+  text-transform: capitalize;
+}
+
+.new-this-month {
+  color: #29B929;
+}
+
+.leaving-this-month {
+  color: #E4943D;
 }
 
 @font-face {
