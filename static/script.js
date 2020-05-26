@@ -57,21 +57,17 @@ import * as data from './data.js';
 // init checklists ==============
 // ==============================
 (() => {
-	document.querySelectorAll('#tab-panel .tabs .tab').forEach((tab) => {
-		const checklistItems = document.querySelectorAll(`#${tab.dataset.tabId} > li`);
+	document.querySelectorAll('.checklist > li, .checklist-table > tbody').forEach((checklistItem) => {
+		const itemId = checklistItem.dataset.itemId;
+		const defaultChecked = localStorage.getItem(itemId) === 'true';
+		checklistItem.setAttribute('data-checked', defaultChecked);
 
-		checklistItems.forEach((item) => {
-			const itemId = item.dataset.itemId;
-			const defaultChecked = localStorage.getItem(itemId) === 'true';
-			item.setAttribute('data-checked', defaultChecked);
+		const checkbox = checklistItem.querySelector('input[type="checkbox"]');
+		checkbox.checked = defaultChecked;
 
-			const checkbox = item.querySelector('input');
-			checkbox.checked = defaultChecked;
-
-			checkbox.addEventListener('change', (e) => {
-				item.setAttribute('data-checked', e.target.checked);
-				localStorage.setItem(itemId, e.target.checked);
-			});
+		checkbox.addEventListener('change', (e) => {
+			checklistItem.setAttribute('data-checked', e.target.checked);
+			localStorage.setItem(itemId, e.target.checked);
 		});
 	});
 })();

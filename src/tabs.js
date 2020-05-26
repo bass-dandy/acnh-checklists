@@ -1,5 +1,5 @@
 const React = require('react');
-const List = require('./list');
+const Checklist = require('./list');
 const data = require('./data');
 
 const MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
@@ -57,30 +57,29 @@ function CreatureFilter() {
 
 exports.Fish = function Fish(props) {
 	return (
-		<List
-			id="fish"
+		<Checklist
+			layout="table"
 			items={data.fish}
 			renderFilters={CreatureFilter}
-			renderDetails={(item) => <PriceTag price={item.price}/>}
+			tableData={['nSeasonality.displayMonths', 'time', 'location', 'price']}
 		/>
 	);
 };
 
 exports.Bugs = function Bugs(props) {
 	return (
-		<List
-			id="bugs"
+		<Checklist
+			layout="table"
 			items={data.bugs}
 			renderFilters={CreatureFilter}
-			renderDetails={(item) => <PriceTag price={item.price}/>}
+			tableData={['nSeasonality.displayMonths', 'time', 'location', 'price']}
 		/>
 	);
 };
 
 exports.Fossils = function Fossils(props) {
 	return (
-		<List
-			id="fossils"
+		<Checklist
 			items={data.fossils}
 			renderDetails={(item) => <PriceTag price={item.price}/>}
 		/>
@@ -89,8 +88,7 @@ exports.Fossils = function Fossils(props) {
 
 exports.Art = function Art(props) {
 	return (
-		<List
-			id="art"
+		<Checklist
 			items={data.art}
 		/>
 	);
@@ -98,8 +96,7 @@ exports.Art = function Art(props) {
 
 exports.Songs = function Songs(props) {
 	return (
-		<List
-			id="songs"
+		<Checklist
 			items={data.songs}
 			renderDetails={(item) => item.conditions}
 		/>
@@ -108,8 +105,7 @@ exports.Songs = function Songs(props) {
 
 exports.Flowers = function Flowers(props) {
 	return (
-		<List
-			id="flowers"
+		<Checklist
 			items={data.flowers}
 			renderDetails={(item) => item.conditions}
 		/>

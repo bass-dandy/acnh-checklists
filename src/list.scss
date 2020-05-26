@@ -1,18 +1,46 @@
 @use './background';
 @use './colors';
 
-.list-wrapper {
-	.list-filters {
+@mixin item {
+	margin-top: 5px;
+	border-radius: 3px;
+	background-color: colors.$menu-light;
+	text-transform: capitalize;
+	transition: transform 0.2s ease-out, background.transition-with-sunrise(background-color), background.transition-with-sunrise(color);
+	overflow: hidden;
+	color: colors.$text-brown;
+
+	&:hover {
+		transform: scale(1.03);
+	}
+	&[data-checked="true"] {
+		opacity: 0.5;
+
+		label {
+			text-decoration: line-through;
+		}
+	}
+	&.new-this-month label {
+		color: colors.$text-green;
+	}
+	&.leaving-this-month label {
+		color: colors.$text-orange;
+	}
+}
+
+.checklist-wrapper {
+	.checklist-filters {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 5px 10px;
+		padding: 10px;
 		margin-top: 5px;
 		border-radius: 3px;
-		background-color: colors.$menu-submenu;
+		background-color: colors.$menu-light;
+		transition: background.transition-with-sunrise(background-color);
 	}
 
-	.list {
+	.checklist {
 		display: flex;
 		flex-direction: column;
 		list-style: none;
@@ -20,14 +48,12 @@
 		padding: 0;
 
 		li {
+			@include item;
 			position: relative;
-			margin-top: 5px;
-			border-radius: 3px;
-			background-color: colors.$menu-light;
-			text-transform: capitalize;
-			transition: transform 0.2s ease-out, background.transition-with-sunrise(background-color), background.transition-with-sunrise(color);
-			overflow: hidden;
-			color: colors.$text-brown;
+
+			input[type="checkbox"] {
+				margin-right: 10px;
+			}
 
 			label {
 				position: relative;
@@ -38,10 +64,6 @@
 				z-index: 1;
 			}
 
-			input[type="checkbox"] {
-				margin-right: 10px;
-			}
-
 			.list-item-details {
 				position: absolute;
 				right: 10px;
@@ -49,36 +71,55 @@
 				transform: translateY(-50%);
 				font-size: 1rem;
 			}
+		}
+	}
 
-			&:hover {
-				transform: scale(1.03);
-			}
-			&.new-this-month label {
-				color: colors.$text-green;
-			}
-			&.leaving-this-month label {
-				color: colors.$text-orange;
-			}
-			&[data-checked="true"] {
-				opacity: 0.5;
+	.checklist-table {
+		border-collapse: collapse;
 
-				label {
-					text-decoration: line-through;
-				}
+		tbody {
+			@include item;
+			background: none;
+		}
+		td {
+			padding: 10px;
+			background-color: colors.$menu-navy;
+			overflow: hidden;
+			font-size: 1rem;
+		}
+		tr:first-child {
+			td:first-child {
+				border-top-left-radius: 3px;
+			}
+			td:last-child {
+				border-top-right-radius: 3px;
+			}
+		}
+		tr:last-child {
+			td:first-child {
+				border-bottom-left-radius: 3px;
+			}
+			td:last-child {
+				border-bottom-right-radius: 3px;
 			}
 		}
 	}
 }
 
 .night-mode {
-	.list li {
-		background-color: colors.$menu-navy;
-		color: colors.$text-blue;
+	.checklist-wrapper{
+		.checklist-filters {
+			background-color: colors.$menu-navy;
+		}
+		.checklist li, .checklist-table tbody {
+			background-color: colors.$menu-navy;
+			color: colors.$text-blue;
+		}
 	}
 }
 
 @media only screen and (max-width: 600px) {
-	.list-wrapper {
+	.checklist-wrapper {
 		padding-bottom: 35px; // make room for day/night toggle
 	}
 }
