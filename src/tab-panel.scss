@@ -17,7 +17,7 @@
 			position: relative;
 			flex: 1;
 			border: 0;
-			padding: 10px 0 7px;
+			padding: 10px 0;
 			margin: 0;
 			background-color: transparent;
 			cursor: pointer;
@@ -77,6 +77,16 @@
 			.tab-panel-content[data-tab-id=#{$tab}] {
 				display: block;
 			}
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#tab-panel .tabs {
+		border-radius: 35px;
+
+		.tab {
+			padding: 15px 0;
 		}
 	}
 }

@@ -67,7 +67,9 @@
 	#night-mode-toggle {
 		top: auto;
 		left: auto;
-		right: 10px;
-		bottom: 10px;
+		right: 15px;
+		bottom: 15px;
+		transform: scale(1.4);
+		transform-origin: 100% 100%;
 	}
 }

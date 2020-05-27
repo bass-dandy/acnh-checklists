@@ -99,6 +99,13 @@
 
 @media only screen and (max-width: 600px) {
 	.checklist-wrapper {
-		padding-bottom: 35px; // make room for day/night toggle
+		padding-bottom: 50px; // make room for day/night toggle
+
+		.checklist-filters {
+			flex-wrap: wrap;
+		}
+		.checklist .checklist-item {
+			padding: 15px;
+		}
 	}
 }

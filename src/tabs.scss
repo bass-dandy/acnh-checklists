@@ -21,10 +21,10 @@
 	}
 	select {
 		font-family: "Comic Sans MS";
-		text-transform: capitalize;
 	}
-	option {
-		text-transform: capitalize;
+	label {
+		display: flex;
+		align-items: center;
 	}
 }
 
@@ -34,4 +34,20 @@ label.new-this-month {
 
 label.leaving-this-month {
 	color: colors.$text-orange;
+}
+
+@media only screen and (max-width: 600px) {
+	.filter-group {
+		width: 100%;
+
+		> *:not(:last-child) {
+			margin-right: 15px;
+		}
+		select {
+			flex: 1;
+		}
+		&:not(:first-child) {
+			margin-top: 5px;
+		}
+	}
 }
