@@ -256,8 +256,10 @@
   #night-mode-toggle {
     top: auto;
     left: auto;
-    right: 10px;
-    bottom: 10px;
+    right: 15px;
+    bottom: 15px;
+    transform: scale(1.4);
+    transform-origin: 100% 100%;
   }
 }
 .checklist-item {
@@ -345,7 +347,13 @@
 
 @media only screen and (max-width: 600px) {
   .checklist-wrapper {
-    padding-bottom: 35px;
+    padding-bottom: 50px;
+  }
+  .checklist-wrapper .checklist-filters {
+    flex-wrap: wrap;
+  }
+  .checklist-wrapper .checklist .checklist-item {
+    padding: 15px;
   }
 }
 #tab-panel {
@@ -365,7 +373,7 @@
   position: relative;
   flex: 1;
   border: 0;
-  padding: 10px 0 7px;
+  padding: 10px 0;
   margin: 0;
   background-color: transparent;
   cursor: pointer;
@@ -445,6 +453,14 @@
   display: block;
 }
 
+@media only screen and (max-width: 600px) {
+  #tab-panel .tabs {
+    border-radius: 35px;
+  }
+  #tab-panel .tabs .tab {
+    padding: 15px 0;
+  }
+}
 .price-tag {
   font-size: 1rem;
 }
@@ -465,10 +481,10 @@
 }
 .filter-group select {
   font-family: "Comic Sans MS";
-  text-transform: capitalize;
 }
-.filter-group option {
-  text-transform: capitalize;
+.filter-group label {
+  display: flex;
+  align-items: center;
 }
 
 label.new-this-month {
@@ -479,6 +495,20 @@ label.leaving-this-month {
   color: #E4943D;
 }
 
+@media only screen and (max-width: 600px) {
+  .filter-group {
+    width: 100%;
+  }
+  .filter-group > *:not(:last-child) {
+    margin-right: 15px;
+  }
+  .filter-group select {
+    flex: 1;
+  }
+  .filter-group:not(:first-child) {
+    margin-top: 5px;
+  }
+}
 @font-face {
   font-family: "humming";
   src: url("humming.otf") format("opentype");
