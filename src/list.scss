@@ -1,14 +1,15 @@
 @use './background';
 @use './colors';
 
-@mixin item {
+.checklist-item {
 	margin-top: 5px;
 	border-radius: 3px;
 	background-color: colors.$menu-light;
 	text-transform: capitalize;
-	transition: transform 0.2s ease-out, background.transition-with-sunrise(background-color), background.transition-with-sunrise(color);
-	overflow: hidden;
 	color: colors.$text-brown;
+	transition: transform 0.2s ease-out, background.transition-with-sunrise(background-color), background.transition-with-sunrise(color);
+	cursor: pointer;
+	overflow: hidden;
 
 	&:hover {
 		transform: scale(1.03);
@@ -47,60 +48,38 @@
 		margin: 0;
 		padding: 0;
 
-		li {
-			@include item;
-			position: relative;
+		.checklist-item {
+			display: grid;
+			grid-template-columns: max-content 1fr max-content;
+			align-items: center;
+			padding: 10px;
+			cursor: pointer;
 
 			input[type="checkbox"] {
 				margin-right: 10px;
+				pointer-events: none;
 			}
-
 			label {
-				position: relative;
-				display: flex;
-				align-items: center;
-				padding: 10px;
-				cursor: pointer;
-				z-index: 1;
+				pointer-events: none;
 			}
-
 			.list-item-details {
-				position: absolute;
-				right: 10px;
-				top: 50%;
-				transform: translateY(-50%);
 				font-size: 1rem;
 			}
-		}
-	}
+			.list-item-footer {
+				grid-column: 2 / span 2;
+				display: flex;
+				align-items: flex-start;
+				justify-content: space-between;
 
-	.checklist-table {
-		border-collapse: collapse;
+				.table-item-detail{
+					flex: 1;
+					color: colors.$text-cyan;
+					font-size: 1rem;
 
-		tbody {
-			@include item;
-			background: none;
-		}
-		td {
-			padding: 10px;
-			background-color: colors.$menu-navy;
-			overflow: hidden;
-			font-size: 1rem;
-		}
-		tr:first-child {
-			td:first-child {
-				border-top-left-radius: 3px;
-			}
-			td:last-child {
-				border-top-right-radius: 3px;
-			}
-		}
-		tr:last-child {
-			td:first-child {
-				border-bottom-left-radius: 3px;
-			}
-			td:last-child {
-				border-bottom-right-radius: 3px;
+					&:last-child {
+						text-align: right;
+					}
+				}
 			}
 		}
 	}
@@ -111,7 +90,7 @@
 		.checklist-filters {
 			background-color: colors.$menu-navy;
 		}
-		.checklist li, .checklist-table tbody {
+		.checklist-item {
 			background-color: colors.$menu-navy;
 			color: colors.$text-blue;
 		}

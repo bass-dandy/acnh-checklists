@@ -58,10 +58,18 @@ function CreatureFilter() {
 exports.Fish = function Fish(props) {
 	return (
 		<Checklist
-			layout="table"
 			items={data.fish}
 			renderFilters={CreatureFilter}
-			tableData={['nSeasonality.displayMonths', 'time', 'location', 'price']}
+			renderDetails={(item) => <PriceTag price={item.price}/>}
+			footerData={['nSeasonality.displayMonths', 'time', 'location', 'size']}
+			renderFooterData={(data) => {
+				return data.split(', ').map((part, i) => (
+					<>
+						{i > 0 ? <br/> : null}
+						{part}
+					</>
+				));
+			}}
 		/>
 	);
 };
@@ -69,10 +77,18 @@ exports.Fish = function Fish(props) {
 exports.Bugs = function Bugs(props) {
 	return (
 		<Checklist
-			layout="table"
 			items={data.bugs}
 			renderFilters={CreatureFilter}
-			tableData={['nSeasonality.displayMonths', 'time', 'location', 'price']}
+			renderDetails={(item) => <PriceTag price={item.price}/>}
+			footerData={['nSeasonality.displayMonths', 'time', 'location']}
+			renderFooterData={(data) => {
+				return data.split(', ').map((part, i) => (
+					<>
+						{i > 0 ? <br/> : null}
+						{part}
+					</>
+				));
+			}}
 		/>
 	);
 };

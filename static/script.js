@@ -57,7 +57,7 @@ import * as data from './data.js';
 // init checklists ==============
 // ==============================
 (() => {
-	document.querySelectorAll('.checklist > li, .checklist-table > tbody').forEach((checklistItem) => {
+	document.querySelectorAll('*[data-item-id]').forEach((checklistItem) => {
 		const itemId = checklistItem.dataset.itemId;
 		const defaultChecked = localStorage.getItem(itemId) === 'true';
 		checklistItem.setAttribute('data-checked', defaultChecked);
@@ -65,9 +65,13 @@ import * as data from './data.js';
 		const checkbox = checklistItem.querySelector('input[type="checkbox"]');
 		checkbox.checked = defaultChecked;
 
-		checkbox.addEventListener('change', (e) => {
-			checklistItem.setAttribute('data-checked', e.target.checked);
-			localStorage.setItem(itemId, e.target.checked);
+		checklistItem.addEventListener('click', (e) => {
+			e.preventDefault();
+
+			const isChecked = checklistItem.dataset.checked === 'true';
+			checklistItem.setAttribute('data-checked', !isChecked);
+			checkbox.checked = !isChecked;
+			localStorage.setItem(itemId, !isChecked);
 		});
 	});
 })();
@@ -82,7 +86,7 @@ import * as data from './data.js';
 		const state = {};
 		const tab = document.querySelector(`.tab-panel-content[data-tab-id="${tabId}"]`);
 		const controls = tab.querySelectorAll('*[data-filter-id]');
-		const items = tab.querySelectorAll('ul li');
+		const items = tab.querySelectorAll('*[data-item-id]');
 
 		controls.forEach((control) => {
 			state[control.dataset.filterId] = control.type === 'checkbox'
@@ -103,24 +107,26 @@ import * as data from './data.js';
 
 	const getCreatureFilter = (creatureData) => (state, item) => {
 		item.classList.remove('new-this-month', 'leaving-this-month');
+		const itemData = creatureData[item.dataset.itemId];
+
+		const {activeMonths, displayMonths} = state.hemisphere === 'n'
+			? itemData.nSeasonality
+			: itemData.sSeasonality;
+
+		item.querySelector('*[data-key="nSeasonality.displayMonths"]').innerHTML = displayMonths;
 
 		if (!state.month) {
 			// show all fish
 			return true;
 		} else {
-			const itemData = creatureData[item.dataset.itemId];
-
-			const {activeMonths, displayMonths} = state.hemisphere === 'n'
-				? itemData.nSeasonality
-				: itemData.sSeasonality;
 
 			if (!activeMonths || activeMonths.includes(state.month)) {
 				// available this month
-				const newThisMonth = displayMonths.split(',').some((range) => {
-					return range.trim().startsWith(state.month);
+				const newThisMonth = displayMonths.split(', ').some((range) => {
+					return range.startsWith(state.month);
 				});
-				const leavingThisMonth = displayMonths.split(',').some((range) => {
-					return range.trim().endsWith(state.month);
+				const leavingThisMonth = displayMonths.split(', ').some((range) => {
+					return range.endsWith(state.month);
 				});
 
 				if (leavingThisMonth) {
