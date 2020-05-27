@@ -260,78 +260,96 @@
     bottom: 10px;
   }
 }
-.list-wrapper .list-filters {
+.checklist-item {
+  margin-top: 5px;
+  border-radius: 3px;
+  background-color: #FFFAE6;
+  text-transform: capitalize;
+  color: #83735F;
+  transition: transform 0.2s ease-out, background-color 0.66s 0.66s ease-in-out, color 0.66s 0.66s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+}
+.checklist-item:hover {
+  transform: scale(1.03);
+}
+.checklist-item[data-checked=true] {
+  opacity: 0.5;
+}
+.checklist-item[data-checked=true] label {
+  text-decoration: line-through;
+}
+.checklist-item.new-this-month label {
+  color: #29B929;
+}
+.checklist-item.leaving-this-month label {
+  color: #E4943D;
+}
+
+.checklist-wrapper .checklist-filters {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 10px;
+  padding: 10px;
   margin-top: 5px;
   border-radius: 3px;
-  background-color: #FAF0A6;
+  background-color: #FFFAE6;
+  transition: background-color 0.66s 0.66s ease-in-out;
 }
-.list-wrapper .list {
+.checklist-wrapper .checklist {
   display: flex;
   flex-direction: column;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.list-wrapper .list li {
-  position: relative;
-  margin-top: 5px;
-  border-radius: 3px;
-  background-color: #FFFAE6;
-  text-transform: capitalize;
-  transition: transform 0.2s ease-out, background-color 0.66s 0.66s ease-in-out, color 0.66s 0.66s ease-in-out;
-  overflow: hidden;
-  color: #83735F;
-}
-.list-wrapper .list li label {
-  position: relative;
-  display: flex;
+.checklist-wrapper .checklist .checklist-item {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
   align-items: center;
   padding: 10px;
   cursor: pointer;
-  z-index: 1;
 }
-.list-wrapper .list li input[type=checkbox] {
+.checklist-wrapper .checklist .checklist-item input[type=checkbox] {
   margin-right: 10px;
+  pointer-events: none;
 }
-.list-wrapper .list li .list-item-details {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
+.checklist-wrapper .checklist .checklist-item label {
+  pointer-events: none;
+}
+.checklist-wrapper .checklist .checklist-item .list-item-details {
   font-size: 1rem;
 }
-.list-wrapper .list li:hover {
-  transform: scale(1.03);
+.checklist-wrapper .checklist .checklist-item .list-item-footer {
+  grid-column: 2/span 2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
-.list-wrapper .list li.new-this-month label {
-  color: #29B929;
+.checklist-wrapper .checklist .checklist-item .list-item-footer .table-item-detail {
+  flex: 1;
+  color: #28BAC9;
+  font-size: 1rem;
 }
-.list-wrapper .list li.leaving-this-month label {
-  color: #E4943D;
-}
-.list-wrapper .list li[data-checked=true] {
-  opacity: 0.5;
-}
-.list-wrapper .list li[data-checked=true] label {
-  text-decoration: line-through;
+.checklist-wrapper .checklist .checklist-item .list-item-footer .table-item-detail:last-child {
+  text-align: right;
 }
 
-.night-mode .list li {
+.night-mode .checklist-wrapper .checklist-filters {
+  background-color: #1D3851;
+}
+.night-mode .checklist-wrapper .checklist-item {
   background-color: #1D3851;
   color: #CDEBEF;
 }
 
 @media only screen and (max-width: 600px) {
-  .list-wrapper {
+  .checklist-wrapper {
     padding-bottom: 35px;
   }
 }
 #tab-panel {
-  width: 500px;
+  width: 550px;
   max-width: 100vw;
   padding: 10px;
   margin: auto;
@@ -442,7 +460,7 @@
   display: flex;
   align-items: center;
 }
-.filter-group *:not(last-child) {
+.filter-group > *:not(:last-child) {
   margin-right: 5px;
 }
 .filter-group select {
@@ -453,11 +471,11 @@
   text-transform: capitalize;
 }
 
-.new-this-month {
+label.new-this-month {
   color: #29B929;
 }
 
-.leaving-this-month {
+label.leaving-this-month {
   color: #E4943D;
 }
 
