@@ -56,7 +56,7 @@
 			cursor: pointer;
 
 			input[type="checkbox"] {
-				margin-right: 10px;
+				margin: 0 10px 0 0;
 				pointer-events: none;
 			}
 			label {
@@ -103,9 +103,14 @@
 
 		.checklist-filters {
 			flex-wrap: wrap;
+			padding: 15px;
 		}
 		.checklist .checklist-item {
 			padding: 15px;
+
+			&:hover {
+				transform: none;
+			}
 		}
 	}
 }
