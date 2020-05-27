@@ -14,11 +14,13 @@ module.exports = function CheckList(props) {
 					<li
 						data-item-id={id}
 						className="checklist-item"
+						tabIndex={0}
 					>
 						<input
 							type="checkbox"
 							id={`checkbox-${id}`}
 							className="table-item-checkbox"
+							tabIndex={-1}
 						/>
 						<label htmlFor={`checkbox-${id}`}>
 							{props.items[id].name}

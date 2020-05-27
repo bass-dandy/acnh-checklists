@@ -57,7 +57,7 @@ module.exports = `
 		<head>
 			<meta charSet="utf-8">
 			<title>ACNH Checklists</title>
-			<meta name="description" content="">
+			<meta name="description" content="Animal Crossing: New Horizons Collectibles Checklists">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="icon" type="image/png" href="favicon.png">
 			<link rel="stylesheet" href="style.css">

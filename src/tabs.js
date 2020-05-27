@@ -19,6 +19,7 @@ function CreatureFilter() {
 				<select
 					value="n"
 					data-filter-id="hemisphere"
+					aria-label="hemisphere"
 				>
 					<option value="n">N. Hemisphere</option>
 					<option value="s">S. Hemisphere</option>
@@ -26,8 +27,9 @@ function CreatureFilter() {
 				<select
 					value=""
 					data-filter-id="month"
+					aria-label="month"
 				>
-					<option value="">Month</option>
+					<option value="">All Months</option>
 					{MONTHS.map((month) => (
 						<option value={month}>
 							{month}

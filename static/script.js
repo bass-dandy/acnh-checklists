@@ -1,12 +1,34 @@
 import * as data from './data.js';
 
+function addAccessibleClick(tgt, onClick) {
+	tgt.addEventListener('click', onClick);
+
+	tgt.addEventListener('keydown', (e) => {
+		if (e.key === ' ' || e.key === 'Enter') {
+			onClick(e);
+		}
+	});
+}
+
+// ==============================
+// init reasonable focus outlines
+// ==============================
+document.addEventListener('keydown', (e) => {
+	if (e.key === 'Tab') {
+		document.documentElement.classList.add('keyboard-accessible');
+	}
+});
+document.addEventListener('mousedown', () => {
+	document.documentElement.classList.remove('keyboard-accessible');
+});
+
 // ==============================
 // init night mode toggle =======
 // ==============================
 (() => {
 	const nightModeToggle = document.querySelector('#night-mode-toggle');
 
-	function toggleNightMode() {
+	addAccessibleClick(nightModeToggle, () => {
 		if (nightModeToggle.getAttribute('aria-checked') === 'false') {
 			nightModeToggle.setAttribute('aria-checked', 'true');
 			document.documentElement.classList.add('night-mode');
@@ -14,28 +36,6 @@ import * as data from './data.js';
 			nightModeToggle.setAttribute('aria-checked', 'false');
 			document.documentElement.classList.remove('night-mode');
 		}
-	};
-
-	nightModeToggle.addEventListener('keydown', (e) => {
-		if (e.key === ' ' || e.key === 'Enter') {
-			toggleNightMode();
-		}
-	});
-
-	nightModeToggle.addEventListener('click', toggleNightMode);
-})();
-
-// ==============================
-// init reasonable focus outlines
-// ==============================
-(() => {
-	document.addEventListener('keydown', (e) => {
-		if (e.key === 'Tab') {
-			document.documentElement.classList.add('keyboard-accessible');
-		}
-	});
-	document.addEventListener('mousedown', () => {
-		document.documentElement.classList.remove('keyboard-accessible');
 	});
 })();
 
@@ -56,25 +56,23 @@ import * as data from './data.js';
 // ==============================
 // init checklists ==============
 // ==============================
-(() => {
-	document.querySelectorAll('*[data-item-id]').forEach((checklistItem) => {
-		const itemId = checklistItem.dataset.itemId;
-		const defaultChecked = localStorage.getItem(itemId) === 'true';
-		checklistItem.setAttribute('data-checked', defaultChecked);
+document.querySelectorAll('*[data-item-id]').forEach((checklistItem) => {
+	const itemId = checklistItem.dataset.itemId;
+	const defaultChecked = localStorage.getItem(itemId) === 'true';
+	checklistItem.setAttribute('data-checked', defaultChecked);
 
-		const checkbox = checklistItem.querySelector('input[type="checkbox"]');
-		checkbox.checked = defaultChecked;
+	const checkbox = checklistItem.querySelector('input[type="checkbox"]');
+	checkbox.checked = defaultChecked;
 
-		checklistItem.addEventListener('click', (e) => {
-			e.preventDefault();
+	addAccessibleClick(checklistItem, (e) => {
+		e.preventDefault();
 
-			const isChecked = checklistItem.dataset.checked === 'true';
-			checklistItem.setAttribute('data-checked', !isChecked);
-			checkbox.checked = !isChecked;
-			localStorage.setItem(itemId, !isChecked);
-		});
+		const isChecked = checklistItem.dataset.checked === 'true';
+		checklistItem.setAttribute('data-checked', !isChecked);
+		checkbox.checked = !isChecked;
+		localStorage.setItem(itemId, !isChecked);
 	});
-})();
+});
 
 // ==============================
 // init filtering ===============
