@@ -2,7 +2,9 @@
 	"anchovy": {
 		"name": "Anchovy",
 		"price": 200,
-		"time": "4 AM - 9 PM",
+		"time": [
+			"4 AM - 9 PM"
+		],
 		"size": "Small",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -21,7 +23,9 @@
 	"angelfish": {
 		"name": "Angelfish",
 		"price": 3000,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Small",
 		"location": "River",
 		"nSeasonality": {
@@ -54,7 +58,9 @@
 	"arapaima": {
 		"name": "Arapaima",
 		"price": 10000,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Largest",
 		"location": "River",
 		"nSeasonality": {
@@ -83,7 +89,9 @@
 	"arowana": {
 		"name": "Arowana",
 		"price": 10000,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Large",
 		"location": "River",
 		"nSeasonality": {
@@ -112,7 +120,9 @@
 	"barred_knifejaw": {
 		"name": "Barred Knifejaw",
 		"price": 5000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Medium",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -151,7 +161,9 @@
 	"barreleye": {
 		"name": "Barreleye",
 		"price": 15000,
-		"time": "9 PM - 4 AM",
+		"time": [
+			"9 PM - 4 AM"
+		],
 		"size": "Small",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -170,7 +182,9 @@
 	"betta": {
 		"name": "Betta",
 		"price": 2500,
-		"time": "9 AM - 4 PM",
+		"time": [
+			"9 AM - 4 PM"
+		],
 		"size": "Small",
 		"location": "River",
 		"nSeasonality": {
@@ -203,7 +217,9 @@
 	"bitterling": {
 		"name": "Bitterling",
 		"price": 900,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Smallest",
 		"location": "River",
 		"nSeasonality": {
@@ -234,7 +250,9 @@
 	"black_bass": {
 		"name": "Black Bass",
 		"price": 400,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Large",
 		"location": "River",
 		"nSeasonality": {
@@ -253,7 +271,9 @@
 	"blowfish": {
 		"name": "Blowfish",
 		"price": 5000,
-		"time": "9 PM - 4 AM",
+		"time": [
+			"9 PM - 4 AM"
+		],
 		"size": "Medium",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -285,7 +305,9 @@
 	"blue_marlin": {
 		"name": "Blue Marlin",
 		"price": 10000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Extra Large",
 		"location": "Pier",
 		"nSeasonality": {
@@ -326,7 +348,9 @@
 	"bluegill": {
 		"name": "Bluegill",
 		"price": 180,
-		"time": "9 AM - 4 PM",
+		"time": [
+			"9 AM - 4 PM"
+		],
 		"size": "Small",
 		"location": "River",
 		"nSeasonality": {
@@ -345,7 +369,9 @@
 	"butterfly_fish": {
 		"name": "Butterfly Fish",
 		"price": 1000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Small",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -378,7 +404,9 @@
 	"carp": {
 		"name": "Carp",
 		"price": 300,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Large",
 		"location": "River",
 		"nSeasonality": {
@@ -397,7 +425,9 @@
 	"catfish": {
 		"name": "Catfish",
 		"price": 800,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Large",
 		"location": "Pond",
 		"nSeasonality": {
@@ -430,7 +460,9 @@
 	"char": {
 		"name": "Char",
 		"price": 3800,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Medium",
 		"location": "River",
 		"nSeasonality": {
@@ -467,7 +499,9 @@
 	"cherry_salmon": {
 		"name": "Cherry Salmon",
 		"price": 1000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Medium",
 		"location": "River (Clifftop)",
 		"nSeasonality": {
@@ -504,7 +538,9 @@
 	"clown_fish": {
 		"name": "Clown Fish",
 		"price": 650,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Smallest",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -537,7 +573,9 @@
 	"coelacanth": {
 		"name": "Coelacanth",
 		"price": 15000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Largest",
 		"location": "Ocean (Rain)",
 		"nSeasonality": {
@@ -556,7 +594,9 @@
 	"crawfish": {
 		"name": "Crawfish",
 		"price": 200,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Small",
 		"location": "Pond",
 		"nSeasonality": {
@@ -589,7 +629,9 @@
 	"crucian_carp": {
 		"name": "Crucian Carp",
 		"price": 160,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Small",
 		"location": "River",
 		"nSeasonality": {
@@ -608,7 +650,9 @@
 	"dab": {
 		"name": "Dab",
 		"price": 300,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Medium",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -643,7 +687,9 @@
 	"dace": {
 		"name": "Dace",
 		"price": 240,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Medium",
 		"location": "River",
 		"nSeasonality": {
@@ -662,7 +708,9 @@
 	"dorado": {
 		"name": "Dorado",
 		"price": 15000,
-		"time": "4 AM - 9 PM",
+		"time": [
+			"4 AM - 9 PM"
+		],
 		"size": "Extra Large",
 		"location": "River",
 		"nSeasonality": {
@@ -691,7 +739,9 @@
 	"football_fish": {
 		"name": "Football Fish",
 		"price": 2500,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Large",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -722,7 +772,9 @@
 	"freshwater_goby": {
 		"name": "Freshwater Goby",
 		"price": 400,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Small",
 		"location": "River",
 		"nSeasonality": {
@@ -741,7 +793,9 @@
 	"frog": {
 		"name": "Frog",
 		"price": 120,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Small",
 		"location": "Pond",
 		"nSeasonality": {
@@ -770,7 +824,9 @@
 	"gar": {
 		"name": "Gar",
 		"price": 6000,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Largest",
 		"location": "Pond",
 		"nSeasonality": {
@@ -799,7 +855,9 @@
 	"giant_snakehead": {
 		"name": "Giant Snakehead",
 		"price": 5500,
-		"time": "9 AM - 4 PM",
+		"time": [
+			"9 AM - 4 PM"
+		],
 		"size": "Extra Large",
 		"location": "Pond",
 		"nSeasonality": {
@@ -826,7 +884,9 @@
 	"giant_trevally": {
 		"name": "Giant Trevally",
 		"price": 4500,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Large",
 		"location": "Pier",
 		"nSeasonality": {
@@ -859,7 +919,9 @@
 	"golden_trout": {
 		"name": "Golden Trout",
 		"price": 15000,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Medium",
 		"location": "River (Clifftop)",
 		"nSeasonality": {
@@ -894,7 +956,9 @@
 	"goldfish": {
 		"name": "Goldfish",
 		"price": 1300,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Smallest",
 		"location": "Pond",
 		"nSeasonality": {
@@ -913,7 +977,9 @@
 	"great_white_shark": {
 		"name": "Great White Shark",
 		"price": 15000,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Largest (Fin)",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -942,7 +1008,9 @@
 	"guppy": {
 		"name": "Guppy",
 		"price": 1300,
-		"time": "9 AM - 4 PM",
+		"time": [
+			"9 AM - 4 PM"
+		],
 		"size": "Smallest",
 		"location": "River",
 		"nSeasonality": {
@@ -979,7 +1047,9 @@
 	"hammerhead_shark": {
 		"name": "Hammerhead Shark",
 		"price": 8000,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Largest (Fin)",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1008,7 +1078,9 @@
 	"horse_mackerel": {
 		"name": "Horse Mackerel",
 		"price": 150,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Small",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1027,7 +1099,9 @@
 	"killifish": {
 		"name": "Killifish",
 		"price": 300,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Smallest",
 		"location": "Pond",
 		"nSeasonality": {
@@ -1056,7 +1130,9 @@
 	"king_salmon": {
 		"name": "King Salmon",
 		"price": 1800,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Smallest",
 		"location": "River (Mouth)",
 		"nSeasonality": {
@@ -1079,7 +1155,9 @@
 	"koi": {
 		"name": "Koi",
 		"price": 4000,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Large",
 		"location": "Pond",
 		"nSeasonality": {
@@ -1098,7 +1176,9 @@
 	"loach": {
 		"name": "Loach",
 		"price": 400,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Small",
 		"location": "River",
 		"nSeasonality": {
@@ -1125,7 +1205,9 @@
 	"mahi_mahi": {
 		"name": "Mahi-mahi",
 		"price": 2000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Large",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1158,7 +1240,9 @@
 	"mitten_crab": {
 		"name": "Mitten Crab",
 		"price": 2000,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Small",
 		"location": "River",
 		"nSeasonality": {
@@ -1185,7 +1269,9 @@
 	"moray_eel": {
 		"name": "Moray Eel",
 		"price": 2000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Extra Large",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1212,7 +1298,9 @@
 	"napoleonfish": {
 		"name": "Napoleonfish",
 		"price": 2000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Largest",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1237,7 +1325,9 @@
 	"neon_tetra": {
 		"name": "Neon Tetra",
 		"price": 500,
-		"time": "4 AM - 4 PM",
+		"time": [
+			"4 AM - 4 PM"
+		],
 		"size": "Smallest",
 		"location": "River",
 		"nSeasonality": {
@@ -1274,7 +1364,9 @@
 	"nibble_fish": {
 		"name": "Nibble Fish",
 		"price": 1500,
-		"time": "9 AM - 4 PM",
+		"time": [
+			"9 AM - 4 PM"
+		],
 		"size": "Small",
 		"location": "River",
 		"nSeasonality": {
@@ -1305,7 +1397,9 @@
 	"oarfish": {
 		"name": "Oarfish",
 		"price": 9000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Largest",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1338,7 +1432,9 @@
 	"ocean_sunfish": {
 		"name": "Ocean Sunfish",
 		"price": 4000,
-		"time": "4 AM - 9 PM",
+		"time": [
+			"4 AM - 9 PM"
+		],
 		"size": "Largest (Fin)",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1365,7 +1461,9 @@
 	"olive_flounder": {
 		"name": "Olive Flounder",
 		"price": 800,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Large",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1384,7 +1482,9 @@
 	"pale_chub": {
 		"name": "Pale Chub",
 		"price": 200,
-		"time": "9 AM - 4 PM",
+		"time": [
+			"9 AM - 4 PM"
+		],
 		"size": "Smallest",
 		"location": "River",
 		"nSeasonality": {
@@ -1403,7 +1503,9 @@
 	"pike": {
 		"name": "Pike",
 		"price": 1800,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Extra Large",
 		"location": "River",
 		"nSeasonality": {
@@ -1432,7 +1534,10 @@
 	"piranha": {
 		"name": "Piranha",
 		"price": 2500,
-		"time": "9 AM - 4 PM, 9 PM - 4 AM",
+		"time": [
+			"9 AM - 4 PM",
+			"9 PM - 4 AM"
+		],
 		"size": "Small",
 		"location": "River",
 		"nSeasonality": {
@@ -1461,7 +1566,9 @@
 	"pond_smelt": {
 		"name": "Pond Smelt",
 		"price": 320,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Small",
 		"location": "River",
 		"nSeasonality": {
@@ -1488,7 +1595,9 @@
 	"pop_eyed_goldfish": {
 		"name": "Pop-eyed Goldfish",
 		"price": 1300,
-		"time": "9 AM - 4 PM",
+		"time": [
+			"9 AM - 4 PM"
+		],
 		"size": "Smallest",
 		"location": "Pond",
 		"nSeasonality": {
@@ -1507,7 +1616,9 @@
 	"puffer_fish": {
 		"name": "Puffer Fish",
 		"price": 250,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Medium",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1534,7 +1645,9 @@
 	"rainbowfish": {
 		"name": "Rainbowfish",
 		"price": 800,
-		"time": "9 AM - 4 PM",
+		"time": [
+			"9 AM - 4 PM"
+		],
 		"size": "Small",
 		"location": "River",
 		"nSeasonality": {
@@ -1567,7 +1680,9 @@
 	"ranchu_goldfish": {
 		"name": "Ranchu Goldfish",
 		"price": 4500,
-		"time": "9 AM - 4 PM",
+		"time": [
+			"9 AM - 4 PM"
+		],
 		"size": "Small",
 		"location": "Pond",
 		"nSeasonality": {
@@ -1586,7 +1701,9 @@
 	"ray": {
 		"name": "Ray",
 		"price": 3000,
-		"time": "4 AM - 9 PM",
+		"time": [
+			"4 AM - 9 PM"
+		],
 		"size": "Extra Large",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1615,7 +1732,9 @@
 	"red_snapper": {
 		"name": "Red Snapper",
 		"price": 3000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Large",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1634,7 +1753,9 @@
 	"ribbon_eel": {
 		"name": "Ribbon Eel",
 		"price": 600,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Narrow",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1663,7 +1784,9 @@
 	"saddled_bichir": {
 		"name": "Saddled Bichir",
 		"price": 4000,
-		"time": "9 PM - 4 AM",
+		"time": [
+			"9 PM - 4 AM"
+		],
 		"size": "Large",
 		"location": "River",
 		"nSeasonality": {
@@ -1692,7 +1815,9 @@
 	"salmon": {
 		"name": "Salmon",
 		"price": 700,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Small",
 		"location": "River (Mouth)",
 		"nSeasonality": {
@@ -1715,7 +1840,9 @@
 	"saw_shark": {
 		"name": "Saw Shark",
 		"price": 3750,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Largest (Fin)",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1744,7 +1871,9 @@
 	"sea_bass": {
 		"name": "Sea Bass",
 		"price": 400,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Extra Large",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1763,7 +1892,9 @@
 	"sea_butterfly": {
 		"name": "Sea Butterfly",
 		"price": 1000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Smallest",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1792,7 +1923,9 @@
 	"sea_horse": {
 		"name": "Sea Horse",
 		"price": 1100,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Smallest",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1829,7 +1962,9 @@
 	"snapping_turtle": {
 		"name": "Snapping Turtle",
 		"price": 5000,
-		"time": "9 AM - 4 PM",
+		"time": [
+			"9 AM - 4 PM"
+		],
 		"size": "Extra Large",
 		"location": "River",
 		"nSeasonality": {
@@ -1864,7 +1999,9 @@
 	"soft_shelled_turtle": {
 		"name": "Soft-shelled Turtle",
 		"price": 12000,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Large",
 		"location": "River",
 		"nSeasonality": {
@@ -1889,7 +2026,9 @@
 	"squid": {
 		"name": "Squid",
 		"price": 500,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Medium",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -1928,7 +2067,9 @@
 	"stringfish": {
 		"name": "Stringfish",
 		"price": 15000,
-		"time": "4 PM - 9 AM",
+		"time": [
+			"4 PM - 9 AM"
+		],
 		"size": "Largest",
 		"location": "River (Clifftop)",
 		"nSeasonality": {
@@ -1957,7 +2098,9 @@
 	"sturgeon": {
 		"name": "Sturgeon",
 		"price": 10000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Largest",
 		"location": "River (Mouth)",
 		"nSeasonality": {
@@ -1992,7 +2135,9 @@
 	"suckerfish": {
 		"name": "Suckerfish",
 		"price": 1500,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "(Fin)",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -2021,7 +2166,9 @@
 	"surgeonfish": {
 		"name": "Surgeonfish",
 		"price": 1000,
-		"time": "All Day",
+		"time": [
+			"All Day"
+		],
 		"size": "Small",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -2054,7 +2201,9 @@
 	"sweetfish": {
 		"name": "Sweetfish",
 		"price": 900,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Medium",
 		"location": "River",
 		"nSeasonality": {
@@ -2081,7 +2230,9 @@
 	"tadpole": {
 		"name": "Tadpole",
 		"price": 100,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Smallest",
 		"location": "Pond",
 		"nSeasonality": {
@@ -2112,7 +2263,9 @@
 	"tilapia": {
 		"name": "Tilapia",
 		"price": 800,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Medium",
 		"location": "River",
 		"nSeasonality": {
@@ -2143,7 +2296,9 @@
 	"tuna": {
 		"name": "Tuna",
 		"price": 7000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Extra Large",
 		"location": "Pier",
 		"nSeasonality": {
@@ -2176,7 +2331,9 @@
 	"whale_shark": {
 		"name": "Whale Shark",
 		"price": 13000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Largest (Fin)",
 		"location": "Ocean",
 		"nSeasonality": {
@@ -2205,7 +2362,9 @@
 	"yellow_perch": {
 		"name": "Yellow Perch",
 		"price": 300,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Medium",
 		"location": "River",
 		"nSeasonality": {
@@ -2238,7 +2397,9 @@
 	"zebra_turkeyfish": {
 		"name": "Zebra Turkeyfish",
 		"price": 500,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"size": "Medium",
 		"location": "Ocean",
 		"nSeasonality": {

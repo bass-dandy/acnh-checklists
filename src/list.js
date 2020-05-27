@@ -37,14 +37,15 @@ module.exports = function CheckList(props) {
 										return acc[key];
 									}, props.items[id]);
 
-									const lastPart = pathParts[pathParts.length - 1];
 
 									return (
 										<div
 											className="table-item-detail"
-											data-key={lastPart}
+											data-key={pathParts[pathParts.length - 1]}
 										>
-											{props.renderFooterData?.(data, lastPart) ?? data}
+											{Array.isArray(data) ? data.map((phrase, i) => {
+												return i > 0 ? <><br/>{phrase}</> : phrase;
+											}) : data}
 										</div>
 									);
 								})}
@@ -65,6 +66,5 @@ module.exports.propTypes = {
 	),
 	renderFilters: PropTypes.func,
 	renderDetails: PropTypes.func,
-	footerData: PropTypes.arrayOf(PropTypes.string),
-	renderFooterData: PropTypes.func
+	footerData: PropTypes.arrayOf(PropTypes.string)
 };

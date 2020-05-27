@@ -1,8 +1,8 @@
 const fs = require('fs');
 const data = require('../src/data');
 
-function transformDisplayMonths({activeMonths, displayMonths}) {
-	return displayMonths.split(', ');
+function transformTime(time) {
+	return time.split(', ');
 }
 
 ['fish', 'bugs'].forEach((key) => {
@@ -14,8 +14,7 @@ function transformDisplayMonths({activeMonths, displayMonths}) {
 		if (!item.name) {
 			throw new Error('JSON data missing [name] field');
 		}
-		listData[prop].nSeasonality.displayMonths = transformDisplayMonths(item.nSeasonality);
-		listData[prop].sSeasonality.displayMonths = transformDisplayMonths(item.sSeasonality);
+		listData[prop].time = transformTime(item.time);
 	});
 
 	fs.writeFile(`./${key}.json`, JSON.stringify(listData, null, '\t'), console.log);

@@ -2,7 +2,9 @@
 	"agrias_butterfly": {
 		"name": "Agrias Butterfly",
 		"price": 3000,
-		"time": "8 AM - 5 PM",
+		"time": [
+			"8 AM - 5 PM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -34,7 +36,9 @@
 	"ant": {
 		"name": "Ant",
 		"price": 80,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Rotten fruit and turnips",
 		"nSeasonality": {
 			"activeMonths": null,
@@ -52,7 +56,9 @@
 	"atlas_moth": {
 		"name": "Atlas Moth",
 		"price": 3000,
-		"time": "7 PM - 4 AM",
+		"time": [
+			"7 PM - 4 AM"
+		],
 		"location": "Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -84,7 +90,9 @@
 	"bagworm": {
 		"name": "Bagworm",
 		"price": 600,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Shake tree",
 		"nSeasonality": {
 			"activeMonths": null,
@@ -102,7 +110,9 @@
 	"banded_dragonfly": {
 		"name": "Banded Dragonfly",
 		"price": 4500,
-		"time": "8 AM - 5 PM",
+		"time": [
+			"8 AM - 5 PM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -134,7 +144,9 @@
 	"bell_cricket": {
 		"name": "Bell Cricket",
 		"price": 430,
-		"time": "5 PM - 8 AM",
+		"time": [
+			"5 PM - 8 AM"
+		],
 		"location": "Grass",
 		"nSeasonality": {
 			"activeMonths": [
@@ -158,7 +170,9 @@
 	"blue_weevil_beetle": {
 		"name": "Blue Weevil Beetle",
 		"price": 800,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Palm Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -182,7 +196,9 @@
 	"brown_cicada": {
 		"name": "Brown Cicada",
 		"price": 250,
-		"time": "8 AM - 5 PM",
+		"time": [
+			"8 AM - 5 PM"
+		],
 		"location": "Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -206,7 +222,9 @@
 	"centipede": {
 		"name": "Centipede",
 		"price": 430,
-		"time": "5 PM - 11 PM",
+		"time": [
+			"5 PM - 11 PM"
+		],
 		"location": "Hit rocks",
 		"nSeasonality": {
 			"activeMonths": [
@@ -246,7 +264,9 @@
 	"cicada_shell": {
 		"name": "Cicada Shell",
 		"price": 10,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -270,7 +290,9 @@
 	"citrus_long_horned_beetle": {
 		"name": "Citrus Long-Horned Beetle",
 		"price": 350,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Tree stump",
 		"nSeasonality": {
 			"activeMonths": null,
@@ -288,7 +310,9 @@
 	"common_bluebottle": {
 		"name": "Common Bluebottle",
 		"price": 300,
-		"time": "4 AM - 7 PM",
+		"time": [
+			"4 AM - 7 PM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -318,7 +342,9 @@
 	"common_butterfly": {
 		"name": "Common Butterfly",
 		"price": 160,
-		"time": "4 AM - 7 PM",
+		"time": [
+			"4 AM - 7 PM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -358,7 +384,9 @@
 	"cricket": {
 		"name": "Cricket",
 		"price": 130,
-		"time": "5 PM - 8 AM",
+		"time": [
+			"5 PM - 8 AM"
+		],
 		"location": "Ground",
 		"nSeasonality": {
 			"activeMonths": [
@@ -384,7 +412,9 @@
 	"cyclommatus_stag": {
 		"name": "Cyclommatus Stag",
 		"price": 8000,
-		"time": "5 PM - 8 AM",
+		"time": [
+			"5 PM - 8 AM"
+		],
 		"location": "Palm Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -408,7 +438,9 @@
 	"damselfly": {
 		"name": "Damselfly",
 		"price": 500,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -439,7 +471,9 @@
 	"darner_dragonfly": {
 		"name": "Darner Dragonfly",
 		"price": 230,
-		"time": "8 AM - 5 PM",
+		"time": [
+			"8 AM - 5 PM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -473,7 +507,9 @@
 	"diving_beetle": {
 		"name": "Diving Beetle",
 		"price": 800,
-		"time": "8 AM - 7 PM",
+		"time": [
+			"8 AM - 7 PM"
+		],
 		"location": "River",
 		"nSeasonality": {
 			"activeMonths": [
@@ -503,7 +539,9 @@
 	"drone_beetle": {
 		"name": "Drone Beetle",
 		"price": 200,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -529,7 +567,9 @@
 	"dung_beetle": {
 		"name": "Dung Beetle",
 		"price": 2500,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Snowballs",
 		"nSeasonality": {
 			"activeMonths": [
@@ -555,7 +595,9 @@
 	"earth_boring_dung_beetle": {
 		"name": "Earth-Boring Dung Beetle",
 		"price": 300,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Ground",
 		"nSeasonality": {
 			"activeMonths": [
@@ -581,7 +623,9 @@
 	"emperor_butterfly": {
 		"name": "Emperor Butterfly",
 		"price": 4000,
-		"time": "5 PM - 8 AM",
+		"time": [
+			"5 PM - 8 AM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -619,7 +663,9 @@
 	"evening_cicada": {
 		"name": "Evening Cicada",
 		"price": 550,
-		"time": "8 AM - 5 PM",
+		"time": [
+			"8 AM - 5 PM"
+		],
 		"location": "Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -643,7 +689,9 @@
 	"firefly": {
 		"name": "Firefly",
 		"price": 300,
-		"time": "7 PM - 4 AM",
+		"time": [
+			"7 PM - 4 AM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -665,7 +713,9 @@
 	"flea": {
 		"name": "Flea",
 		"price": 70,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Flea-infested villager",
 		"nSeasonality": {
 			"activeMonths": [
@@ -701,7 +751,9 @@
 	"fly": {
 		"name": "Fly",
 		"price": 60,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Rotten fruit or garbage",
 		"nSeasonality": {
 			"activeMonths": null,
@@ -719,7 +771,9 @@
 	"giant_cicada": {
 		"name": "Giant Cicada",
 		"price": 500,
-		"time": "8 AM - 5 PM",
+		"time": [
+			"8 AM - 5 PM"
+		],
 		"location": "Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -743,7 +797,9 @@
 	"giant_stag": {
 		"name": "Giant Stag",
 		"price": 10000,
-		"time": "11 PM - 8 AM",
+		"time": [
+			"11 PM - 8 AM"
+		],
 		"location": "Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -767,7 +823,9 @@
 	"giant_water_bug": {
 		"name": "Giant Water Bug",
 		"price": 2000,
-		"time": "7 PM - 8 AM",
+		"time": [
+			"7 PM - 8 AM"
+		],
 		"location": "Ponds",
 		"nSeasonality": {
 			"activeMonths": [
@@ -799,7 +857,9 @@
 	"giraffe_stag": {
 		"name": "Giraffe Stag",
 		"price": 12000,
-		"time": "5 PM - 8 AM",
+		"time": [
+			"5 PM - 8 AM"
+		],
 		"location": "Palm Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -823,7 +883,9 @@
 	"golden_stag": {
 		"name": "Golden Stag",
 		"price": 12000,
-		"time": "5 PM - 8 AM",
+		"time": [
+			"5 PM - 8 AM"
+		],
 		"location": "Palm Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -847,7 +909,9 @@
 	"goliath_beetle": {
 		"name": "Goliath Beetle",
 		"price": 8000,
-		"time": "5 PM - 8 AM",
+		"time": [
+			"5 PM - 8 AM"
+		],
 		"location": "Palm Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -875,7 +939,9 @@
 	"grasshopper": {
 		"name": "Grasshopper",
 		"price": 160,
-		"time": "8 AM - 5 PM",
+		"time": [
+			"8 AM - 5 PM"
+		],
 		"location": "Ground",
 		"nSeasonality": {
 			"activeMonths": [
@@ -901,7 +967,9 @@
 	"great_purple_emperor": {
 		"name": "Great Purple Emperor",
 		"price": 3000,
-		"time": "4 AM - 7 PM",
+		"time": [
+			"4 AM - 7 PM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -929,7 +997,9 @@
 	"hermit_crab": {
 		"name": "Hermit Crab",
 		"price": 1000,
-		"time": "7 PM - 8 AM",
+		"time": [
+			"7 PM - 8 AM"
+		],
 		"location": "Beach",
 		"nSeasonality": {
 			"activeMonths": null,
@@ -947,7 +1017,9 @@
 	"honeybee": {
 		"name": "Honeybee",
 		"price": 200,
-		"time": "8 AM - 5 PM",
+		"time": [
+			"8 AM - 5 PM"
+		],
 		"location": "Near flowers",
 		"nSeasonality": {
 			"activeMonths": [
@@ -977,7 +1049,9 @@
 	"horned_atlas": {
 		"name": "Horned Atlas",
 		"price": 8000,
-		"time": "5 PM - 8 AM",
+		"time": [
+			"5 PM - 8 AM"
+		],
 		"location": "Palm Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1001,7 +1075,9 @@
 	"horned_dynastid": {
 		"name": "Horned Dynastid",
 		"price": 1350,
-		"time": "5 PM - 8 AM",
+		"time": [
+			"5 PM - 8 AM"
+		],
 		"location": "Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1025,7 +1101,9 @@
 	"horned_elephant": {
 		"name": "Horned Elephant",
 		"price": 8000,
-		"time": "5 PM - 8 AM",
+		"time": [
+			"5 PM - 8 AM"
+		],
 		"location": "Palm Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1049,7 +1127,9 @@
 	"horned_hercules": {
 		"name": "Horned Hercules",
 		"price": 12000,
-		"time": "5 PM - 8 AM",
+		"time": [
+			"5 PM - 8 AM"
+		],
 		"location": "Palm Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1073,7 +1153,9 @@
 	"jewel_beetle": {
 		"name": "Jewel Beetle",
 		"price": 2400,
-		"time": "All Day",
+		"time": [
+			"All Day"
+		],
 		"location": "Tree stump",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1103,7 +1185,9 @@
 	"ladybug": {
 		"name": "Ladybug",
 		"price": 200,
-		"time": "8 AM - 5 PM",
+		"time": [
+			"8 AM - 5 PM"
+		],
 		"location": "Flowers",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1135,7 +1219,9 @@
 	"long_locust": {
 		"name": "Long Locust",
 		"price": 200,
-		"time": "8 AM - 7 PM",
+		"time": [
+			"8 AM - 7 PM"
+		],
 		"location": "Ground",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1171,7 +1257,9 @@
 	"madagascan_sunset_moth": {
 		"name": "Madagascan Sunset Moth",
 		"price": 2500,
-		"time": "8 AM - 4 PM",
+		"time": [
+			"8 AM - 4 PM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1203,7 +1291,9 @@
 	"man_faced_stink_bug": {
 		"name": "Man-Faced Stink Bug",
 		"price": 1000,
-		"time": "7 PM - 8 AM",
+		"time": [
+			"7 PM - 8 AM"
+		],
 		"location": "Flowers",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1239,7 +1329,9 @@
 	"mantis": {
 		"name": "Mantis",
 		"price": 430,
-		"time": "8 AM - 5 PM",
+		"time": [
+			"8 AM - 5 PM"
+		],
 		"location": "Flowers",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1277,7 +1369,9 @@
 	"migratory_locust": {
 		"name": "Migratory Locust",
 		"price": 200,
-		"time": "8 AM - 7 PM",
+		"time": [
+			"8 AM - 7 PM"
+		],
 		"location": "Ground",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1305,7 +1399,9 @@
 	"miyama_stag": {
 		"name": "Miyama Stag",
 		"price": 1000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1329,7 +1425,9 @@
 	"mole_cricket": {
 		"name": "Mole Cricket",
 		"price": 500,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Underground",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1363,7 +1461,9 @@
 	"monarch_butterfly": {
 		"name": "Monarch Butterfly",
 		"price": 140,
-		"time": "4 AM - 5 PM",
+		"time": [
+			"4 AM - 5 PM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1389,7 +1489,9 @@
 	"mosquito": {
 		"name": "Mosquito",
 		"price": 130,
-		"time": "5 PM - 4 AM",
+		"time": [
+			"5 PM - 4 AM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1417,7 +1519,9 @@
 	"moth": {
 		"name": "Moth",
 		"price": 130,
-		"time": "7 PM - 4 AM",
+		"time": [
+			"7 PM - 4 AM"
+		],
 		"location": "Lit windows",
 		"nSeasonality": {
 			"activeMonths": null,
@@ -1435,7 +1539,9 @@
 	"orchid_mantis": {
 		"name": "Orchid Mantis",
 		"price": 2400,
-		"time": "8 AM - 5 PM",
+		"time": [
+			"8 AM - 5 PM"
+		],
 		"location": "Flowers",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1473,7 +1579,9 @@
 	"paper_kite_butterfly": {
 		"name": "Paper Kite Butterfly",
 		"price": 1000,
-		"time": "8 AM - 7 PM",
+		"time": [
+			"8 AM - 7 PM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": null,
@@ -1491,7 +1599,9 @@
 	"peacock_butterfly": {
 		"name": "Peacock Butterfly",
 		"price": 2500,
-		"time": "4 AM - 7 PM",
+		"time": [
+			"4 AM - 7 PM"
+		],
 		"location": "Near hybrid flowers",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1519,7 +1629,9 @@
 	"pill_bug": {
 		"name": "Pill Bug",
 		"price": 250,
-		"time": "11 PM - 4 PM",
+		"time": [
+			"11 PM - 4 PM"
+		],
 		"location": "Hit rocks",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1559,7 +1671,9 @@
 	"pondskater": {
 		"name": "Pondskater",
 		"price": 130,
-		"time": "8 AM - 7 PM",
+		"time": [
+			"8 AM - 7 PM"
+		],
 		"location": "River",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1589,7 +1703,9 @@
 	"queen_alexandras_birdwing": {
 		"name": "Queen Alexandra's Birdwing",
 		"price": 4000,
-		"time": "8 AM - 4 PM",
+		"time": [
+			"8 AM - 4 PM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1619,7 +1735,9 @@
 	"rainbow_stag": {
 		"name": "Rainbow Stag",
 		"price": 6000,
-		"time": "7 PM - 8 AM",
+		"time": [
+			"7 PM - 8 AM"
+		],
 		"location": "Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1647,7 +1765,9 @@
 	"rajah_brookes_birdwing": {
 		"name": "Rajah Brooke's Birdwing",
 		"price": 2500,
-		"time": "8 AM - 5 PM",
+		"time": [
+			"8 AM - 5 PM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1687,7 +1807,9 @@
 	"red_dragonfly": {
 		"name": "Red Dragonfly",
 		"price": 180,
-		"time": "8 AM - 7 PM",
+		"time": [
+			"8 AM - 7 PM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1711,7 +1833,9 @@
 	"rice_grasshopper": {
 		"name": "Rice Grasshopper",
 		"price": 160,
-		"time": "8 AM - 7 PM",
+		"time": [
+			"8 AM - 7 PM"
+		],
 		"location": "Ground",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1739,7 +1863,9 @@
 	"robust_cicada": {
 		"name": "Robust Cicada",
 		"price": 300,
-		"time": "8 AM - 5 PM",
+		"time": [
+			"8 AM - 5 PM"
+		],
 		"location": "Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1763,7 +1889,9 @@
 	"rosalia_batesi_beetle": {
 		"name": "Rosalia Batesi Beetle",
 		"price": 3000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Tree stump",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1787,7 +1915,9 @@
 	"saw_stag": {
 		"name": "Saw Stag",
 		"price": 2000,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1811,7 +1941,9 @@
 	"scarab_beetle": {
 		"name": "Scarab Beetle",
 		"price": 10000,
-		"time": "11 PM - 8 AM",
+		"time": [
+			"11 PM - 8 AM"
+		],
 		"location": "Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1835,7 +1967,9 @@
 	"scorpion": {
 		"name": "Scorpion",
 		"price": 8000,
-		"time": "7 PM - 4 AM",
+		"time": [
+			"7 PM - 4 AM"
+		],
 		"location": "Ground",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1865,7 +1999,9 @@
 	"snail": {
 		"name": "Snail",
 		"price": 250,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Rock (rain)",
 		"nSeasonality": {
 			"activeMonths": null,
@@ -1883,7 +2019,9 @@
 	"spider": {
 		"name": "Spider",
 		"price": 600,
-		"time": "7 PM - 8 AM",
+		"time": [
+			"7 PM - 8 AM"
+		],
 		"location": "Shake tree",
 		"nSeasonality": {
 			"activeMonths": null,
@@ -1901,7 +2039,9 @@
 	"stinkbug": {
 		"name": "Stinkbug",
 		"price": 120,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Flowers",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1937,7 +2077,9 @@
 	"tarantula": {
 		"name": "Tarantula",
 		"price": 8000,
-		"time": "7 PM - 4 AM",
+		"time": [
+			"7 PM - 4 AM"
+		],
 		"location": "Ground",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1969,7 +2111,9 @@
 	"tiger_beetle": {
 		"name": "Tiger Beetle",
 		"price": 1500,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Ground",
 		"nSeasonality": {
 			"activeMonths": [
@@ -2005,7 +2149,9 @@
 	"tiger_butterfly": {
 		"name": "Tiger Butterfly",
 		"price": 240,
-		"time": "4 AM - 7 PM",
+		"time": [
+			"4 AM - 7 PM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
@@ -2039,7 +2185,9 @@
 	"violin_beetle": {
 		"name": "Violin Beetle",
 		"price": 450,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Tree stump",
 		"nSeasonality": {
 			"activeMonths": [
@@ -2071,7 +2219,9 @@
 	"walker_cicada": {
 		"name": "Walker Cicada",
 		"price": 400,
-		"time": "8 AM - 4 PM",
+		"time": [
+			"8 AM - 4 PM"
+		],
 		"location": "Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -2095,7 +2245,9 @@
 	"walking_leaf": {
 		"name": "Walking Leaf",
 		"price": 600,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Ground",
 		"nSeasonality": {
 			"activeMonths": [
@@ -2121,7 +2273,10 @@
 	"walking_stick": {
 		"name": "Walking Stick",
 		"price": 600,
-		"time": "4 AM - 8 AM, 5 PM - 7 PM",
+		"time": [
+			"4 AM - 8 AM",
+			"5 PM - 7 PM"
+		],
 		"location": "Tree",
 		"nSeasonality": {
 			"activeMonths": [
@@ -2151,7 +2306,9 @@
 	"wasp": {
 		"name": "Wasp",
 		"price": 2500,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Shake tree",
 		"nSeasonality": {
 			"activeMonths": null,
@@ -2169,7 +2326,9 @@
 	"wharf_roach": {
 		"name": "Wharf Roach",
 		"price": 200,
-		"time": "All day",
+		"time": [
+			"All day"
+		],
 		"location": "Beach (rocks)",
 		"nSeasonality": {
 			"activeMonths": null,
@@ -2187,7 +2346,9 @@
 	"yellow_butterfly": {
 		"name": "Yellow Butterfly",
 		"price": 160,
-		"time": "4 AM - 7 PM",
+		"time": [
+			"4 AM - 7 PM"
+		],
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": [
