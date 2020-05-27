@@ -12,7 +12,7 @@ function PriceTag({price}) {
 	);
 }
 
-function CreatureFilter() {
+function CreatureFilter(locations) {
 	return (
 		<>
 			<div className="filter-group">
@@ -29,13 +29,31 @@ function CreatureFilter() {
 					data-filter-id="month"
 					aria-label="month"
 				>
-					<option value="">All Months</option>
+					<option value="">
+						All Months
+					</option>
 					{MONTHS.map((month) => (
 						<option value={month}>
 							{month}
 						</option>
 					))}
 				</select>
+				{locations ? (
+					<select
+						value=""
+						data-filter-id="location"
+						aria-label="location"
+					>
+						<option value="">
+							All Locations
+						</option>
+						{locations.map((location) => (
+							<option value={location}>
+								{location}
+							</option>
+						))}
+					</select>
+				) : null}
 			</div>
 			<div className="filter-group">
 				<label className="new-this-month">
@@ -61,7 +79,7 @@ exports.Fish = function Fish(props) {
 	return (
 		<Checklist
 			items={data.fish}
-			renderFilters={CreatureFilter}
+			renderFilters={() => CreatureFilter(['ocean', 'pond', 'river'])}
 			renderDetails={(item) => <PriceTag price={item.price}/>}
 			footerData={['nSeasonality.displayMonths', 'time', 'location', 'size']}
 		/>

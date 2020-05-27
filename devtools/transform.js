@@ -14,7 +14,7 @@ function transformTime(time) {
 		if (!item.name) {
 			throw new Error('JSON data missing [name] field');
 		}
-		listData[prop].time = transformTime(item.time);
+		listData[prop].location = item.location.toLowerCase();
 	});
 
 	fs.writeFile(`./${key}.json`, JSON.stringify(listData, null, '\t'), console.log);

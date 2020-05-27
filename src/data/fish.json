@@ -6,7 +6,7 @@
 			"4 AM - 9 PM"
 		],
 		"size": "Small",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -27,7 +27,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Small",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -62,7 +62,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Largest",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -93,7 +93,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Large",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -124,7 +124,7 @@
 			"All day"
 		],
 		"size": "Medium",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -165,7 +165,7 @@
 			"9 PM - 4 AM"
 		],
 		"size": "Small",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -186,7 +186,7 @@
 			"9 AM - 4 PM"
 		],
 		"size": "Small",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -221,7 +221,7 @@
 			"All day"
 		],
 		"size": "Smallest",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"nov",
@@ -254,7 +254,7 @@
 			"All day"
 		],
 		"size": "Large",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -275,7 +275,7 @@
 			"9 PM - 4 AM"
 		],
 		"size": "Medium",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"nov",
@@ -309,7 +309,7 @@
 			"All day"
 		],
 		"size": "Extra Large",
-		"location": "Pier",
+		"location": "ocean (pier)",
 		"nSeasonality": {
 			"activeMonths": [
 				"nov",
@@ -352,7 +352,7 @@
 			"9 AM - 4 PM"
 		],
 		"size": "Small",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -373,7 +373,7 @@
 			"All day"
 		],
 		"size": "Small",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -408,7 +408,7 @@
 			"All day"
 		],
 		"size": "Large",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -429,7 +429,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Large",
-		"location": "Pond",
+		"location": "pond",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -464,7 +464,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Medium",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -503,7 +503,7 @@
 			"All day"
 		],
 		"size": "Medium",
-		"location": "River (Clifftop)",
+		"location": "river (clifftop)",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -542,7 +542,7 @@
 			"All day"
 		],
 		"size": "Smallest",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -577,7 +577,7 @@
 			"All day"
 		],
 		"size": "Largest",
-		"location": "Ocean (Rain)",
+		"location": "ocean (rain)",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -598,7 +598,7 @@
 			"All day"
 		],
 		"size": "Small",
-		"location": "Pond",
+		"location": "pond",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -633,7 +633,7 @@
 			"All day"
 		],
 		"size": "Small",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -654,7 +654,7 @@
 			"All day"
 		],
 		"size": "Medium",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"oct",
@@ -691,7 +691,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Medium",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -712,7 +712,7 @@
 			"4 AM - 9 PM"
 		],
 		"size": "Extra Large",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -743,7 +743,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Large",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"nov",
@@ -776,7 +776,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Small",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -797,7 +797,7 @@
 			"All day"
 		],
 		"size": "Small",
-		"location": "Pond",
+		"location": "pond",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -828,7 +828,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Largest",
-		"location": "Pond",
+		"location": "pond",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -859,7 +859,7 @@
 			"9 AM - 4 PM"
 		],
 		"size": "Extra Large",
-		"location": "Pond",
+		"location": "pond",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -888,7 +888,7 @@
 			"All day"
 		],
 		"size": "Large",
-		"location": "Pier",
+		"location": "ocean (pier)",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -923,7 +923,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Medium",
-		"location": "River (Clifftop)",
+		"location": "river (clifftop)",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -960,7 +960,7 @@
 			"All day"
 		],
 		"size": "Smallest",
-		"location": "Pond",
+		"location": "pond",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -981,7 +981,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Largest (Fin)",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -1012,7 +1012,7 @@
 			"9 AM - 4 PM"
 		],
 		"size": "Smallest",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -1051,7 +1051,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Largest (Fin)",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -1082,7 +1082,7 @@
 			"All day"
 		],
 		"size": "Small",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -1103,7 +1103,7 @@
 			"All day"
 		],
 		"size": "Smallest",
-		"location": "Pond",
+		"location": "pond",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -1134,7 +1134,7 @@
 			"All day"
 		],
 		"size": "Smallest",
-		"location": "River (Mouth)",
+		"location": "river (mouth)",
 		"nSeasonality": {
 			"activeMonths": [
 				"sep"
@@ -1159,7 +1159,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Large",
-		"location": "Pond",
+		"location": "pond",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -1180,7 +1180,7 @@
 			"All day"
 		],
 		"size": "Small",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -1209,7 +1209,7 @@
 			"All day"
 		],
 		"size": "Large",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -1244,7 +1244,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Small",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"sep",
@@ -1273,7 +1273,7 @@
 			"All day"
 		],
 		"size": "Extra Large",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"aug",
@@ -1302,7 +1302,7 @@
 			"All day"
 		],
 		"size": "Largest",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -1329,7 +1329,7 @@
 			"4 AM - 4 PM"
 		],
 		"size": "Smallest",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -1368,7 +1368,7 @@
 			"9 AM - 4 PM"
 		],
 		"size": "Small",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -1401,7 +1401,7 @@
 			"All day"
 		],
 		"size": "Largest",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"dec",
@@ -1436,7 +1436,7 @@
 			"4 AM - 9 PM"
 		],
 		"size": "Largest (Fin)",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -1465,7 +1465,7 @@
 			"All day"
 		],
 		"size": "Large",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -1486,7 +1486,7 @@
 			"9 AM - 4 PM"
 		],
 		"size": "Smallest",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -1507,7 +1507,7 @@
 			"All day"
 		],
 		"size": "Extra Large",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"sep",
@@ -1539,7 +1539,7 @@
 			"9 PM - 4 AM"
 		],
 		"size": "Small",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -1570,7 +1570,7 @@
 			"All day"
 		],
 		"size": "Small",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"dec",
@@ -1599,7 +1599,7 @@
 			"9 AM - 4 PM"
 		],
 		"size": "Smallest",
-		"location": "Pond",
+		"location": "pond",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -1620,7 +1620,7 @@
 			"All day"
 		],
 		"size": "Medium",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -1649,7 +1649,7 @@
 			"9 AM - 4 PM"
 		],
 		"size": "Small",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -1684,7 +1684,7 @@
 			"9 AM - 4 PM"
 		],
 		"size": "Small",
-		"location": "Pond",
+		"location": "pond",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -1705,7 +1705,7 @@
 			"4 AM - 9 PM"
 		],
 		"size": "Extra Large",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"aug",
@@ -1736,7 +1736,7 @@
 			"All day"
 		],
 		"size": "Large",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -1757,7 +1757,7 @@
 			"All day"
 		],
 		"size": "Narrow",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -1788,7 +1788,7 @@
 			"9 PM - 4 AM"
 		],
 		"size": "Large",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -1819,7 +1819,7 @@
 			"All day"
 		],
 		"size": "Small",
-		"location": "River (Mouth)",
+		"location": "river (mouth)",
 		"nSeasonality": {
 			"activeMonths": [
 				"sep"
@@ -1844,7 +1844,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Largest (Fin)",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -1875,7 +1875,7 @@
 			"All day"
 		],
 		"size": "Extra Large",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -1896,7 +1896,7 @@
 			"All day"
 		],
 		"size": "Smallest",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"dec",
@@ -1927,7 +1927,7 @@
 			"All day"
 		],
 		"size": "Smallest",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -1966,7 +1966,7 @@
 			"9 AM - 4 PM"
 		],
 		"size": "Extra Large",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -2003,7 +2003,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Large",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"aug",
@@ -2030,7 +2030,7 @@
 			"All day"
 		],
 		"size": "Medium",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"dec",
@@ -2071,7 +2071,7 @@
 			"4 PM - 9 AM"
 		],
 		"size": "Largest",
-		"location": "River (Clifftop)",
+		"location": "river (clifftop)",
 		"nSeasonality": {
 			"activeMonths": [
 				"dec",
@@ -2102,7 +2102,7 @@
 			"All day"
 		],
 		"size": "Largest",
-		"location": "River (Mouth)",
+		"location": "river (mouth)",
 		"nSeasonality": {
 			"activeMonths": [
 				"sep",
@@ -2139,7 +2139,7 @@
 			"All day"
 		],
 		"size": "(Fin)",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -2170,7 +2170,7 @@
 			"All Day"
 		],
 		"size": "Small",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -2205,7 +2205,7 @@
 			"All day"
 		],
 		"size": "Medium",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -2234,7 +2234,7 @@
 			"All day"
 		],
 		"size": "Smallest",
-		"location": "Pond",
+		"location": "pond",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -2267,7 +2267,7 @@
 			"All day"
 		],
 		"size": "Medium",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -2300,7 +2300,7 @@
 			"All day"
 		],
 		"size": "Extra Large",
-		"location": "Pier",
+		"location": "ocean (pier)",
 		"nSeasonality": {
 			"activeMonths": [
 				"nov",
@@ -2335,7 +2335,7 @@
 			"All day"
 		],
 		"size": "Largest (Fin)",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -2366,7 +2366,7 @@
 			"All day"
 		],
 		"size": "Medium",
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"oct",
@@ -2401,7 +2401,7 @@
 			"All day"
 		],
 		"size": "Medium",
-		"location": "Ocean",
+		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",

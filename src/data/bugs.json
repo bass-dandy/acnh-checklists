@@ -5,7 +5,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -39,7 +39,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Rotten fruit and turnips",
+		"location": "rotten fruit and turnips",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -59,7 +59,7 @@
 		"time": [
 			"7 PM - 4 AM"
 		],
-		"location": "Tree",
+		"location": "tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -93,7 +93,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Shake tree",
+		"location": "shake tree",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -113,7 +113,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -147,7 +147,7 @@
 		"time": [
 			"5 PM - 8 AM"
 		],
-		"location": "Grass",
+		"location": "grass",
 		"nSeasonality": {
 			"activeMonths": [
 				"sep",
@@ -173,7 +173,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Palm Tree",
+		"location": "palm tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -199,7 +199,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "Tree",
+		"location": "tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -225,7 +225,7 @@
 		"time": [
 			"5 PM - 11 PM"
 		],
-		"location": "Hit rocks",
+		"location": "hit rocks",
 		"nSeasonality": {
 			"activeMonths": [
 				"sep",
@@ -267,7 +267,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Tree",
+		"location": "tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -293,7 +293,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Tree stump",
+		"location": "tree stump",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -313,7 +313,7 @@
 		"time": [
 			"4 AM - 7 PM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -345,7 +345,7 @@
 		"time": [
 			"4 AM - 7 PM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"sep",
@@ -387,7 +387,7 @@
 		"time": [
 			"5 PM - 8 AM"
 		],
-		"location": "Ground",
+		"location": "ground",
 		"nSeasonality": {
 			"activeMonths": [
 				"sep",
@@ -415,7 +415,7 @@
 		"time": [
 			"5 PM - 8 AM"
 		],
-		"location": "Palm Tree",
+		"location": "palm tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -441,7 +441,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"nov",
@@ -474,7 +474,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -510,7 +510,7 @@
 		"time": [
 			"8 AM - 7 PM"
 		],
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -542,7 +542,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Tree",
+		"location": "tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -570,7 +570,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Snowballs",
+		"location": "snowballs",
 		"nSeasonality": {
 			"activeMonths": [
 				"dec",
@@ -598,7 +598,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Ground",
+		"location": "ground",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -626,7 +626,7 @@
 		"time": [
 			"5 PM - 8 AM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"dec",
@@ -666,7 +666,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "Tree",
+		"location": "tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -692,7 +692,7 @@
 		"time": [
 			"7 PM - 4 AM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun"
@@ -716,7 +716,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Flea-infested villager",
+		"location": "flea-infested villager",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -754,7 +754,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Rotten fruit or garbage",
+		"location": "rotten fruit or garbage",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -774,7 +774,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "Tree",
+		"location": "tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -800,7 +800,7 @@
 		"time": [
 			"11 PM - 8 AM"
 		],
-		"location": "Tree",
+		"location": "tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -826,7 +826,7 @@
 		"time": [
 			"7 PM - 8 AM"
 		],
-		"location": "Ponds",
+		"location": "ponds",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -860,7 +860,7 @@
 		"time": [
 			"5 PM - 8 AM"
 		],
-		"location": "Palm Tree",
+		"location": "palm tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -886,7 +886,7 @@
 		"time": [
 			"5 PM - 8 AM"
 		],
-		"location": "Palm Tree",
+		"location": "palm tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -912,7 +912,7 @@
 		"time": [
 			"5 PM - 8 AM"
 		],
-		"location": "Palm Tree",
+		"location": "palm tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -942,7 +942,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "Ground",
+		"location": "ground",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -970,7 +970,7 @@
 		"time": [
 			"4 AM - 7 PM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -1000,7 +1000,7 @@
 		"time": [
 			"7 PM - 8 AM"
 		],
-		"location": "Beach",
+		"location": "beach",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -1020,7 +1020,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "Near flowers",
+		"location": "near flowers",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -1052,7 +1052,7 @@
 		"time": [
 			"5 PM - 8 AM"
 		],
-		"location": "Palm Tree",
+		"location": "palm tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -1078,7 +1078,7 @@
 		"time": [
 			"5 PM - 8 AM"
 		],
-		"location": "Tree",
+		"location": "tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -1104,7 +1104,7 @@
 		"time": [
 			"5 PM - 8 AM"
 		],
-		"location": "Palm Tree",
+		"location": "palm tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -1130,7 +1130,7 @@
 		"time": [
 			"5 PM - 8 AM"
 		],
-		"location": "Palm Tree",
+		"location": "palm tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -1156,7 +1156,7 @@
 		"time": [
 			"All Day"
 		],
-		"location": "Tree stump",
+		"location": "tree stump",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -1188,7 +1188,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "Flowers",
+		"location": "flowers",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -1222,7 +1222,7 @@
 		"time": [
 			"8 AM - 7 PM"
 		],
-		"location": "Ground",
+		"location": "ground",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -1260,7 +1260,7 @@
 		"time": [
 			"8 AM - 4 PM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -1294,7 +1294,7 @@
 		"time": [
 			"7 PM - 8 AM"
 		],
-		"location": "Flowers",
+		"location": "flowers",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -1332,7 +1332,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "Flowers",
+		"location": "flowers",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -1372,7 +1372,7 @@
 		"time": [
 			"8 AM - 7 PM"
 		],
-		"location": "Ground",
+		"location": "ground",
 		"nSeasonality": {
 			"activeMonths": [
 				"aug",
@@ -1402,7 +1402,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Tree",
+		"location": "tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -1428,7 +1428,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Underground",
+		"location": "underground",
 		"nSeasonality": {
 			"activeMonths": [
 				"nov",
@@ -1464,7 +1464,7 @@
 		"time": [
 			"4 AM - 5 PM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"sep",
@@ -1492,7 +1492,7 @@
 		"time": [
 			"5 PM - 4 AM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -1522,7 +1522,7 @@
 		"time": [
 			"7 PM - 4 AM"
 		],
-		"location": "Lit windows",
+		"location": "lit windows",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -1542,7 +1542,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "Flowers",
+		"location": "flowers",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -1582,7 +1582,7 @@
 		"time": [
 			"8 AM - 7 PM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -1602,7 +1602,7 @@
 		"time": [
 			"4 AM - 7 PM"
 		],
-		"location": "Near hybrid flowers",
+		"location": "near hybrid flowers",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -1632,7 +1632,7 @@
 		"time": [
 			"11 PM - 4 PM"
 		],
-		"location": "Hit rocks",
+		"location": "hit rocks",
 		"nSeasonality": {
 			"activeMonths": [
 				"sep",
@@ -1674,7 +1674,7 @@
 		"time": [
 			"8 AM - 7 PM"
 		],
-		"location": "River",
+		"location": "river",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -1706,7 +1706,7 @@
 		"time": [
 			"8 AM - 4 PM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -1738,7 +1738,7 @@
 		"time": [
 			"7 PM - 8 AM"
 		],
-		"location": "Tree",
+		"location": "tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jun",
@@ -1768,7 +1768,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"dec",
@@ -1810,7 +1810,7 @@
 		"time": [
 			"8 AM - 7 PM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"sep",
@@ -1836,7 +1836,7 @@
 		"time": [
 			"8 AM - 7 PM"
 		],
-		"location": "Ground",
+		"location": "ground",
 		"nSeasonality": {
 			"activeMonths": [
 				"aug",
@@ -1866,7 +1866,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "Tree",
+		"location": "tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -1892,7 +1892,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Tree stump",
+		"location": "tree stump",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -1918,7 +1918,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Tree",
+		"location": "tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -1944,7 +1944,7 @@
 		"time": [
 			"11 PM - 8 AM"
 		],
-		"location": "Tree",
+		"location": "tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -1970,7 +1970,7 @@
 		"time": [
 			"7 PM - 4 AM"
 		],
-		"location": "Ground",
+		"location": "ground",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -2002,7 +2002,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Rock (rain)",
+		"location": "rock (rain)",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -2022,7 +2022,7 @@
 		"time": [
 			"7 PM - 8 AM"
 		],
-		"location": "Shake tree",
+		"location": "shake tree",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -2042,7 +2042,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Flowers",
+		"location": "flowers",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -2080,7 +2080,7 @@
 		"time": [
 			"7 PM - 4 AM"
 		],
-		"location": "Ground",
+		"location": "ground",
 		"nSeasonality": {
 			"activeMonths": [
 				"nov",
@@ -2114,7 +2114,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Ground",
+		"location": "ground",
 		"nSeasonality": {
 			"activeMonths": [
 				"feb",
@@ -2152,7 +2152,7 @@
 		"time": [
 			"4 AM - 7 PM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -2188,7 +2188,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Tree stump",
+		"location": "tree stump",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -2222,7 +2222,7 @@
 		"time": [
 			"8 AM - 4 PM"
 		],
-		"location": "Tree",
+		"location": "tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"aug",
@@ -2248,7 +2248,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Ground",
+		"location": "ground",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -2277,7 +2277,7 @@
 			"4 AM - 8 AM",
 			"5 PM - 7 PM"
 		],
-		"location": "Tree",
+		"location": "tree",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -2309,7 +2309,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Shake tree",
+		"location": "shake tree",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -2329,7 +2329,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "Beach (rocks)",
+		"location": "beach (rocks)",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -2349,7 +2349,7 @@
 		"time": [
 			"4 AM - 7 PM"
 		],
-		"location": "Flying",
+		"location": "flying",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",

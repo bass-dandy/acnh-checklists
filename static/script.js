@@ -130,6 +130,11 @@ document.querySelectorAll('*[data-item-id]').forEach((checklistItem) => {
 		const itemData = creatureData[item.dataset.itemId];
 		const {activeMonths, displayMonths} = getSeasonality(state, itemData);
 
+		// filter location
+		if (state.location && !itemData.location.includes(state.location)) {
+			return false;
+		}
+		// filter active month
 		if (!state.month) {
 			// remaining filters have no meaning without a selected month
 			return true;
@@ -137,6 +142,7 @@ document.querySelectorAll('*[data-item-id]').forEach((checklistItem) => {
 			// available this month
 			const {isNew, isLeaving} = getWarnings(state, displayMonths);
 
+			// filter new and leaving
 			if (state.isNew && isNew) {
 				return true;
 			} else if (state.isLeaving && isLeaving) {
