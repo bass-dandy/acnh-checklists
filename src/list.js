@@ -31,16 +31,20 @@ module.exports = function CheckList(props) {
 						{props.footerData ? (
 							<div className="list-item-footer">
 								{props.footerData.map((path) => {
-									const data = path.split('.').reduce((acc, key) => {
+									const pathParts = path.split('.');
+
+									const data = pathParts.reduce((acc, key) => {
 										return acc[key];
 									}, props.items[id]);
+
+									const lastPart = pathParts[pathParts.length - 1];
 
 									return (
 										<div
 											className="table-item-detail"
-											data-key={path}
+											data-key={lastPart}
 										>
-											{props.renderFooterData?.(data) ?? data}
+											{props.renderFooterData?.(data, lastPart) ?? data}
 										</div>
 									);
 								})}

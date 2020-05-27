@@ -62,13 +62,13 @@ exports.Fish = function Fish(props) {
 			renderFilters={CreatureFilter}
 			renderDetails={(item) => <PriceTag price={item.price}/>}
 			footerData={['nSeasonality.displayMonths', 'time', 'location', 'size']}
-			renderFooterData={(data) => {
-				return data.split(', ').map((part, i) => (
+			renderFooterData={(data, path) => {
+				return path === 'displayMonths' ? data.map((part, i) => (
 					<>
 						{i > 0 ? <br/> : null}
 						{part}
 					</>
-				));
+				)) : data;
 			}}
 		/>
 	);
@@ -81,13 +81,13 @@ exports.Bugs = function Bugs(props) {
 			renderFilters={CreatureFilter}
 			renderDetails={(item) => <PriceTag price={item.price}/>}
 			footerData={['nSeasonality.displayMonths', 'time', 'location']}
-			renderFooterData={(data) => {
-				return data.split(', ').map((part, i) => (
+			renderFooterData={(data, path) => {
+				return path === 'displayMonths' ? data.map((part, i) => (
 					<>
 						{i > 0 ? <br/> : null}
 						{part}
 					</>
-				));
+				)) : data;
 			}}
 		/>
 	);

@@ -13,7 +13,9 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "apr - sep"
+			"displayMonths": [
+				"apr - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -24,7 +26,9 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "oct - mar"
+			"displayMonths": [
+				"oct - mar"
+			]
 		}
 	},
 	"ant": {
@@ -34,11 +38,15 @@
 		"location": "Rotten fruit and turnips",
 		"nSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		}
 	},
 	"atlas_moth": {
@@ -55,7 +63,9 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "apr - sep"
+			"displayMonths": [
+				"apr - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -66,7 +76,9 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "oct - mar"
+			"displayMonths": [
+				"oct - mar"
+			]
 		}
 	},
 	"bagworm": {
@@ -76,11 +88,15 @@
 		"location": "Shake tree",
 		"nSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		}
 	},
 	"banded_dragonfly": {
@@ -97,7 +113,9 @@
 				"sep",
 				"oct"
 			],
-			"displayMonths": "may - oct"
+			"displayMonths": [
+				"may - oct"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -108,7 +126,9 @@
 				"mar",
 				"apr"
 			],
-			"displayMonths": "nov - apr"
+			"displayMonths": [
+				"nov - apr"
+			]
 		}
 	},
 	"bell_cricket": {
@@ -121,14 +141,18 @@
 				"sep",
 				"oct"
 			],
-			"displayMonths": "sep - oct"
+			"displayMonths": [
+				"sep - oct"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"mar",
 				"apr"
 			],
-			"displayMonths": "mar - apr"
+			"displayMonths": [
+				"mar - apr"
+			]
 		}
 	},
 	"blue_weevil_beetle": {
@@ -141,14 +165,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"brown_cicada": {
@@ -161,14 +189,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"centipede": {
@@ -189,7 +221,9 @@
 				"may",
 				"jun"
 			],
-			"displayMonths": "sep - jun"
+			"displayMonths": [
+				"sep - jun"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -204,7 +238,9 @@
 				"nov",
 				"dec"
 			],
-			"displayMonths": "mar - dec"
+			"displayMonths": [
+				"mar - dec"
+			]
 		}
 	},
 	"cicada_shell": {
@@ -217,14 +253,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"citrus_long_horned_beetle": {
@@ -234,11 +274,15 @@
 		"location": "Tree stump",
 		"nSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		}
 	},
 	"common_bluebottle": {
@@ -254,7 +298,9 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "apr - aug"
+			"displayMonths": [
+				"apr - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -264,7 +310,9 @@
 				"jan",
 				"feb"
 			],
-			"displayMonths": "oct - feb"
+			"displayMonths": [
+				"oct - feb"
+			]
 		}
 	},
 	"common_butterfly": {
@@ -285,7 +333,9 @@
 				"may",
 				"jun"
 			],
-			"displayMonths": "sep - jun"
+			"displayMonths": [
+				"sep - jun"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -300,7 +350,9 @@
 				"nov",
 				"dec"
 			],
-			"displayMonths": "mar - dec"
+			"displayMonths": [
+				"mar - dec"
+			]
 		}
 	},
 	"cricket": {
@@ -314,7 +366,9 @@
 				"oct",
 				"nov"
 			],
-			"displayMonths": "sep - nov"
+			"displayMonths": [
+				"sep - nov"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -322,7 +376,9 @@
 				"apr",
 				"may"
 			],
-			"displayMonths": "mar - may"
+			"displayMonths": [
+				"mar - may"
+			]
 		}
 	},
 	"cyclommatus_stag": {
@@ -335,14 +391,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"damselfly": {
@@ -357,7 +417,9 @@
 				"jan",
 				"feb"
 			],
-			"displayMonths": "nov - feb"
+			"displayMonths": [
+				"nov - feb"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -369,7 +431,9 @@
 				"oct",
 				"nov"
 			],
-			"displayMonths": "may - nov"
+			"displayMonths": [
+				"may - nov"
+			]
 		}
 	},
 	"darner_dragonfly": {
@@ -387,7 +451,9 @@
 				"sep",
 				"oct"
 			],
-			"displayMonths": "apr - oct"
+			"displayMonths": [
+				"apr - oct"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -399,7 +465,9 @@
 				"mar",
 				"apr"
 			],
-			"displayMonths": "oct - apr"
+			"displayMonths": [
+				"oct - apr"
+			]
 		}
 	},
 	"diving_beetle": {
@@ -415,7 +483,9 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "may - sep"
+			"displayMonths": [
+				"may - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -425,7 +495,9 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "nov - mar"
+			"displayMonths": [
+				"nov - mar"
+			]
 		}
 	},
 	"drone_beetle": {
@@ -439,7 +511,9 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jun - aug"
+			"displayMonths": [
+				"jun - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -447,7 +521,9 @@
 				"jan",
 				"feb"
 			],
-			"displayMonths": "dec - feb"
+			"displayMonths": [
+				"dec - feb"
+			]
 		}
 	},
 	"dung_beetle": {
@@ -461,7 +537,9 @@
 				"jan",
 				"feb"
 			],
-			"displayMonths": "dec - feb"
+			"displayMonths": [
+				"dec - feb"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -469,7 +547,9 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jun - aug"
+			"displayMonths": [
+				"jun - aug"
+			]
 		}
 	},
 	"earth_boring_dung_beetle": {
@@ -483,7 +563,9 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "jul - sep"
+			"displayMonths": [
+				"jul - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -491,7 +573,9 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "jan - mar"
+			"displayMonths": [
+				"jan - mar"
+			]
 		}
 	},
 	"emperor_butterfly": {
@@ -510,7 +594,10 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "dec - mar, jun - sep"
+			"displayMonths": [
+				"dec - mar",
+				"jun - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -523,7 +610,10 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "dec - mar, jun - sep"
+			"displayMonths": [
+				"dec - mar",
+				"jun - sep"
+			]
 		}
 	},
 	"evening_cicada": {
@@ -536,14 +626,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"firefly": {
@@ -555,13 +649,17 @@
 			"activeMonths": [
 				"jun"
 			],
-			"displayMonths": "jun"
+			"displayMonths": [
+				"jun"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"dec"
 			],
-			"displayMonths": "dec"
+			"displayMonths": [
+				"dec"
+			]
 		}
 	},
 	"flea": {
@@ -580,7 +678,9 @@
 				"oct",
 				"nov"
 			],
-			"displayMonths": "apr - nov"
+			"displayMonths": [
+				"apr - nov"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -593,7 +693,9 @@
 				"apr",
 				"may"
 			],
-			"displayMonths": "oct - may"
+			"displayMonths": [
+				"oct - may"
+			]
 		}
 	},
 	"fly": {
@@ -603,11 +705,15 @@
 		"location": "Rotten fruit or garbage",
 		"nSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		}
 	},
 	"giant_cicada": {
@@ -620,14 +726,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"giant_stag": {
@@ -640,14 +750,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"giant_water_bug": {
@@ -664,7 +778,9 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "apr - sep"
+			"displayMonths": [
+				"apr - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -675,7 +791,9 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "oct - mar"
+			"displayMonths": [
+				"oct - mar"
+			]
 		}
 	},
 	"giraffe_stag": {
@@ -688,14 +806,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"golden_stag": {
@@ -708,14 +830,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"goliath_beetle": {
@@ -730,7 +856,9 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "jun - sep"
+			"displayMonths": [
+				"jun - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -739,7 +867,9 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "dec - mar"
+			"displayMonths": [
+				"dec - mar"
+			]
 		}
 	},
 	"grasshopper": {
@@ -753,7 +883,9 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "jul - sep"
+			"displayMonths": [
+				"jul - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -761,7 +893,9 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "jan - mar"
+			"displayMonths": [
+				"jan - mar"
+			]
 		}
 	},
 	"great_purple_emperor": {
@@ -776,7 +910,9 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "may - aug"
+			"displayMonths": [
+				"may - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -785,7 +921,9 @@
 				"jan",
 				"feb"
 			],
-			"displayMonths": "nov - feb"
+			"displayMonths": [
+				"nov - feb"
+			]
 		}
 	},
 	"hermit_crab": {
@@ -795,11 +933,15 @@
 		"location": "Beach",
 		"nSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		}
 	},
 	"honeybee": {
@@ -815,7 +957,9 @@
 				"jun",
 				"jul"
 			],
-			"displayMonths": "mar - jul"
+			"displayMonths": [
+				"mar - jul"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -825,7 +969,9 @@
 				"dec",
 				"jan"
 			],
-			"displayMonths": "sep - jan"
+			"displayMonths": [
+				"sep - jan"
+			]
 		}
 	},
 	"horned_atlas": {
@@ -838,14 +984,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"horned_dynastid": {
@@ -858,14 +1008,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"horned_elephant": {
@@ -878,14 +1032,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"horned_hercules": {
@@ -898,14 +1056,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"jewel_beetle": {
@@ -921,7 +1083,9 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "apr - aug"
+			"displayMonths": [
+				"apr - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -931,7 +1095,9 @@
 				"jan",
 				"feb"
 			],
-			"displayMonths": "oct - feb"
+			"displayMonths": [
+				"oct - feb"
+			]
 		}
 	},
 	"ladybug": {
@@ -947,7 +1113,10 @@
 				"jun",
 				"oct"
 			],
-			"displayMonths": "mar - jun, oct"
+			"displayMonths": [
+				"mar - jun",
+				"oct"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -957,7 +1126,10 @@
 				"dec",
 				"apr"
 			],
-			"displayMonths": "sep - dec, apr"
+			"displayMonths": [
+				"sep - dec",
+				"apr"
+			]
 		}
 	},
 	"long_locust": {
@@ -976,7 +1148,9 @@
 				"oct",
 				"nov"
 			],
-			"displayMonths": "apr - nov"
+			"displayMonths": [
+				"apr - nov"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -989,7 +1163,9 @@
 				"apr",
 				"may"
 			],
-			"displayMonths": "oct - may"
+			"displayMonths": [
+				"oct - may"
+			]
 		}
 	},
 	"madagascan_sunset_moth": {
@@ -1006,7 +1182,9 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "apr - sep"
+			"displayMonths": [
+				"apr - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1017,7 +1195,9 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "oct - mar"
+			"displayMonths": [
+				"oct - mar"
+			]
 		}
 	},
 	"man_faced_stink_bug": {
@@ -1036,7 +1216,9 @@
 				"sep",
 				"oct"
 			],
-			"displayMonths": "mar - oct"
+			"displayMonths": [
+				"mar - oct"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1049,7 +1231,9 @@
 				"mar",
 				"apr"
 			],
-			"displayMonths": "sep - apr"
+			"displayMonths": [
+				"sep - apr"
+			]
 		}
 	},
 	"mantis": {
@@ -1069,7 +1253,9 @@
 				"oct",
 				"nov"
 			],
-			"displayMonths": "mar - nov"
+			"displayMonths": [
+				"mar - nov"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1083,7 +1269,9 @@
 				"apr",
 				"may"
 			],
-			"displayMonths": "sep - may"
+			"displayMonths": [
+				"sep - may"
+			]
 		}
 	},
 	"migratory_locust": {
@@ -1098,7 +1286,9 @@
 				"oct",
 				"nov"
 			],
-			"displayMonths": "aug - nov"
+			"displayMonths": [
+				"aug - nov"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1107,7 +1297,9 @@
 				"apr",
 				"may"
 			],
-			"displayMonths": "feb - may"
+			"displayMonths": [
+				"feb - may"
+			]
 		}
 	},
 	"miyama_stag": {
@@ -1120,14 +1312,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"mole_cricket": {
@@ -1145,7 +1341,9 @@
 				"apr",
 				"may"
 			],
-			"displayMonths": "nov - may"
+			"displayMonths": [
+				"nov - may"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1157,7 +1355,9 @@
 				"oct",
 				"nov"
 			],
-			"displayMonths": "may - nov"
+			"displayMonths": [
+				"may - nov"
+			]
 		}
 	},
 	"monarch_butterfly": {
@@ -1171,7 +1371,9 @@
 				"oct",
 				"nov"
 			],
-			"displayMonths": "sep - nov"
+			"displayMonths": [
+				"sep - nov"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1179,7 +1381,9 @@
 				"apr",
 				"may"
 			],
-			"displayMonths": "mar - may"
+			"displayMonths": [
+				"mar - may"
+			]
 		}
 	},
 	"mosquito": {
@@ -1194,7 +1398,9 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "jun - sep"
+			"displayMonths": [
+				"jun - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1203,7 +1409,9 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "dec - mar"
+			"displayMonths": [
+				"dec - mar"
+			]
 		}
 	},
 	"moth": {
@@ -1213,11 +1421,15 @@
 		"location": "Lit windows",
 		"nSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		}
 	},
 	"orchid_mantis": {
@@ -1237,7 +1449,9 @@
 				"oct",
 				"nov"
 			],
-			"displayMonths": "mar - nov"
+			"displayMonths": [
+				"mar - nov"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1251,7 +1465,9 @@
 				"apr",
 				"may"
 			],
-			"displayMonths": "sep - may"
+			"displayMonths": [
+				"sep - may"
+			]
 		}
 	},
 	"paper_kite_butterfly": {
@@ -1261,11 +1477,15 @@
 		"location": "Flying",
 		"nSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		}
 	},
 	"peacock_butterfly": {
@@ -1280,7 +1500,9 @@
 				"may",
 				"jun"
 			],
-			"displayMonths": "mar - jun"
+			"displayMonths": [
+				"mar - jun"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1289,7 +1511,9 @@
 				"nov",
 				"dec"
 			],
-			"displayMonths": "sep - dec"
+			"displayMonths": [
+				"sep - dec"
+			]
 		}
 	},
 	"pill_bug": {
@@ -1310,7 +1534,9 @@
 				"may",
 				"jun"
 			],
-			"displayMonths": "sep - jun"
+			"displayMonths": [
+				"sep - jun"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1325,7 +1551,9 @@
 				"nov",
 				"dec"
 			],
-			"displayMonths": "mar - dec"
+			"displayMonths": [
+				"mar - dec"
+			]
 		}
 	},
 	"pondskater": {
@@ -1341,7 +1569,9 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "may - sep"
+			"displayMonths": [
+				"may - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1351,7 +1581,9 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "nov - mar"
+			"displayMonths": [
+				"nov - mar"
+			]
 		}
 	},
 	"queen_alexandras_birdwing": {
@@ -1367,7 +1599,9 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "may - sep"
+			"displayMonths": [
+				"may - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1377,7 +1611,9 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "nov - mar"
+			"displayMonths": [
+				"nov - mar"
+			]
 		}
 	},
 	"rainbow_stag": {
@@ -1392,7 +1628,9 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "jun - sep"
+			"displayMonths": [
+				"jun - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1401,7 +1639,9 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "dec - mar"
+			"displayMonths": [
+				"dec - mar"
+			]
 		}
 	},
 	"rajah_brookes_birdwing": {
@@ -1421,7 +1661,10 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "dec - feb, apr - sep"
+			"displayMonths": [
+				"dec - feb",
+				"apr - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1435,7 +1678,10 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "jun - aug, oct - mar"
+			"displayMonths": [
+				"jun - aug",
+				"oct - mar"
+			]
 		}
 	},
 	"red_dragonfly": {
@@ -1448,14 +1694,18 @@
 				"sep",
 				"oct"
 			],
-			"displayMonths": "sep - oct"
+			"displayMonths": [
+				"sep - oct"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"mar",
 				"apr"
 			],
-			"displayMonths": "mar - apr"
+			"displayMonths": [
+				"mar - apr"
+			]
 		}
 	},
 	"rice_grasshopper": {
@@ -1470,7 +1720,9 @@
 				"oct",
 				"nov"
 			],
-			"displayMonths": "aug - nov"
+			"displayMonths": [
+				"aug - nov"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1479,7 +1731,9 @@
 				"apr",
 				"may"
 			],
-			"displayMonths": "feb - may"
+			"displayMonths": [
+				"feb - may"
+			]
 		}
 	},
 	"robust_cicada": {
@@ -1492,14 +1746,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"rosalia_batesi_beetle": {
@@ -1512,14 +1770,18 @@
 				"may",
 				"jun"
 			],
-			"displayMonths": "may - jun"
+			"displayMonths": [
+				"may - jun"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"nov",
 				"dec"
 			],
-			"displayMonths": "nov - dec"
+			"displayMonths": [
+				"nov - dec"
+			]
 		}
 	},
 	"saw_stag": {
@@ -1532,14 +1794,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"scarab_beetle": {
@@ -1552,14 +1818,18 @@
 				"jul",
 				"aug"
 			],
-			"displayMonths": "jul - aug"
+			"displayMonths": [
+				"jul - aug"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"jan",
 				"feb"
 			],
-			"displayMonths": "jan - feb"
+			"displayMonths": [
+				"jan - feb"
+			]
 		}
 	},
 	"scorpion": {
@@ -1575,7 +1845,9 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "may - sep"
+			"displayMonths": [
+				"may - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1585,7 +1857,9 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "nov - mar"
+			"displayMonths": [
+				"nov - mar"
+			]
 		}
 	},
 	"snail": {
@@ -1595,11 +1869,15 @@
 		"location": "Rock (rain)",
 		"nSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		}
 	},
 	"spider": {
@@ -1609,11 +1887,15 @@
 		"location": "Shake tree",
 		"nSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		}
 	},
 	"stinkbug": {
@@ -1632,7 +1914,9 @@
 				"sep",
 				"oct"
 			],
-			"displayMonths": "mar - oct"
+			"displayMonths": [
+				"mar - oct"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1645,7 +1929,9 @@
 				"mar",
 				"apr"
 			],
-			"displayMonths": "sep - apr"
+			"displayMonths": [
+				"sep - apr"
+			]
 		}
 	},
 	"tarantula": {
@@ -1662,7 +1948,9 @@
 				"mar",
 				"apr"
 			],
-			"displayMonths": "nov - apr"
+			"displayMonths": [
+				"nov - apr"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1673,7 +1961,9 @@
 				"sep",
 				"oct"
 			],
-			"displayMonths": "may - oct"
+			"displayMonths": [
+				"may - oct"
+			]
 		}
 	},
 	"tiger_beetle": {
@@ -1693,7 +1983,9 @@
 				"sep",
 				"oct"
 			],
-			"displayMonths": "feb - oct"
+			"displayMonths": [
+				"feb - oct"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1705,7 +1997,9 @@
 				"jan",
 				"feb"
 			],
-			"displayMonths": "aug - feb"
+			"displayMonths": [
+				"aug - feb"
+			]
 		}
 	},
 	"tiger_butterfly": {
@@ -1723,7 +2017,9 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "mar - sep"
+			"displayMonths": [
+				"mar - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1735,7 +2031,9 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "sep - mar"
+			"displayMonths": [
+				"sep - mar"
+			]
 		}
 	},
 	"violin_beetle": {
@@ -1751,7 +2049,10 @@
 				"oct",
 				"nov"
 			],
-			"displayMonths": "may - jun, sep - nov"
+			"displayMonths": [
+				"may - jun",
+				"sep - nov"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1761,7 +2062,10 @@
 				"nov",
 				"dec"
 			],
-			"displayMonths": "mar - may, nov - dec"
+			"displayMonths": [
+				"mar - may",
+				"nov - dec"
+			]
 		}
 	},
 	"walker_cicada": {
@@ -1774,14 +2078,18 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "aug - sep"
+			"displayMonths": [
+				"aug - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
 				"feb",
 				"mar"
 			],
-			"displayMonths": "feb - mar"
+			"displayMonths": [
+				"feb - mar"
+			]
 		}
 	},
 	"walking_leaf": {
@@ -1795,7 +2103,9 @@
 				"aug",
 				"sep"
 			],
-			"displayMonths": "jul - sep"
+			"displayMonths": [
+				"jul - sep"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1803,7 +2113,9 @@
 				"feb",
 				"mar"
 			],
-			"displayMonths": "jan - mar"
+			"displayMonths": [
+				"jan - mar"
+			]
 		}
 	},
 	"walking_stick": {
@@ -1819,7 +2131,9 @@
 				"oct",
 				"nov"
 			],
-			"displayMonths": "jul - nov"
+			"displayMonths": [
+				"jul - nov"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1829,7 +2143,9 @@
 				"apr",
 				"may"
 			],
-			"displayMonths": "jan - may"
+			"displayMonths": [
+				"jan - may"
+			]
 		}
 	},
 	"wasp": {
@@ -1839,11 +2155,15 @@
 		"location": "Shake tree",
 		"nSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		}
 	},
 	"wharf_roach": {
@@ -1853,11 +2173,15 @@
 		"location": "Beach (rocks)",
 		"nSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": null,
-			"displayMonths": "all year"
+			"displayMonths": [
+				"all year"
+			]
 		}
 	},
 	"yellow_butterfly": {
@@ -1874,7 +2198,10 @@
 				"sep",
 				"oct"
 			],
-			"displayMonths": "mar - jun, sep - oct"
+			"displayMonths": [
+				"mar - jun",
+				"sep - oct"
+			]
 		},
 		"sSeasonality": {
 			"activeMonths": [
@@ -1885,7 +2212,10 @@
 				"mar",
 				"apr"
 			],
-			"displayMonths": "sep - dec, mar - apr"
+			"displayMonths": [
+				"sep - dec",
+				"mar - apr"
+			]
 		}
 	}
 }

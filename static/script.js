@@ -82,83 +82,102 @@ import * as data from './data.js';
 (() => {
 	// tabId: [data-tab-id] of the target filter panel container
 	// filterFn(filterState, item): function that returns true if item passes filter test and false otherwise
-	function attachFilters(tabId, filterFn) {
-		const state = {};
+	// updateFn(filterState, item): function that runs side-effects on items that pass the filter test
+	function attachFilters(tabId, filterFn, updateFn) {
+		const filterState = {};
 		const tab = document.querySelector(`.tab-panel-content[data-tab-id="${tabId}"]`);
-		const controls = tab.querySelectorAll('*[data-filter-id]');
 		const items = tab.querySelectorAll('*[data-item-id]');
 
-		controls.forEach((control) => {
-			state[control.dataset.filterId] = control.type === 'checkbox'
-				? control.checked
-				: control.value;
+		tab.querySelectorAll('*[data-filter-id]').forEach((filterControl) => {
+			const {filterId} = filterControl.dataset;
 
-			control.addEventListener('change', (e) => {
-				state[control.dataset.filterId] = e.target.type === 'checkbox'
+			// init filter state with default values
+			filterState[filterId] = filterControl.type === 'checkbox'
+				? filterControl.checked
+				: filterControl.value;
+
+			filterControl.addEventListener('change', (e) => {
+				filterState[filterId] = e.target.type === 'checkbox'
 					? e.target.checked
 					: e.target.value;
 
 				items.forEach((item) => {
-					item.style.display = filterFn(state, item) ? null : 'none';
+					if (filterFn(filterState, item)) {
+						updateFn(filterState, item);
+						item.style.display = null;
+					} else {
+						item.style.display = 'none';
+					}
 				});
 			});
 		});
 	}
 
-	const getCreatureFilter = (creatureData) => (state, item) => {
-		item.classList.remove('new-this-month', 'leaving-this-month');
+	function getSeasonality(state, itemData) {
+		return state.hemisphere === 'n' ? itemData.nSeasonality : itemData.sSeasonality;
+	}
+
+	function getWarnings(state, displayMonths) {
+		return {
+			isNew: state.month && displayMonths.some((range) => {
+				return range.startsWith(state.month);
+			}),
+			isLeaving: state.month && displayMonths.some((range) => {
+				return range.endsWith(state.month);
+			})
+		};
+	}
+
+	const getCreatureFilterFn = (creatureData) => (state, item) => {
 		const itemData = creatureData[item.dataset.itemId];
-
-		const {activeMonths, displayMonths} = state.hemisphere === 'n'
-			? itemData.nSeasonality
-			: itemData.sSeasonality;
-
-		item.querySelector('*[data-key="nSeasonality.displayMonths"]').innerHTML = displayMonths;
+		const {activeMonths, displayMonths} = getSeasonality(state, itemData);
 
 		if (!state.month) {
-			// show all fish
+			// remaining filters have no meaning without a selected month
 			return true;
-		} else {
+		} else if (!activeMonths || activeMonths.includes(state.month)) {
+			// available this month
+			const {isNew, isLeaving} = getWarnings(state, displayMonths);
 
-			if (!activeMonths || activeMonths.includes(state.month)) {
-				// available this month
-				const newThisMonth = displayMonths.split(', ').some((range) => {
-					return range.startsWith(state.month);
-				});
-				const leavingThisMonth = displayMonths.split(', ').some((range) => {
-					return range.endsWith(state.month);
-				});
-
-				if (leavingThisMonth) {
-					// leaving takes precedence over new for single-month fish
-					item.classList.add('leaving-this-month');
-				} else if (newThisMonth) {
-					item.classList.add('new-this-month');
-				}
-
-				if (state.isNew && state.isLeaving){
-					if (!newThisMonth && !leavingThisMonth) {
-						return false;
-					}
-				} else if (state.isNew && !newThisMonth) {
-					return false;
-				} else if (state.isLeaving && !leavingThisMonth) {
-					return false;
-				}
+			if (state.isNew && isNew) {
+				return true;
+			} else if (state.isLeaving && isLeaving) {
+				return true
+			} else if (!state.isNew && !state.isLeaving) {
 				return true;
 			} else {
-				// not available this month
 				return false;
 			}
+		} else {
+			// not available this month
+			return false;
 		}
 	};
 
-	attachFilters(
-		'fish',
-		getCreatureFilter(JSON.parse(data.fish))
-	);
-	attachFilters(
-		'bugs',
-		getCreatureFilter(JSON.parse(data.bugs))
-	);
+	const getCreatureUpdateFn = (creatureData) => (state, item) => {
+		item.classList.remove('new-this-month', 'leaving-this-month');
+
+		const itemData = creatureData[item.dataset.itemId];
+		const {displayMonths} = getSeasonality(state, itemData);
+
+		item.querySelector('*[data-key="displayMonths"]').innerHTML =
+			displayMonths.map((range, i) => {
+				return i > 0 ? `<br/>${range}` : range;
+			});
+
+		const {isNew, isLeaving} = getWarnings(state, displayMonths);
+
+		if (isLeaving) {
+			// leaving takes precedence over new for single-month fish
+			item.classList.add('leaving-this-month');
+		} else if (isNew) {
+			item.classList.add('new-this-month');
+		}
+	};
+
+	const fish = JSON.parse(data.fish);
+	attachFilters('fish', getCreatureFilterFn(fish), getCreatureUpdateFn(fish));
+
+	const bugs = JSON.parse(data.bugs);
+	attachFilters('bugs', getCreatureFilterFn(bugs), getCreatureUpdateFn(bugs));
 })();
