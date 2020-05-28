@@ -126,14 +126,19 @@ document.querySelectorAll('*[data-item-id]').forEach((checklistItem) => {
 		};
 	}
 
-	const getCreatureFilterFn = (creatureData) => (state, item) => {
+	const getCreatureFilterFn = (creatureData, specialLocations = []) => (state, item) => {
 		const itemData = creatureData[item.dataset.itemId];
 		const {activeMonths, displayMonths} = getSeasonality(state, itemData);
 
 		// filter location
-		if (state.location && !itemData.location.includes(state.location)) {
+		if (state.location === 'other') {
+			if (!specialLocations.some((location) => itemData.location.includes(location))) {
+				return false;
+			}
+		} else if (state.location && !itemData.location.includes(state.location)) {
 			return false;
 		}
+
 		// filter active month
 		if (!state.month) {
 			// remaining filters have no meaning without a selected month
@@ -182,6 +187,8 @@ document.querySelectorAll('*[data-item-id]').forEach((checklistItem) => {
 	const fish = JSON.parse(data.fish);
 	attachFilters('fish', getCreatureFilterFn(fish), getCreatureUpdateFn(fish));
 
+	const specialBugLocations = ['window', 'fruit', 'villager', 'pond', 'beach', 'underground'];
+
 	const bugs = JSON.parse(data.bugs);
-	attachFilters('bugs', getCreatureFilterFn(bugs), getCreatureUpdateFn(bugs));
+	attachFilters('bugs', getCreatureFilterFn(bugs, specialBugLocations), getCreatureUpdateFn(bugs));
 })();

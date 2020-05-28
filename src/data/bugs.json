@@ -39,7 +39,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "rotten fruit and turnips",
+		"location": "rotten fruit or turnips",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -93,7 +93,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "shake tree",
+		"location": "tree (shake)",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -147,7 +147,7 @@
 		"time": [
 			"5 PM - 8 AM"
 		],
-		"location": "grass",
+		"location": "ground (grass)",
 		"nSeasonality": {
 			"activeMonths": [
 				"sep",
@@ -510,7 +510,7 @@
 		"time": [
 			"8 AM - 7 PM"
 		],
-		"location": "river",
+		"location": "ponds and rivers",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -570,7 +570,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "snowballs",
+		"location": "ground (snowballs)",
 		"nSeasonality": {
 			"activeMonths": [
 				"dec",
@@ -826,7 +826,7 @@
 		"time": [
 			"7 PM - 8 AM"
 		],
-		"location": "ponds",
+		"location": "ponds and rivers",
 		"nSeasonality": {
 			"activeMonths": [
 				"apr",
@@ -1020,7 +1020,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "near flowers",
+		"location": "flying (near flowers)",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -1188,7 +1188,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "flowers",
+		"location": "on flowers",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -1294,7 +1294,7 @@
 		"time": [
 			"7 PM - 8 AM"
 		],
-		"location": "flowers",
+		"location": "on flowers",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -1332,7 +1332,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "flowers",
+		"location": "on flowers",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -1542,7 +1542,7 @@
 		"time": [
 			"8 AM - 5 PM"
 		],
-		"location": "flowers",
+		"location": "on flowers",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -1602,7 +1602,7 @@
 		"time": [
 			"4 AM - 7 PM"
 		],
-		"location": "near hybrid flowers",
+		"location": "flying (near hybrid flowers)",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -1674,7 +1674,7 @@
 		"time": [
 			"8 AM - 7 PM"
 		],
-		"location": "river",
+		"location": "ponds and rivers",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -2002,7 +2002,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "rock (rain)",
+		"location": "on rocks (rain)",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -2022,7 +2022,7 @@
 		"time": [
 			"7 PM - 8 AM"
 		],
-		"location": "shake tree",
+		"location": "tree (shake)",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [
@@ -2042,7 +2042,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "flowers",
+		"location": "on flowers",
 		"nSeasonality": {
 			"activeMonths": [
 				"mar",
@@ -2248,7 +2248,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "ground",
+		"location": "near tree (disguised as furniture)",
 		"nSeasonality": {
 			"activeMonths": [
 				"jul",
@@ -2309,7 +2309,7 @@
 		"time": [
 			"All day"
 		],
-		"location": "shake tree",
+		"location": "tree (shake)",
 		"nSeasonality": {
 			"activeMonths": null,
 			"displayMonths": [

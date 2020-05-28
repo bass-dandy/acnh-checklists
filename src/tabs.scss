@@ -24,6 +24,10 @@
 	}
 	select {
 		font-family: "Comic Sans MS";
+
+		&, & option {
+			text-transform: capitalize;
+		}
 	}
 	label {
 		display: flex;
