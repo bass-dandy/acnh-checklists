@@ -313,7 +313,7 @@
   cursor: pointer;
 }
 .checklist-wrapper .checklist .checklist-item input[type=checkbox] {
-  margin-right: 10px;
+  margin: 0 10px 0 0;
   pointer-events: none;
 }
 .checklist-wrapper .checklist .checklist-item label {
@@ -351,9 +351,13 @@
   }
   .checklist-wrapper .checklist-filters {
     flex-wrap: wrap;
+    padding: 15px;
   }
   .checklist-wrapper .checklist .checklist-item {
     padding: 15px;
+  }
+  .checklist-wrapper .checklist .checklist-item:hover {
+    transform: none;
   }
 }
 #tab-panel {
@@ -477,10 +481,16 @@
   align-items: center;
 }
 .filter-group > *:not(:last-child) {
-  margin-right: 5px;
+  margin-right: 10px;
+}
+.filter-group input[type=checkbox] {
+  margin: 0 5px 0 0;
 }
 .filter-group select {
   font-family: "Comic Sans MS";
+}
+.filter-group select, .filter-group select option {
+  text-transform: capitalize;
 }
 .filter-group label {
   display: flex;
@@ -506,7 +516,7 @@ label.leaving-this-month {
     flex: 1;
   }
   .filter-group:not(:first-child) {
-    margin-top: 5px;
+    margin-top: 15px;
   }
 }
 @font-face {
