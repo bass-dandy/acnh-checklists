@@ -38,6 +38,9 @@
   user-select: none;
 }
 
+#sky {
+  overflow: hidden;
+}
 #sky, #sky #night, #sky #sunset, #sky #day {
   position: absolute;
   left: 0;
@@ -71,7 +74,7 @@
   height: auto;
   animation: throb 2.5s ease-in-out alternate infinite;
   fill: #ffe187;
-  background: radial-gradient(#ffe187 0, transparent 66%);
+  background: radial-gradient(#ffe187 0, #ffe18700 66%);
 }
 #sky #moon-transitioner {
   transform: translateY(100vh);
@@ -84,7 +87,7 @@
   height: 300px;
   width: 300px;
   animation: throb 2.5s ease-in-out alternate infinite;
-  background: radial-gradient(white 0, transparent 66%), radial-gradient(white 0, white 50%, transparent 50%);
+  background: radial-gradient(white 0, #FFFFFF00 66%), radial-gradient(white 0, white 50%, #FFFFFF00 50%);
 }
 
 #foreground {
@@ -561,7 +564,7 @@ h1 {
   overflow-y: auto;
 }
 .parallax-container #foreground {
-  transform: translateZ(-10px) scale(11);
+  transform: translateZ(-9px) scale(10);
 }
 .parallax-container #sky {
   transform: translateZ(-11px) scale(12);
