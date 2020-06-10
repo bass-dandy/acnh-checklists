@@ -1209,7 +1209,7 @@
 			"All day"
 		],
 		"size": "Large",
-		"location": "ocean",
+		"location": "ocean (pier)",
 		"nSeasonality": {
 			"activeMonths": [
 				"may",
@@ -1760,13 +1760,14 @@
 		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
+				"jun",
 				"jul",
 				"aug",
 				"sep",
 				"oct"
 			],
 			"displayMonths": [
-				"jul - oct"
+				"jun - oct"
 			]
 		},
 		"sSeasonality": {
@@ -2138,7 +2139,7 @@
 		"time": [
 			"All day"
 		],
-		"size": "(Fin)",
+		"size": "Largest (Fin)",
 		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
