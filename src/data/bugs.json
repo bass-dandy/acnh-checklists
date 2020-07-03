@@ -664,7 +664,8 @@
 		"name": "Evening Cicada",
 		"price": 550,
 		"time": [
-			"8 AM - 5 PM"
+			"4 AM - 8 AM",
+			"4 PM - 7 PM"
 		],
 		"location": "tree",
 		"nSeasonality": {
