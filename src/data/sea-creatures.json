@@ -1,0 +1,242 @@
+{
+	"Seaweed":{
+		"name":"Seaweed",
+		"price":"600",
+		"time":"All day",
+		"month":"October-July (Northern) / April-January (Southern)"
+	},
+	"Sea grapes":{
+		"name":"Sea grapes",
+		"price":"900",
+		"time":"All day",
+		"month":"Year-round (Northern and Southern)"
+	},
+	"Sea cucumber":{
+		"name":"Sea cucumber",
+		"price":"500",
+		"time":"All day",
+		"month":"November-April (Northern) / May-October (Southern)"
+	},
+	"Sea pig":{
+		"name":"Sea pig",
+		"price":"10,000",
+		"time":"4 p.m. - 9 a .m.",
+		"month":"November-February (Northern) / May-August (Southern)"
+	},
+	"Sea star":{
+		"name":"Sea star",
+		"price":"500",
+		"time":"All day",
+		"month":"Year-round (Northern and Southern)"
+	},
+	"Sea urchin":{
+		"name":"Sea urchin",
+		"price":"1,700",
+		"time":"All day",
+		"month":"May-September (Northern) / November-March (Southern)"
+	},
+	"Slate pencil urchin":{
+		"name":"Slate pencil urchin",
+		"price":"2,000",
+		"time":"4 p.m. - 9 a.m.",
+		"month":"May-September (Northern) / November-March (Southern)"
+	},
+	"Sea anemone":{
+		"name":"Sea anemone",
+		"price":"500",
+		"time":"All day",
+		"month":"Year-round (Northern and Southern)"
+	},
+	"Moon jellyfish":{
+		"name":"Moon jellyfish",
+		"price":"600",
+		"time":"All day",
+		"month":"July-September (Northern) / January-March (Southern)"
+	},
+	"Sea slug":{
+		"name":"Sea slug",
+		"price":"600",
+		"time":"All day",
+		"month":"Year-round (Northern and Southern)"
+	},
+	"Pearl oyster":{
+		"name":"Pearl oyster",
+		"price":"2,800",
+		"time":"All day",
+		"month":"Year-round (Northern and Southern)"
+	},
+	"Mussel":{
+		"name":"Mussel",
+		"price":"1,500",
+		"time":"All day",
+		"month":"June-December (Northern) / December-June (Southern)"
+	},
+	"Oyster":{
+		"name":"Oyster",
+		"price":"1,100",
+		"time":"All day",
+		"month":"September-February (Northern) / March-August (Southern)"
+	},
+	"Scallop":{
+		"name":"Scallop",
+		"price":"1,200",
+		"time":"All day",
+		"month":"Year-round (Northern and Southern)"
+	},
+	"Whelk":{
+		"name":"Whelk",
+		"price":"1,000",
+		"time":"All day",
+		"month":"Year-round (Northern and Southern)"
+	},
+	"Turban shell":{
+		"name":"Turban shell",
+		"price":"1,000",
+		"time":"All day",
+		"month":"March-May, September-December (Northern) / March-June, September-November (Southern)"
+	},
+	"Abalone":{
+		"name":"Abalone",
+		"price":"2,000",
+		"time":"4 p.m. - 9 a.m.",
+		"month":"June-January (Northern) / December-July (Southern)"
+	},
+	"Gigas giant clam":{
+		"name":"Gigas giant clam",
+		"price":"15,000",
+		"time":"All day",
+		"month":"May-September (Northern) / November-March (Southern)"
+	},
+	"Chambered nautilus":{
+		"name":"Chambered nautilus",
+		"price":"1,800",
+		"time":"4 p.m. - 9 a.m.",
+		"month":"March-June, September-November (Northern) / September-December, March-May (Southern)"
+	},
+	"Octopus":{
+		"name":"Octopus",
+		"price":"1,200",
+		"time":"All day",
+		"month":"Year-round (Northern and Southern)"
+	},
+	"Umbrella octopus":{
+		"name":"Umbrella octopus",
+		"price":"6,000",
+		"time":"All day",
+		"month":"March-May, September-November (Northern and Southern)"
+	},
+	"Vampire squid":{
+		"name":"Vampire squid",
+		"price":"10,000",
+		"time":"4 p.m. - 9 a.m.",
+		"month":"May-August (Northern) / November-February (Southern)"
+	},
+	"Firefly squid":{
+		"name":"Firefly squid",
+		"price":"1,400",
+		"time":"9 p.m. - 4 a.m.",
+		"month":"March-June (Northern) / September-December (Southern)"
+	},
+	"Gazami crab":{
+		"name":"Gazami crab",
+		"price":"2,200",
+		"time":"All day",
+		"month":"June-November (Northern) / December-May (Southern)"
+	},
+	"Dungeoness crab":{
+		"name":"Dungeoness crab",
+		"price":"1,900",
+		"time":"All day",
+		"month":"November-May (Northern) / May-November (Southern)"
+	},
+	"Snow crab":{
+		"name":"Snow crab",
+		"price":"6,000",
+		"time":"All day",
+		"month":"November-April (Northern) / May-October (Southern)"
+	},
+	"Red king crab":{
+		"name":"Red king crab",
+		"price":"8,000",
+		"time":"All day",
+		"month":"November-March (Northern) / May-September (Southern)"
+	},
+	"Acorn barnacle":{
+		"name":"Acorn barnacle",
+		"price":"600",
+		"time":"All day",
+		"month":"Year-round (Northern and Southern)"
+	},
+	"Spider crab":{
+		"name":"Spider crab",
+		"price":"12,000",
+		"time":"All day",
+		"month":"March-April (Northern) / September-October (Southern)"
+	},
+	"Tiger prawn":{
+		"name":"Tiger prawn",
+		"price":"3,000",
+		"time":"4 p.m. - 9 a.m.",
+		"month":"June-September (Northern) / December-March (Southern)"
+	},
+	"Sweet shrimp":{
+		"name":"Sweet shrimp",
+		"price":"1,400",
+		"time":"4 p.m. - 9 a.m.",
+		"month":"September-February (Northern) / March-August (Southern)"
+	},
+	"Mantis shrimp":{
+		"name":"Mantis shrimp",
+		"price":"2,500",
+		"time":"4 p.m. - 9 a.m.",
+		"month":"Year-round (Northern and Southern)"
+	},
+	"Spiny Lobster":{
+		"name":"Spiny Lobster",
+		"price":"5,000",
+		"time":"9 p.m. - 4 a.m.",
+		"month":"October-December (Northern) / April-June (Southern)"
+	},
+	"Lobster":{
+		"name":"Lobster",
+		"price":"4,500",
+		"time":"All day",
+		"month":"April-June, December-January (Northern) / October-December, June-July (Southern)"
+	},
+	"Giant isopod":{
+		"name":"Giant isopod",
+		"price":"12,000",
+		"time":"9 a.m. - 4 p.m., 9 p.m. - 4 a.m.",
+		"month":"July-October (Northern) / January-April (Southern)"
+	},
+	"Horseshoe crab":{
+		"name":"Horseshoe crab",
+		"price":"2,500",
+		"time":"9 p.m. - 4 a.m.",
+		"month":"July-September (Northern) / January-March (Southern)"
+	},
+	"Sea pineapple":{
+		"name":"Sea pineapple",
+		"price":"1,500",
+		"time":"All day",
+		"month":"Year-round (Northern and Southern)"
+	},
+	"Spotted garden eel":{
+		"name":"Spotted garden eel",
+		"price":"1,100",
+		"time":"4 a.m. - 9 p.m.",
+		"month":"May-October (Northern) / November-April (Southern)"
+	},
+	"Flatworm":{
+		"name":"Flatworm",
+		"price":"700",
+		"time":"4 p.m. - 9 a.m.",
+		"month":"August-September (Northern) / February-March (Southern)"
+	},
+	"Venus' flower basket":{
+		"name":"Venus' flower basket",
+		"price":"5,000",
+		"time":"All day",
+		"month":"October-February (Northern) / April-August (Southern)"
+	}
+}
