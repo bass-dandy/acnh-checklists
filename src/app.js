@@ -4,7 +4,7 @@ const ReactDOM = require('react-dom/server');
 const Background = require('./background');
 const TabPanel = require('./tab-panel');
 const NightModeToggle = require('./night-mode-toggle');
-const {Fish, Bugs, Fossils, Art, Songs, Flowers} = require('./tabs');
+const {Fish, Bugs, SeaCreatures, Fossils, Art, Songs, Flowers} = require('./tabs');
 
 const TABS = [{
 	id: 'fish',
@@ -12,6 +12,10 @@ const TABS = [{
 }, {
 	id: 'bugs',
 	content: <Bugs/>
+}, {
+	id: 'sea_creatures',
+	label: 'sea creatures',
+	content: <SeaCreatures/>
 }, {
 	id: 'fossils',
 	content: <Fossils/>

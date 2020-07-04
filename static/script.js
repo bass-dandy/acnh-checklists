@@ -191,4 +191,7 @@ document.querySelectorAll('*[data-item-id]').forEach((checklistItem) => {
 
 	const bugs = JSON.parse(data.bugs);
 	attachFilters('bugs', getCreatureFilterFn(bugs, specialBugLocations), getCreatureUpdateFn(bugs));
+
+	const seaCreatures = JSON.parse(data.seaCreatures);
+	attachFilters('sea_creatures', getCreatureFilterFn(seaCreatures), getCreatureUpdateFn(seaCreatures));
 })();

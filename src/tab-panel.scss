@@ -9,13 +9,13 @@
 
 	.tabs {
 		display: flex;
+		justify-content: space-around;
 		border-radius: 20px;
 		background-color: colors.$menu-submenu;
 		overflow: hidden;
 
 		.tab {
 			position: relative;
-			flex: 1;
 			border: 0;
 			padding: 10px 0;
 			margin: 0;
@@ -67,7 +67,7 @@
 		padding: 0 20px;
 	}
 
-	$tabs: "fish", "bugs", "fossils", "art", "songs", "flowers";
+	$tabs: "fish", "bugs", "sea_creatures", "fossils", "art", "songs", "flowers";
 
 	@each $tab in $tabs {
 		&[data-selected-tab=#{$tab}] {

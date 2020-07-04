@@ -15,7 +15,7 @@ module.exports = function TabPanel(props) {
 						data-tab-id={tab.id}
 					>
 						<div className="highlight">
-							{tab.id}
+							{tab.label || tab.id}
 						</div>
 					</button>
 				))}
