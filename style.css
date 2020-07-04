@@ -372,13 +372,13 @@
 }
 #tab-panel .tabs {
   display: flex;
+  justify-content: space-around;
   border-radius: 20px;
   background-color: #FAF0A6;
   overflow: hidden;
 }
 #tab-panel .tabs .tab {
   position: relative;
-  flex: 1;
   border: 0;
   padding: 10px 0;
   margin: 0;
@@ -433,6 +433,12 @@
   background-color: #FECF32;
 }
 #tab-panel[data-selected-tab=bugs] .tab-panel-content[data-tab-id=bugs] {
+  display: block;
+}
+#tab-panel[data-selected-tab=sea_creatures] .tab[data-tab-id=sea_creatures] .highlight::after {
+  background-color: #FECF32;
+}
+#tab-panel[data-selected-tab=sea_creatures] .tab-panel-content[data-tab-id=sea_creatures] {
   display: block;
 }
 #tab-panel[data-selected-tab=fossils] .tab[data-tab-id=fossils] .highlight::after {
