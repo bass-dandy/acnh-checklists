@@ -1133,7 +1133,7 @@
 		"time": [
 			"All day"
 		],
-		"size": "Smallest",
+		"size": "Extra Large",
 		"location": "river (mouth)",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1272,7 +1272,7 @@
 		"time": [
 			"All day"
 		],
-		"size": "Extra Large",
+		"size": "Narrow",
 		"location": "ocean",
 		"nSeasonality": {
 			"activeMonths": [
@@ -1819,7 +1819,7 @@
 		"time": [
 			"All day"
 		],
-		"size": "Small",
+		"size": "Large",
 		"location": "river (mouth)",
 		"nSeasonality": {
 			"activeMonths": [
